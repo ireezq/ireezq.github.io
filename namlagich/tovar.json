@@ -1,18 +1,14 @@
 {
-  "nomi": "Havo namlagich 2 litr, chiroqli va aromat uchun",
-  "qisqa": "2 litr suv, 10 soatgacha ishlaydi, jim, 7 xil rangli chiroq.",
+  "nomi": "Havo namlagich, 2 litr",
+  "qisqa": "10 soatgacha ishlaydi, jim, rangli chiroq va aromat funksiyasi.",
   "rasmlar": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
   "afzalliklar": [
-    "2 litrli idish — 10 soatgacha suv quymasdan ishlaydi",
-    "Ikki tomonlama bug‘ — 20 m² gacha xona uchun",
-    "Juda jim (20 dB) — uyquga xalaqit bermaydi",
-    "7 xil rangli LED chiroq, aromaterapiya funksiyasi",
-    "USB Type-C orqali ishlaydi, 2 ta filtr to‘plamda"
+    "2 litr — 10 soatgacha suv quymasdan ishlaydi",
+    "Juda jim (20 dB), 20 m² gacha xona uchun",
+    "7 xil rangli chiroq va aromaterapiya"
   ],
-  "narx": "89 990 so‘m",
-  "eski_narx": "225 000 so‘m",
   "tugmalar": [
-    {"turi": "uzum", "nomi": "Uzum Market — Ireezq", "izoh": "89 990 so‘m", "url": "https://uzum.uz/uz/product/uvlazhnitel-vozdukha-dlya-2242748"},
-    {"turi": "wb", "nomi": "Wildberries", "izoh": "Buyurtma berish", "url": "https://www.wildberries.ru/catalog/823326299/detail.aspx"}
+    {"nomi": "Uzum Market — Ireezq", "url": "https://uzum.uz/uz/product/uvlazhnitel-vozdukha-dlya-2242748"},
+    {"nomi": "Wildberries", "url": "https://www.wildberries.ru/catalog/823326299/detail.aspx"}
   ]
 }

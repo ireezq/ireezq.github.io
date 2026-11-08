@@ -1,17 +1,14 @@
 {
-  "nomi": "Bo‘yin va yelka uchun simsiz massajyor, 3 rejim",
-  "qisqa": "Bo‘yin, yelka, bel, qo‘l va oyoqlar uchun. Isitish funksiyasi bor.",
+  "nomi": "Bo‘yin va yelka uchun simsiz massajyor",
+  "qisqa": "3 rejim, isitish funksiyasi, zaryad bilan ishlaydi.",
   "rasmlar": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
   "afzalliklar": [
     "Simsiz — zaryadlanadi, taxminan 2 soat ishlaydi",
-    "3 ta massaj rejimi va isitish funksiyasi",
-    "6 ta massaj roligi — qo‘l bilan massajga o‘xshaydi",
+    "3 ta massaj rejimi va isitish",
     "Bo‘yin, yelka, bel, qo‘l va oyoqlar uchun"
   ],
-  "narx": "129 000 so‘m",
-  "eski_narx": "375 990 so‘m",
   "tugmalar": [
-    {"turi": "uzum", "nomi": "Uzum Market — Ireezq", "izoh": "129 000 so‘m", "url": "https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410"},
-    {"turi": "wb", "nomi": "Wildberries", "izoh": "Buyurtma berish", "url": "https://www.wildberries.ru/catalog/822789142/detail.aspx"}
+    {"nomi": "Uzum Market — Ireezq", "url": "https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410"},
+    {"nomi": "Wildberries", "url": "https://www.wildberries.ru/catalog/822789142/detail.aspx"}
   ]
 }

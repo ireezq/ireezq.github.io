@@ -6,25 +6,27 @@
 <title>{{NOMI}}</title>
 <meta name="description" content="{{QISQA}}">
 <meta property="og:title" content="{{NOMI}}">
+<meta property="og:description" content="{{QISQA}}">
 <meta property="og:image" content="{{RASM1}}">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <main class="card">
-  <div class="gallery">
+  <div class="gallery" id="g">
 {{RASMLAR}}
   </div>
-{{HINT}}
+{{DOTS}}
   <h1>{{NOMI}}</h1>
   <ul class="facts">
 {{AFZALLIKLAR}}
   </ul>
-  <p class="price">{{NARX}} <s>{{ESKI_NARX}}</s></p>
-  <p class="note">Narx do‘konda o‘zgarishi mumkin.</p>
-  <div class="buttons">
 {{TUGMALAR}}
-  </div>
-{{TUGADI}}
+  <p class="foot"><a href="../privacy/">Maxfiylik siyosati</a></p>
 </main>
+<script>
+(function(){var g=document.getElementById('g'),d=document.querySelectorAll('.dots i');if(!d.length)return;
+g.addEventListener('scroll',function(){var n=Math.round(g.scrollLeft/g.clientWidth);
+for(var i=0;i<d.length;i++)d[i].className=i===n?'on':'';},{passive:true});})();
+</script>
 </body>
 </html>
