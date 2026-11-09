@@ -1,14 +1,24 @@
 {
   "nomi": "Havo namlagich, 2 litr",
   "qisqa": "10 soatgacha ishlaydi, jim, rangli chiroq va aromat funksiyasi.",
-  "rasmlar": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+  "rasmlar": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+  ],
   "afzalliklar": [
     "2 litr — 10 soatgacha suv quymasdan ishlaydi",
     "Juda jim (20 dB), 20 m² gacha xona uchun",
     "7 xil rangli chiroq va aromaterapiya"
   ],
   "tugmalar": [
-    {"nomi": "Uzum Market — Ireezq", "url": "https://uzum.uz/uz/product/uvlazhnitel-vozdukha-dlya-2242748"},
-    {"nomi": "Wildberries", "url": "https://www.wildberries.ru/catalog/823326299/detail.aspx"}
+    {
+      "nomi": "Uzum Market — Ireezq",
+      "url": "https://uzum.uz/uz/product/uvlazhnitel-vozdukha-dlya-2242748"
+    },
+    {
+      "nomi": "Wildberries",
+      "url": "https://www.wildberries.ru/catalog/823326299/detail.aspx"
+    }
   ]
 }
