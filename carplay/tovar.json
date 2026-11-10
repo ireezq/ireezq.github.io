@@ -1,0 +1,13 @@
+{
+  "nomi": "Simsiz CarPlay + Android Auto adapteri",
+  "qisqa": "Kabelsiz ulanish: telefon mashina ekraniga o‘zi ulanadi. iPhone va Android uchun bitta adapter.",
+  "rasmlar": ["1.jpg", "2.jpg"],
+  "afzalliklar": [
+    "Simsiz CarPlay va Android Auto — 2 tasi 1 da",
+    "Ixcham, vazni atigi 10 g, USB orqali ulanadi",
+    "Faqat chet el mashinalarining original ekrani uchun (Android magnitolalarga mos emas)"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/besprovodnoj-adapter-carplay-3600462"}
+  ]
+}

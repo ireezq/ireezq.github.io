@@ -1,0 +1,13 @@
+{
+  "nomi": "Simsiz petlichka mikrofon, 2 dona",
+  "qisqa": "Telefon uchun ikkita mikrofon, qabul qilgich va zaryad kutisi. Blog, intervyu va jonli efir uchun.",
+  "rasmlar": ["1.jpg"],
+  "afzalliklar": [
+    "iPhone va Android uchun, sozlash shart emas",
+    "Shovqinni kamaytiradi, magnit bilan kiyimga mahkamlanadi",
+    "Bir zaryadda 6 soatgacha ishlaydi"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/besprovodnoj-petlichnyj-mikrofon-2066926?skuId=7379553"}
+  ]
+}
