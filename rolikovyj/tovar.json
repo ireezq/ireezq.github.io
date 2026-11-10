@@ -1,0 +1,13 @@
+{
+  "nomi": "Rolikli massajyor — 9 ta rolik, simsiz",
+  "qisqa": "Qo‘l, oyoq, bel va bo‘yin uchun 9 ta massaj rolikli yengil massajyor. 4 xil rang: pushti, havorang, laym, lavanda.",
+  "rasmlar": ["1.jpg", "2.jpg"],
+  "afzalliklar": [
+    "9 ta massaj rolikli, simsiz — batareyka kerak emas",
+    "Bo‘yin, bel, qo‘l va oyoqlar uchun",
+    "4 rang: pushti, havorang, laym, lavanda"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/universalnyj-rolikovyj-massazherdlya-1983129"}
+  ]
+}
