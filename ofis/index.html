@@ -77,6 +77,11 @@
   #sheet .st{display:inline-flex;align-items:center;gap:6px;margin:12px 0 6px;font-weight:700;font-size:14px}
   #sheet .task{font-size:15px;line-height:1.4}
   #sheet .meta{color:var(--muted);font-size:12px;margin-top:8px}
+  #sheet .order{margin-top:14px}
+  #sheet textarea{width:100%;min-height:70px;border-radius:10px;border:1px solid #ffffff22;background:#1d2230;color:var(--text);padding:9px;font:inherit;font-size:15px;resize:vertical}
+  #sheet .send{margin-top:8px;width:100%;padding:11px;border:0;border-radius:10px;background:#2e86de;color:#fff;font-weight:700;font-size:15px}
+  #sheet .send:disabled{opacity:.5}
+  #sheet .hint{color:var(--muted);font-size:12px;margin-top:10px;line-height:1.4}
   #sheet .x{position:absolute;right:12px;top:10px;background:none;border:0;color:var(--muted);font-size:22px}
 </style>
 </head>
@@ -283,6 +288,20 @@ function logEvent(a){
 }
 function esc(s){return String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function ago(ms){const m=Math.round((Date.now()-ms)/60000); return m<1?'только что':m<60?m+' мин назад':Math.round(m/60)+' ч назад';}
+/* приказ агенту: работает, когда офис открыт кнопкой «🏢 Офис» внизу клавиатуры бота */
+function canOrder(){ return !!(KEY && tg && tg.sendData && tg.platform && tg.platform!=='unknown' && !(tg.initDataUnsafe&&tg.initDataUnsafe.query_id)); }
+function orderBox(a){
+  if(!KEY) return '';
+  if(!canOrder()) return `<div class="hint">✍️ Чтобы дать приказ агенту, откройте офис кнопкой <b>«🏢 Офис»</b> внизу клавиатуры в чате с ботом.</div>`;
+  return `<div class="order"><textarea id="ordTxt" maxlength="1500" placeholder="Приказ для: ${a.name}…"></textarea>
+   <button class="send" onclick="sendOrder('${a.id}')">📋 Отправить приказ</button>
+   <div class="hint">Приказ уйдёт Маркетологу, он передаст его агенту.</div></div>`;
+}
+function sendOrder(id){
+  const a=agents[id], t=(document.getElementById('ordTxt').value||'').trim(); if(!t) return;
+  try{ tg.sendData(JSON.stringify({to:id,name:a.name,text:t})); }catch(e){ alert('Не удалось отправить: '+e.message); }
+}
+document.getElementById('sheet').addEventListener('click',e=>e.stopPropagation());
 let sheetA=null;
 function openSheet(a){
   if(sheetA&&sheetA!==a) sheetA.e.classList.remove('sel');
@@ -291,7 +310,8 @@ function openSheet(a){
    <div class="hd"><div class="em">${a.em}</div><div><h3>${a.name}</h3><div class="role">${a.role}</div></div></div>
    <div class="st" style="color:${CLR[a.state]}"><span class="dot" style="background:${CLR[a.state]}"></span>${LBL[a.state]}</div>
    <div class="task">${a.state==='rest' ? 'Сейчас задач нет' : esc(a.task)}</div>
-   <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${REPORTS[a.dept]}</div>`;
+   <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${REPORTS[a.dept]}</div>
+   ${orderBox(a)}`;
   document.getElementById('sheet').classList.add('open');
   if(tg&&tg.HapticFeedback) try{tg.HapticFeedback.selectionChanged();}catch(e){}
 }
