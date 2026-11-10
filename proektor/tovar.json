@@ -1,0 +1,13 @@
+{
+  "nomi": "Yulduzli osmon proyektori",
+  "qisqa": "Shiftga va devorga yulduz, oy va sayyoralar tushiradi. Xonaga qulay muhit beradi.",
+  "rasmlar": ["1.jpg"],
+  "afzalliklar": [
+    "6 ta almashtiriladigan nasadka",
+    "USB orqali ishlaydi, batareya shart emas",
+    "Bolalar xonasi va yotoqxona uchun"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/proektor-zvezdnogo-neba-2873365?skuId=10524897"}
+  ]
+}

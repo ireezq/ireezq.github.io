@@ -1,0 +1,13 @@
+{
+  "nomi": "Simsiz kliker-prezenter, lazerli",
+  "qisqa": "Slaydlarni masofadan almashtirish va lazer ko‘rsatkich. Qora rangda.",
+  "rasmlar": ["1.jpg"],
+  "afzalliklar": [
+    "100 metrgacha masofadan boshqaradi",
+    "Lazer ko‘rsatkich, USB orqali zaryadlanadi",
+    "Windows, Mac va Linux bilan ishlaydi"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/besprovodnoj-kliker-prezenterpult-2069874?skuId=7389559"}
+  ]
+}

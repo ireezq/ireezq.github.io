@@ -1,0 +1,13 @@
+{
+  "nomi": "VR Box virtual reallik ko‘zoynagi",
+  "qisqa": "Telefoningizda 3D kino, o‘yin va 360° video. Linza va masofani sozlash mumkin.",
+  "rasmlar": ["1.jpg", "2.jpg"],
+  "afzalliklar": [
+    "Ko‘rish burchagi 95–100°",
+    "Linza va ko‘z oralig‘i sozlanadi",
+    "Yumshoq qoplama va elastik tasma"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/ochki-virtualnoj-realnosti-vr-box-1086485?skuId=3294237"}
+  ]
+}

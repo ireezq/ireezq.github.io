@@ -1,11 +1,11 @@
 {
   "nomi": "Uy uchun issiq pluş etiklar",
-  "qisqa": "Yumshoq ichki qoplama, yurakchali pluş va sirpanmaydigan taglik. Kulrang va qora rangda, 35–43 o‘lcham.",
+  "qisqa": "Yumshoq ichki qoplama va sirpanmaydigan taglik. 38–39 o‘lcham, kulrang va qora rangda.",
   "rasmlar": ["1.jpg", "2.jpg"],
   "afzalliklar": [
     "Qalin va mayin pluş, ichi yumshoq",
     "Sirpanishga qarshi taglik",
-    "Rang: kulrang yoki qora"
+    "O‘lcham: 38–39. Rang: Kulrang yoki Qora"
   ],
   "tugmalar": [
     {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/tyoplye-domashnie-uggietiketki-3600037"}
