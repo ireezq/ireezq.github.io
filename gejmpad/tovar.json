@@ -1,0 +1,14 @@
+{
+  "nomi": "Simsiz geympad — Bluetooth 5.3",
+  "qisqa": "Telefon uchun qulay geympad: giroskop, turbo rejim va RGB yoritish. Android, iPhone va kompyuter bilan ishlaydi.",
+  "rasmlar": ["1.jpg"],
+  "afzalliklar": [
+    "Bluetooth 5.3 va giroskop",
+    "Turbo rejim, RGB yoritish",
+    "Android, iPhone va kompyuter uchun"
+  ],
+  "tugmalar": [
+    {"nomi": "Uzum Market", "url": "https://uzum.uz/ru/product/besprovodnoj-gejmpad-bluetooth-2889097"},
+    {"nomi": "Wildberries", "url": "https://www.wildberries.ru/catalog/1142374105/detail.aspx"}
+  ]
+}
