@@ -83,6 +83,8 @@
   .room{cursor:zoom-in}
   #zoomOut{display:none;margin-left:auto;background:#2e86de;color:#fff;border:0;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
   #map{transition:transform .35s ease}
+  #map.drag{transition:none}
+  #wrap{touch-action:pan-y}
   #wrap{transition:height .35s ease}
   .hint2{font-size:11px;color:var(--muted);margin-top:6px}
   .row{display:flex;gap:10px;align-items:center;padding:8px 6px;border-bottom:1px solid #ffffff12;cursor:pointer}
@@ -140,7 +142,7 @@
   <div class="counts" id="counts"></div>
 </header>
 <div id="wrap"><div id="map"></div></div>
-<div class="hint2">👆 Нажмите на комнату — приблизить · на человека — подробно</div>
+<div class="hint2">🤏 Два пальца — приблизить/отдалить, одним — двигать · нажмите на комнату или человека</div>
 <section class="feed"><h2>Кто чем занят</h2><div id="list"></div></section>
 <section class="feed"><h2>Что происходит</h2><div id="feed"></div></section>
 <div id="sheet"><button class="x" onclick="closeSheet()">×</button><div id="sheetBody"></div></div>
@@ -390,12 +392,41 @@ function closeSheet(){ document.getElementById('sheet').classList.remove('open')
 document.addEventListener('click',e=>{ if(!e.target.closest('#sheet')) closeSheet(); });
 
 /* масштаб под экран */
-let ZOOM=null;
-function fit(){ const w=Math.min(document.documentElement.clientWidth,520)-8, wrap=document.getElementById('wrap'); wrap.style.width=w+'px';
-  if(ZOOM){ const R=ROOMS[ZOOM], z=w/(R.w+12); map.style.transform=`translate(${-(R.x-6)*z}px,${-(R.y-6)*z}px) scale(${z})`; wrap.style.height=((R.h+12)*z)+'px'; }
-  else { const s=w/360; map.style.transform=`scale(${s})`; wrap.style.height=(895*s)+'px'; }
-  map.classList.toggle('zoomed',!!ZOOM); document.getElementById('zoomOut').style.display=ZOOM?'inline-block':'none'; }
-function zoomTo(k){ ZOOM=k; fit(); if(k) document.getElementById('wrap').scrollIntoView({behavior:'smooth',block:'start'}); }
+let ZOOM=null, VK=1, VX=0, VY=0;   // VK — увеличение (1 = весь офис), VX/VY — сдвиг карты в px
+const wrapE=document.getElementById('wrap');
+function geo(){ const w=Math.min(document.documentElement.clientWidth,520)-8, b=w/360, full=895*b;
+  const H=VK>1.01?Math.min(full,Math.max(320,innerHeight-130)):full; return {w,b,H}; }
+function clampV(){ const {w,b,H}=geo(), S=b*VK; VX=Math.min(0,Math.max(w-360*S,VX)); VY=Math.min(0,Math.max(H-895*S,VY)); }
+function fit(){ const {w,b,H}=geo(); wrapE.style.width=w+'px'; wrapE.style.height=H+'px'; clampV();
+  map.style.transform=`translate(${VX}px,${VY}px) scale(${b*VK})`;
+  map.classList.toggle('zoomed',VK>1.5); document.getElementById('zoomOut').style.display=VK>1.01?'inline-block':'none'; }
+function zoomTo(k){ ZOOM=k;
+  if(!k){ VK=1; VX=VY=0; fit(); return; }
+  const R=ROOMS[k]; VK=Math.min(4,360/(R.w+12)); const {w,b,H}=geo(), S=b*VK;
+  VX=w/2-(R.x+R.w/2)*S; VY=H/2-(R.y+R.h/2)*S; fit(); wrapE.scrollIntoView({behavior:'smooth',block:'start'}); }
+function zoomAt(nk,cx,cy){ // увеличить вокруг точки (cx,cy) внутри рамки
+  nk=Math.min(4,Math.max(1,nk)); const {b}=geo(); const mx=(cx-VX)/(b*VK), my=(cy-VY)/(b*VK);
+  VK=nk; VX=cx-mx*b*VK; VY=cy-my*b*VK; ZOOM=null; fit(); }
+
+/* два пальца — увеличить/уменьшить, один палец при увеличении — двигать */
+let G=null, moved=false;
+const pts=t=>{ const r=wrapE.getBoundingClientRect(); return [...t].map(p=>[p.clientX-r.left,p.clientY-r.top]); };
+wrapE.addEventListener('touchstart',e=>{ const p=pts(e.touches); moved=false;
+  if(p.length>=2){ const [a,c]=p; G={two:true,d:Math.hypot(a[0]-c[0],a[1]-c[1]),k:VK,cx:(a[0]+c[0])/2,cy:(a[1]+c[1])/2,vx:VX,vy:VY}; map.classList.add('drag'); }
+  else if(VK>1.01){ G={two:false,x:p[0][0],y:p[0][1],vx:VX,vy:VY}; map.classList.add('drag'); }
+  else G=null; },{passive:true});
+wrapE.addEventListener('touchmove',e=>{ if(!G) return; const p=pts(e.touches);
+  if(G.two && p.length>=2){ e.preventDefault(); const [a,c]=p, d=Math.hypot(a[0]-c[0],a[1]-c[1]), cx=(a[0]+c[0])/2, cy=(a[1]+c[1])/2;
+    VX=G.vx+(cx-G.cx); VY=G.vy+(cy-G.cy); VK=G.k; zoomAt(G.k*d/G.d, cx, cy); moved=true; }
+  else if(!G.two && p.length===1){ const dx=p[0][0]-G.x, dy=p[0][1]-G.y; if(!moved&&Math.hypot(dx,dy)<6) return;
+    e.preventDefault(); moved=true; VX=G.vx+dx; VY=G.vy+dy; fit(); } },{passive:false});
+wrapE.addEventListener('touchend',e=>{ if(e.touches.length===0){ map.classList.remove('drag'); if(VK<1.05){ VK=1; fit(); } G=null; }
+  else if(e.touches.length===1 && G && G.two){ const p=pts(e.touches); G={two:false,x:p[0][0],y:p[0][1],vx:VX,vy:VY}; } });
+wrapE.addEventListener('click',e=>{ if(moved){ e.stopPropagation(); e.preventDefault(); moved=false; } },true); // после жеста не открывать карточку
+// компьютер: жест на тачпаде / Ctrl+колесо
+wrapE.addEventListener('wheel',e=>{ if(!e.ctrlKey) return; e.preventDefault(); const r=wrapE.getBoundingClientRect();
+  map.classList.add('drag'); zoomAt(VK*Math.exp(-e.deltaY/200), e.clientX-r.left, e.clientY-r.top); clearTimeout(wrapE._t); wrapE._t=setTimeout(()=>map.classList.remove('drag'),150); },{passive:false});
+if(tg && tg.disableVerticalSwipes) try{ tg.disableVerticalSwipes(); }catch(e){}
 window.addEventListener('resize',fit); fit();
 
 /* ---------- Данные: status.json или демо ---------- */
