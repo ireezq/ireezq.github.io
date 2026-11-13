@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="ru">
 <head>
+<meta name="robots" content="noindex,nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Офис агентов</title>
-<meta name="robots" content="noindex,nofollow">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
   :root{
@@ -25,7 +25,7 @@
   #wrap{position:relative;margin:10px auto 0;overflow:hidden}
   #map{position:absolute;left:0;top:0;width:360px;height:895px;transform-origin:0 0}
   .room{position:absolute;border:3px solid var(--wall);border-radius:6px}
-  .room .lbl{position:absolute;left:5px;top:3px;font-size:8px;font-weight:800;color:#0009;letter-spacing:.3px;text-transform:uppercase}
+  .room .lbl{position:absolute;left:5px;top:3px;font-size:10px;font-weight:800;color:#0009;letter-spacing:.3px;text-transform:uppercase}
   .door{position:absolute;background:var(--corridor);width:3px;height:26px}
   .corr{position:absolute;background:var(--corridor)}
   .desk{position:absolute;width:30px;height:13px;background:#a0703f;border-radius:2px;box-shadow:0 2px 0 #6e4a27}
@@ -37,24 +37,73 @@
   .bean{position:absolute;width:24px;height:16px;border-radius:50%;}
   .rug{position:absolute;border-radius:50%;background:#e8cfa9}
   .counter{position:absolute;background:#8a6a4a;border-radius:3px}
-  .agent{position:absolute;left:0;top:0;width:24px;height:40px;cursor:pointer;will-change:transform}
+  .agent{position:absolute;left:0;top:0;width:30px;height:50px;cursor:pointer;will-change:transform}
   .agent .fig{animation:breathe 2.6s ease-in-out infinite;transform-origin:50% 100%}
   .agent.walk .fig{animation:bob .4s ease-in-out infinite}
-  .agent svg{display:block;overflow:visible}
+  .agent svg{display:block;overflow:visible;position:relative}
+  .ring{position:absolute;left:2px;bottom:-4px;width:26px;height:9px;border-radius:50%;background:var(--rest);opacity:.5}
+  .agent.s-work .ring{background:var(--work);opacity:.8;animation:ring 1.4s ease-in-out infinite}
+  .agent.s-wait .ring{background:var(--wait);opacity:.9;animation:ring .9s ease-in-out infinite}
+  .agent.s-err .ring{background:var(--err);opacity:.9;animation:ring .5s ease-in-out infinite}
   .lg{transform-box:fill-box;transform-origin:50% 0}
   .agent.walk .lg.l{animation:legL .4s ease-in-out infinite}
   .agent.walk .lg.r{animation:legL .4s ease-in-out infinite reverse}
-  .arm{transform-box:fill-box;transform-origin:50% 0}
-  .agent.typing .arm.l{animation:type .25s ease-in-out infinite alternate}
-  .agent.typing .arm.r{animation:type .25s ease-in-out infinite alternate-reverse}
+  .arm{transform-box:fill-box;transform-origin:50% 8%;transition:transform .3s}
+  .agent.typing .arm.l{animation:type .22s ease-in-out infinite alternate}
+  .agent.typing .arm.r{animation:type .22s ease-in-out infinite alternate-reverse}
+  .agent.typing .fig{animation:bob 1.2s ease-in-out infinite}
+  .agent.reading .arm.l{transform:rotate(-42deg)}.agent.reading .arm.r{transform:rotate(42deg)}
+  .agent.reading .fig{animation:nod 2.4s ease-in-out infinite}
+  .agent.gaming .arm.l{animation:pad .18s infinite alternate}.agent.gaming .arm.r{animation:pad .18s infinite alternate-reverse}
+  .agent.thinking .arm.r{transform:rotate(150deg)}.agent.thinking .fig{animation:think 3s ease-in-out infinite}
+  .agent.talking .arm.r{animation:wave .5s ease-in-out infinite alternate}
+  .agent.talking .fig{animation:bob .8s ease-in-out infinite}
+  .agent.sipping .arm.r{animation:sip 3s ease-in-out infinite}
+  .agent.sipping .prop{animation:sipP 3s ease-in-out infinite}
+  .agent.stretch .arm.l{animation:strL 1.6s ease-in-out infinite}.agent.stretch .arm.r{animation:strR 1.6s ease-in-out infinite}
+  .agent.stretch .fig,.agent.jump .fig{animation:hop .6s ease-in-out infinite}
+  .agent.jump .arm.r{animation:wave .3s ease-in-out infinite alternate}
+  .agent.shake .fig{animation:shake .35s linear infinite}
+  .agent.waitp .arm.r{transform:rotate(165deg)}
+  .agent.sleep .fig{transform:rotate(-8deg);animation:none}
+  .prop{position:absolute;left:50%;top:23px;transform:translateX(-50%);font-size:11px;line-height:1;display:none;pointer-events:none;z-index:2}
   .eyes-c{display:none}
   .agent.sleep .eyes{display:none}.agent.sleep .eyes-c{display:block}
-  .name{position:absolute;top:41px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:6.5px;font-weight:800;color:#222;background:#ffffffd9;border-radius:3px;padding:0 2px;pointer-events:none}
-  .bubble{position:absolute;bottom:30px;left:17px;background:#fff;color:#222;border-radius:7px;padding:1px 4px;font-size:9px;white-space:nowrap;box-shadow:0 1px 3px #0005;pointer-events:none}
-  .bubble:after{content:"";position:absolute;left:2px;bottom:-3px;border:3px solid transparent;border-bottom:0;border-top-color:#fff}
-  .bubble.err{background:var(--err);color:#fff;font-weight:900}.bubble.err:after{border-top-color:var(--err)}
-  .bubble.wait{background:var(--wait)}.bubble.wait:after{border-top-color:var(--wait)}
-  .bubble.rest{background:none;box-shadow:none;animation:zz 2s ease-in-out infinite}.bubble.rest:after{display:none}
+  .name{position:absolute;top:54px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:8.5px;font-weight:800;color:#222;background:#fffffff0;border-radius:4px;padding:0 3px;pointer-events:none;box-shadow:0 1px 2px #0003}
+  .bubble{position:absolute;bottom:47px;z-index:3;left:50%;transform:translateX(-50%);background:#fff;color:#222;border-radius:8px;padding:1px 4px;font-size:8.5px;font-weight:700;white-space:nowrap;box-shadow:0 1px 4px #0006;pointer-events:none;border:1.5px solid var(--work)}
+  .bubble:after{content:"";position:absolute;left:50%;margin-left:-3px;bottom:-4px;border:4px solid transparent;border-bottom:0;border-top-color:#fff}
+  .bubble.err{background:var(--err);color:#fff;border-color:#fff;animation:pulse .6s infinite alternate}.bubble.err:after{border-top-color:var(--err)}
+  .bubble.wait{background:var(--wait);border-color:#fff;animation:pulse .9s infinite alternate}.bubble.wait:after{border-top-color:var(--wait)}
+  .bubble.rest{background:#ffffffd0;border-color:#bbb;font-weight:600;color:#555}
+  .agent.hi .bubble{bottom:60px}
+  .bubble .al{display:none;font-weight:600}
+  #map.zoomed .bubble .al{display:inline}
+  .agent.sel .bubble{background:#ffd54a;color:#222}
+  .spin{display:inline-block;animation:spin 1.2s linear infinite}
+  .room{cursor:zoom-in}
+  #zoomOut{display:none;margin-left:auto;background:#2e86de;color:#fff;border:0;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+  #map{transition:transform .35s ease}
+  #wrap{transition:height .35s ease}
+  .hint2{font-size:11px;color:var(--muted);margin-top:6px}
+  .row{display:flex;gap:10px;align-items:center;padding:8px 6px;border-bottom:1px solid #ffffff12;cursor:pointer}
+  .row .em{font-size:22px;width:28px;text-align:center}
+  .row .nm{font-weight:700;font-size:14px}
+  .row .tk{font-size:12.5px;color:var(--muted);margin-top:1px;line-height:1.3}
+  .row .chip{font-size:11.5px;font-weight:700;border-radius:10px;padding:2px 8px;color:#111;white-space:nowrap}
+  .row .ag{font-size:11px;color:var(--muted);margin-left:auto;white-space:nowrap}
+  @keyframes ring{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+  @keyframes nod{0%,100%{transform:rotate(0)}50%{transform:rotate(4deg) translateY(.6px)}}
+  @keyframes pad{from{transform:rotate(-38deg)}to{transform:rotate(-46deg)}}
+  @keyframes think{0%,100%{transform:rotate(0)}50%{transform:rotate(-4deg)}}
+  @keyframes wave{from{transform:rotate(140deg)}to{transform:rotate(195deg)}}
+  @keyframes sip{0%,55%,100%{transform:rotate(20deg)}65%,85%{transform:rotate(150deg)}}
+  @keyframes sipP{0%,55%,100%{transform:translate(2px,0)}65%,85%{transform:translate(2px,-13px)}}
+  @keyframes strL{0%,100%{transform:rotate(0)}50%{transform:rotate(170deg)}}
+  @keyframes strR{0%,100%{transform:rotate(0)}50%{transform:rotate(-170deg)}}
+  @keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
+  @keyframes pulse{from{transform:translateX(-50%) scale(1)}to{transform:translateX(-50%) scale(1.12)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
   .dots i{display:inline-block;width:2px;height:2px;margin:0 .5px;border-radius:50%;background:#555;animation:dot 1s infinite}
   .dots i:nth-child(2){animation-delay:.2s}.dots i:nth-child(3){animation-delay:.4s}
   .agent.sel .name{background:#ffd54a}
@@ -87,10 +136,12 @@
 </head>
 <body>
 <header>
-  <h1>🏢 Офис агентов <span id="mode" class="badge">ДЕМО</span></h1>
+  <h1>🏢 Офис агентов <span id="mode" class="badge">ДЕМО</span> <button id="zoomOut" onclick="event.stopPropagation();zoomTo(null)">← Весь офис</button></h1>
   <div class="counts" id="counts"></div>
 </header>
 <div id="wrap"><div id="map"></div></div>
+<div class="hint2">👆 Нажмите на комнату — приблизить · на человека — подробно</div>
+<section class="feed"><h2>Кто чем занят</h2><div id="list"></div></section>
 <section class="feed"><h2>Что происходит</h2><div id="feed"></div></section>
 <div id="sheet"><button class="x" onclick="closeSheet()">×</button><div id="sheetBody"></div></div>
 
@@ -160,7 +211,7 @@ function px(o){const r={};for(const k in o)r[k]=typeof o[k]==='number'?o[k]+'px'
 /* рисуем офис */
 el('div','corr',px({left:CX-17,top:10,width:34,height:614}));
 for(const k in ROOMS){const R=ROOMS[k]; const d=el('div','room',px({left:R.x,top:R.y,width:R.w,height:R.h,background:`var(${R.floor})`}));
-  d.innerHTML=`<div class="lbl">${R.label}</div>`;
+  d.innerHTML=`<div class="lbl">${R.label}</div>`; d.onclick=ev=>{ev.stopPropagation(); closeSheet(); zoomTo(ZOOM===k?null:k);};
   if(R.side==='L') el('div','door',px({left:R.x+R.w-3,top:R.doorY,height:26}));
   if(R.side==='R') el('div','door',px({left:R.x,top:R.doorY,height:26}));
   if(R.side==='B') el('div','door',px({left:CX-17,top:R.y,width:34,height:3}));
@@ -177,7 +228,7 @@ for(let i=0;i<8;i++) el('div','bean',px({left:28+i*40,top:772,background:['#e67e
 
 function figSVG(o){
   const sk=SK[o.s%SK.length], hr=HR[o.h%HR.length], sh=o.shirt, pa='#34495e';
-  return `<svg viewBox="0 0 24 40" width="24" height="40"><g class="fig">
+  return `<svg viewBox="0 0 24 40" width="30" height="50"><g class="fig">
    <rect class="lg l" x="7" y="29" width="4.2" height="10" rx="1.6" fill="${pa}"/><rect class="lg r" x="12.8" y="29" width="4.2" height="10" rx="1.6" fill="${pa}"/>
    <rect class="arm l" x="3" y="18" width="4" height="11" rx="2" fill="${sh}"/><rect class="arm r" x="17" y="18" width="4" height="11" rx="2" fill="${sh}"/>
    <rect x="6" y="16.5" width="12" height="14" rx="3.5" fill="${sh}"/>
@@ -199,13 +250,13 @@ A.forEach(([id,name,role,em,dept,room,look],i)=>{
   const big=room==='boss';
   const desk=el('div','desk'+(big?' big':''),px({left:seat[0]-(big?23:15),top:seat[1]-9,zIndex:seat[1]+6}));
   desk.innerHTML='<div class="laptop"></div>';
-  const e=el('div','agent',{zIndex:seat[1]}); e.innerHTML=figSVG({...look,s:i*7,h:i*3,shirt:DEPT[dept]})+`<div class="bubble" style="display:none"></div><div class="name">${name}</div>`;
-  const a={id,name,role,em,dept,room,seat,desk,laptop:desk.firstChild,e,bub:e.querySelector('.bubble'),x:seat[0],y:seat[1],cur:room,path:[],state:'work',task:'',since:Date.now(),spot:null};
+  const e=el('div','agent',{zIndex:seat[1]}); e.innerHTML='<div class="ring"></div>'+figSVG({...look,s:i*7,h:i*3,shirt:DEPT[dept]})+'<div class="prop"></div><div class="bubble"></div>';
+  const a={id,name,role,em,dept,room,seat,desk,laptop:desk.firstChild,e,bub:e.querySelector('.bubble'),prop:e.querySelector('.prop'),act:'think',ract:null,nextR:0,x:seat[0],y:seat[1],cur:room,path:[],state:'work',task:'',since:Date.now(),spot:null};
   e.onclick=ev=>{ev.stopPropagation();openSheet(a);};
   agents[id]=a; place(a);
 });
 
-function place(a){ a.e.style.transform=`translate(${a.x-12}px,${a.y-40}px)`; a.e.style.zIndex=Math.round(a.y); }
+function place(a){ a.e.style.transform=`translate(${a.x-15}px,${a.y-49}px)`; a.e.style.zIndex=Math.round(a.y); }
 
 /* маршруты */
 const restUsed=new Set(), queueUsed=new Set();
@@ -218,42 +269,62 @@ function route(a,target,troom){
   }
   pts.push(target); a.path=pts; a.cur=troom;
 }
-function releaseSpot(a){ if(a.spot){ (a.spot.t==='rest'?restUsed:queueUsed).delete(a.spot.i); a.spot=null; } }
+function releaseSpot(a){ a.ract=null; if(a.spot){ (a.spot.t==='rest'?restUsed:queueUsed).delete(a.spot.i); a.spot=null; } }
 
 const LBL={work:'Работает',rest:'Отдыхает',wait:'Ждёт одобрения',err:'Проблема'};
 const CLR={work:'var(--work)',rest:'var(--rest)',wait:'var(--wait)',err:'var(--err)'};
 
-function setState(a,state,task,since){
-  const changed = a.state!==state || a.task!==task;
-  const prev=a.state; a.state=state; a.task=task||''; a.since=since||Date.now();
-  if(prev!==state || a.path.length===0 && !atTarget(a)){
-    releaseSpot(a);
+const ACT={type:['⌨️','пишет','typing'],read:['📖','читает','reading','📄'],run:['⚙️','запускает','typing'],web:['🌐','в браузере','reading','💻'],
+ talk:['💬','пишет коллеге','talking'],team:['👥','с помощником','talking'],art:['🎨','рисует','typing'],think:['💭','думает','thinking']};
+const RACT={sleep:['💤','спит','sleep'],sit:['😌','отдыхает',''],coffee:['☕','пьёт кофе','sipping','☕'],game:['🎮','играет','gaming','🎮'],book:['📕','читает книгу','reading','📕'],
+ phone:['📱','в телефоне','reading','📱'],stretch:['🙆','разминка','stretch'],chat:['🗣','болтает','talking'],pong:['🏓','пинг-понг','jump','🏓']};
+const SPOT_R=i=> i<6?['sleep','sit','phone','book']: i<8?['coffee','chat']: i<16?['game','sit','phone','sleep']:['stretch','pong','book','chat','phone'];
+const ANIMS=['typing','reading','gaming','thinking','talking','sipping','stretch','jump','shake','waitp','sleep','hi'];
+const pick=l=>l[Math.floor(Math.random()*l.length)];
+function actInfo(a){ if(a.state==='work') return ACT[a.act]||ACT.think; if(a.state==='wait') return ['📄','ждёт ответа','waitp']; if(a.state==='err') return ['⚠️','ошибка','shake']; return RACT[a.ract]||RACT.sit; }
+function setState(a,state,task,since,act){
+  const changed = a.state!==state || a.task!==(task||'');
+  const prev=a.state; a.state=state; a.task=task||''; a.since=since||Date.now(); if(act) a.act=act;
+  if(prev!==state){ releaseSpot(a);
     if(state==='work'||state==='err') route(a,a.seat,a.room);
-    else if(state==='rest'){ const i=freeSpot(REST,restUsed); restUsed.add(i); a.spot={t:'rest',i}; route(a,REST[i],'rest'); }
+    else if(state==='rest'){ goRest(a); }
     else if(state==='wait' && a.id==='marketolog'){ route(a,a.seat,a.room); }
-    else if(state==='wait'){ const i=freeSpot(QUEUE,queueUsed); queueUsed.add(i); a.spot={t:'wait',i}; route(a,QUEUE[i],'corr'); }
-  }
-  decorate(a);
-  if(changed) logEvent(a);
-  renderCounts();
-  if(sheetA===a) openSheet(a);
+    else if(state==='wait'){ const i=freeSpot(QUEUE,queueUsed); queueUsed.add(i); a.spot={t:'wait',i}; route(a,QUEUE[i],'corr'); } }
+  decorate(a); if(changed) logEvent(a); renderCounts(); listSoon(); if(sheetA===a) openSheet(a);
 }
-function atTarget(a){ return true; }
-
+function goRest(a){ const i=freeSpot(REST,restUsed); restUsed.add(i); a.spot={t:'rest',i}; a.nextR=Date.now()+12000+Math.random()*23000; route(a,REST[i],'rest'); }
+function setAct(a,act){ if(a.act===act) return; a.act=act; decorate(a); listSoon(); if(sheetA===a) openSheet(a); }
 function decorate(a){
-  const moving=a.path.length>0, seated=!moving && (a.state==='work'||a.state==='err');
-  a.e.classList.toggle('walk',moving);
-  a.e.classList.toggle('typing',seated && a.state==='work');
-  a.e.classList.toggle('sleep',!moving && a.state==='rest' && a.spot && isSleepSpot(a.spot.i));
-  a.laptop.classList.toggle('on',seated);
+  const moving=a.path.length>0, e=a.e; ANIMS.forEach(c=>e.classList.remove(c));
+  e.classList.toggle('walk',moving); ['work','rest','wait','err'].forEach(s=>e.classList.toggle('s-'+s,a.state===s));
+  a.laptop.classList.toggle('on',!moving&&(a.state==='work'||a.state==='err'));
   const b=a.bub; b.className='bubble';
-  if(moving){ b.style.display='none'; return; }
-  b.style.display='';
-  if(a.state==='work'){ b.innerHTML=`${a.em} <span class="dots"><i></i><i></i><i></i></span>`; }
-  else if(a.state==='wait'){ b.classList.add('wait'); b.textContent='📄'; }
-  else if(a.state==='err'){ b.classList.add('err'); b.textContent='!'; }
-  else { b.classList.add('rest'); b.textContent = a.spot && !isSleepSpot(a.spot.i) ? '☕' : '💤'; }
+  if(a.state==='rest' && !a.ract && a.spot) a.ract=pick(SPOT_R(a.spot.i));
+  const [ic,lb,cls,pr]=actInfo(a); if(a.state!=='work') b.classList.add(a.state);
+  if(moving){ a.prop.style.display='none'; b.innerHTML=`${a.state==='rest'?'🚶':'🏃'} ${a.name}`; return; }
+  if(cls) e.classList.add(cls); if(a.spot&&a.spot.t==='rest'&&a.spot.i%2) e.classList.add('hi');
+  a.prop.style.display=pr?'block':'none'; if(pr) a.prop.textContent=pr;
+  b.innerHTML=(a.state==='work'&&a.act==='run'?`<span class="spin">${ic}</span>`:ic)+` ${a.name}<span class="al"> · ${lb}</span>`;
 }
+function actLabel(a){ const [ic,lb]=actInfo(a); return ic+' '+lb; }
+setInterval(()=>{ const now=Date.now(); for(const id in agents){ const a=agents[id]; if(a.state!=='rest'||a.path.length||!a.spot||now<a.nextR) continue;
+    if(Math.random()<.55){ releaseSpot(a); goRest(a); decorate(a); }
+    else { const l=SPOT_R(a.spot.i).filter(x=>x!==a.ract); a.ract=pick(l); a.nextR=now+12000+Math.random()*23000; decorate(a); }
+    listSoon(); } },2000);
+
+/* список «Кто чем занят» */
+let listT=null; function listSoon(){ if(!listT) listT=setTimeout(()=>{listT=null;renderList();},300); }
+const ORD={err:0,wait:1,work:2,rest:3};
+function renderList(){
+  const L=Object.values(agents).sort((x,y)=>ORD[x.state]-ORD[y.state]||x.name.localeCompare(y.name,'ru'));
+  document.getElementById('list').innerHTML=L.map(a=>{
+    const chip=a.state==='wait'?'📄 ждёт':a.state==='err'?'⚠️ ошибка':actLabel(a);
+    const tk=a.state==='rest'?'Задач нет':esc(a.task);
+    return `<div class="row" data-id="${a.id}"><span class="em">${a.em}</span><div style="flex:1;min-width:0"><div class="nm">${a.name}</div><div class="tk">${tk}</div></div>`+
+      `<div style="text-align:right"><span class="chip" style="background:${CLR[a.state]}">${chip}</span><div class="ag">${ago(a.since)}</div></div></div>`; }).join('');
+}
+document.getElementById('list').addEventListener('click',ev=>{ const r=ev.target.closest('.row'); if(r){ ev.stopPropagation(); openSheet(agents[r.dataset.id]); } });
+setInterval(renderList,30000);
 
 /* движение */
 let last=performance.now();
@@ -308,7 +379,7 @@ function openSheet(a){
   sheetA=a; a.e.classList.add('sel');
   document.getElementById('sheetBody').innerHTML=`
    <div class="hd"><div class="em">${a.em}</div><div><h3>${a.name}</h3><div class="role">${a.role}</div></div></div>
-   <div class="st" style="color:${CLR[a.state]}"><span class="dot" style="background:${CLR[a.state]}"></span>${LBL[a.state]}</div>
+   <div class="st" style="color:${CLR[a.state]}"><span class="dot" style="background:${CLR[a.state]}"></span>${LBL[a.state]} · ${actLabel(a)}</div>
    <div class="task">${a.state==='rest' ? 'Сейчас задач нет' : esc(a.task)}</div>
    <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${REPORTS[a.dept]}</div>
    ${orderBox(a)}`;
@@ -319,8 +390,12 @@ function closeSheet(){ document.getElementById('sheet').classList.remove('open')
 document.addEventListener('click',e=>{ if(!e.target.closest('#sheet')) closeSheet(); });
 
 /* масштаб под экран */
-function fit(){ const w=Math.min(document.documentElement.clientWidth,520)-8; const s=w/360; map.style.transform=`scale(${s})`;
-  const wrap=document.getElementById('wrap'); wrap.style.width=w+'px'; wrap.style.height=(895*s)+'px'; }
+let ZOOM=null;
+function fit(){ const w=Math.min(document.documentElement.clientWidth,520)-8, wrap=document.getElementById('wrap'); wrap.style.width=w+'px';
+  if(ZOOM){ const R=ROOMS[ZOOM], z=w/(R.w+12); map.style.transform=`translate(${-(R.x-6)*z}px,${-(R.y-6)*z}px) scale(${z})`; wrap.style.height=((R.h+12)*z)+'px'; }
+  else { const s=w/360; map.style.transform=`scale(${s})`; wrap.style.height=(895*s)+'px'; }
+  map.classList.toggle('zoomed',!!ZOOM); document.getElementById('zoomOut').style.display=ZOOM?'inline-block':'none'; }
+function zoomTo(k){ ZOOM=k; fit(); if(k) document.getElementById('wrap').scrollIntoView({behavior:'smooth',block:'start'}); }
 window.addEventListener('resize',fit); fit();
 
 /* ---------- Данные: status.json или демо ---------- */
@@ -347,7 +422,9 @@ async function loadReal(){
       let st=s?s.state:'rest', since=s&&s.since?Date.parse(s.since):Date.now();
       if((st==='work') && Date.now()-since>STALE_MIN*60000) st='rest';
       if(!LBL[st]) st='rest';
-      if(st!==a.state || (s&&s.task||'')!==a.task) setState(a,st,s&&s.task,since);
+      const act=s&&s.act;
+      if(st!==a.state || (s&&s.task||'')!==a.task) setState(a,st,s&&s.task,since,act);
+      else if(act && st==='work') setAct(a,act);
     }
     return true;
   }catch(e){ return false; }
@@ -388,10 +465,11 @@ function demoPick(id){ const r=Math.random(); const st = r<.52?'work':r<.86?'res
     for(const id in agents) setState(agents[id],'rest',''); snapAll(); booting=false;
     const iv=setInterval(async()=>{ if(await loadReal()) { clearInterval(iv); setInterval(loadReal,15000); } },15000); }
   else {
-    for(const id in agents){ const [s,t]=demoPick(id); setState(agents[id],s,t,Date.now()-Math.random()*40*60000); }
+    const AK=Object.keys(ACT); for(const id in agents){ const [s,t]=demoPick(id); setState(agents[id],s,t,Date.now()-Math.random()*40*60000,pick(AK)); }
     snapAll();
     booting=false;
-    setInterval(()=>{ const ids=Object.keys(agents); const a=agents[ids[Math.floor(Math.random()*ids.length)]]; if(a.path.length) return; const [s,t]=demoPick(a.id); setState(a,s,t); },3500);
+    setInterval(()=>{ const ids=Object.keys(agents); const a=agents[ids[Math.floor(Math.random()*ids.length)]]; if(a.path.length) return; const [s,t]=demoPick(a.id); setState(a,s,t,0,pick(AK)); },3500);
+    setInterval(()=>{ const w=Object.values(agents).filter(a=>a.state==='work'&&!a.path.length); if(w.length) setAct(pick(w),pick(AK)); },2500);
   }
   renderCounts();
 })();
