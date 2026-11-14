@@ -1,11 +1,12 @@
 {
-  "nomi": "Bo‘yin va yelka uchun simsiz massajyor, bej rang",
+  "nomi": "Bo‘yin va yelka uchun simsiz massajyor: bej va kulrang",
   "qisqa": "3 rejim, isitish funksiyasi, zaryad bilan ishlaydi.",
   "rasmlar": [
     "1.jpg",
     "2.jpg",
     "3.jpg",
-    "4.jpg"
+    "4.jpg",
+    "5.jpg"
   ],
   "afzalliklar": [
     "Simsiz — zaryadlanadi, taxminan 2 soat ishlaydi",
@@ -14,12 +15,20 @@
   ],
   "tugmalar": [
     {
-      "nomi": "Uzum Market — Ireezq",
+      "nomi": "Bej — Uzum Market",
       "url": "https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017618"
     },
     {
-      "nomi": "Wildberries",
+      "nomi": "Bej — Wildberries",
       "url": "https://www.wildberries.ru/catalog/822776108/detail.aspx"
+    },
+    {
+      "nomi": "Kulrang — Uzum Market",
+      "url": "https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017619"
+    },
+    {
+      "nomi": "Kulrang — Wildberries",
+      "url": "https://www.wildberries.ru/catalog/822776107/detail.aspx"
     }
   ]
 }
