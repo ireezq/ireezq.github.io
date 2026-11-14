@@ -1,15 +1,27 @@
 {
   "nomi": "Shtativ-tripod telefon va kamera uchun",
-  "qisqa": "Balandligi 70–210 sm, 360° aylanadi, telefon ushlagichi bilan.",
-  "rasmlar": ["1.jpg", "2.jpg", "3.jpg"],
+  "qisqa": "360° aylanadi, telefon ushlagichi bilan.",
+  "rasmlar": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+  ],
   "afzalliklar": [
-    "Balandligi 70 dan 210 sm gacha",
     "Telefonni 360° istalgan burchakka buradi",
     "Telefon ushlagichi to‘plamda"
   ],
   "tugmalar": [
-    {"nomi": "Uzum Market — Ireezq", "url": "https://uzum.uz/uz/product/shtativ-tripod-dlya-1900856"},
-    {"nomi": "Uzum Market — SelectionTime", "url": "https://uzum.uz/uz/product/shtativ-tripod-dlya-1901776"},
-    {"nomi": "Wildberries", "url": "https://www.wildberries.ru/catalog/822945603/detail.aspx"}
+    {
+      "nomi": "Uzum Market — Ireezq",
+      "url": "https://uzum.uz/uz/product/shtativ-tripod-dlya-1900856"
+    },
+    {
+      "nomi": "Uzum Market — SelectionTime",
+      "url": "https://uzum.uz/uz/product/shtativ-tripod-dlya-1901776"
+    },
+    {
+      "nomi": "Wildberries",
+      "url": "https://www.wildberries.ru/catalog/822945603/detail.aspx"
+    }
   ]
 }
