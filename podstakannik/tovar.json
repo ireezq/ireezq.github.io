@@ -1,0 +1,13 @@
+{
+  "nomi": "Toshbaqa shaklidagi stakan qo‘yg‘ich",
+  "qisqa": "Ish stolingiz uchun quvnoq toshbaqa: stakanni qo‘ysangiz, og‘zini ochadi va oyoqlarini ko‘taradi. Yashil rangda.",
+  "rasmlar": ["1.jpg"],
+  "afzalliklar": [
+    "Issiq ichimlik uchun qulay qo‘yg‘ich",
+    "Stakan qo‘yilganda harakatga keladi",
+    "Ish stoli uchun kayfiyat ko‘taruvchi sovg‘a"
+  ],
+  "tugmalar": [
+    {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/podstavka-cherepashka-udivakha-1726265?skuId=5921152"}
+  ]
+}
