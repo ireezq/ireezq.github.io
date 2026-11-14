@@ -9,7 +9,7 @@
 <style>
   :root{
     --bg:#1d2230; --panel:#262c3d; --text:#f2f2f5; --muted:#9aa3b8;
-    --floor-boss:#e9d8b4; --floor-mk:#dfe7f2; --floor-sc:#e1efdf; --floor-vid:#ece2f3; --floor-rest:#f4e6d6;
+    --floor-boss:#e9d8b4; --floor-mk:#dfe7f2; --floor-sc:#e1efdf; --floor-vid:#ece2f3; --floor-rest:#f4e6d6; --floor-ig:#f8e1ea; --floor-tg:#dcedf8; --floor-yt:#f7e0de; --floor-tt:#e4e4ea;
     --corridor:#c9ccd3; --wall:#4a4f5e;
     --work:#2ecc71; --rest:#7f8fa6; --wait:#f1c40f; --err:#e74c3c;
   }
@@ -23,9 +23,9 @@
   .cnt{font-size:12px;background:#1d2230;border-radius:20px;padding:3px 9px;display:flex;gap:5px;align-items:center}
   .dot{width:8px;height:8px;border-radius:50%}
   #wrap{position:relative;margin:10px auto 0;overflow:hidden}
-  #map{position:absolute;left:0;top:0;width:360px;height:895px;transform-origin:0 0}
+  #map{position:absolute;left:0;top:0;width:360px;height:1335px;transform-origin:0 0}
   .room{position:absolute;border:3px solid var(--wall);border-radius:6px}
-  .room .lbl{position:absolute;left:5px;top:3px;font-size:10px;font-weight:800;color:#0009;letter-spacing:.3px;text-transform:uppercase}
+  .room .lbl{position:absolute;left:5px;top:3px;font-size:10px;font-weight:800;color:#0009;letter-spacing:.3px;text-transform:uppercase;background:#fff9;padding:1px 4px;border-radius:4px;max-width:138px;z-index:2}
   .door{position:absolute;background:var(--corridor);width:3px;height:26px}
   .corr{position:absolute;background:var(--corridor)}
   .desk{position:absolute;width:30px;height:13px;background:#a0703f;border-radius:2px;box-shadow:0 2px 0 #6e4a27}
@@ -36,6 +36,22 @@
   .sofa{position:absolute;background:#c0504d;border-radius:7px;box-shadow:inset 0 -5px 0 #9b3b39}
   .bean{position:absolute;width:24px;height:16px;border-radius:50%;}
   .rug{position:absolute;border-radius:50%;background:#e8cfa9}
+  .scr{position:absolute;border-radius:3px;border:2px solid #222;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:10px;animation:glow 2.4s ease-in-out infinite alternate;pointer-events:none}
+  .ringl{position:absolute;width:18px;height:18px;border-radius:50%;border:3px solid #fffbe6;box-shadow:0 0 8px 3px #fff6,inset 0 0 4px #fff8;pointer-events:none}
+  .ringl:after{content:'';position:absolute;left:5px;top:16px;width:2px;height:16px;background:#555}
+  .flt{animation:flt 3.2s ease-in-out infinite}
+  .swim{animation:swim 7s linear infinite alternate}
+  .steam{animation:steam 2.2s ease-out infinite;opacity:.0}
+  .fan{animation:spin 1.4s linear infinite}
+  .win{position:absolute;border:2px solid #fff;border-radius:3px;box-shadow:0 0 0 2px #4a4f5e;overflow:hidden;pointer-events:none;font-size:9px;text-align:right;padding:1px 2px}
+  .clock{position:absolute;background:#1d2230;color:#7CFC9A;font:800 10px monospace;padding:2px 4px;border-radius:3px;pointer-events:none}
+  .tank{position:absolute;border:2px solid #9fd3e8;border-radius:4px;background:linear-gradient(#bfe8f7,#5bb4d8);overflow:hidden;pointer-events:none}
+  .tank .deco{position:absolute}
+  .board{position:absolute;background:#fff;border:2px solid #8a8f9c;border-radius:2px;pointer-events:none}
+  @keyframes glow{from{filter:brightness(.85)}to{filter:brightness(1.25)}}
+  @keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  @keyframes swim{from{transform:translateX(0) scaleX(1)}49%{transform:translateX(38px) scaleX(1)}51%{transform:translateX(38px) scaleX(-1)}to{transform:translateX(0) scaleX(-1)}}
+  @keyframes steam{0%{transform:translateY(0);opacity:.0}30%{opacity:.8}100%{transform:translateY(-10px);opacity:0}}
   .counter{position:absolute;background:#8a6a4a;border-radius:3px}
   .agent{position:absolute;left:0;top:0;width:30px;height:50px;cursor:pointer;will-change:transform}
   .agent .fig{animation:breathe 2.6s ease-in-out infinite;transform-origin:50% 100%}
@@ -154,20 +170,24 @@ if (tg) { try { tg.ready(); tg.expand(); tg.setHeaderColor && tg.setHeaderColor(
 /* ---------- Комнаты ---------- */
 const CX = 180; // ось коридора
 const ROOMS = {
-  boss: {x:10, y:10, w:150,h:160, side:'L', doorY:95,  floor:'--floor-boss', label:'Кабинет маркетолога'},
-  sc:   {x:200,y:10, w:150,h:160, side:'R', doorY:95,  floor:'--floor-sc',   label:'Разведка'},
-  mkL:  {x:10, y:180,w:150,h:210, side:'L', doorY:285, floor:'--floor-mk',   label:'Маркетинг'},
-  mkR:  {x:200,y:180,w:150,h:210, side:'R', doorY:285, floor:'--floor-mk',   label:'Маркетинг'},
-  vidL: {x:10, y:400,w:150,h:210, side:'L', doorY:505, floor:'--floor-vid',  label:'Видеостудия'},
-  vidR: {x:200,y:400,w:150,h:210, side:'R', doorY:505, floor:'--floor-vid',  label:'Видеостудия'},
-  rest: {x:10, y:620,w:340,h:265, side:'B', doorY:620, floor:'--floor-rest', label:'Зона отдыха'},
+  boss: {x:10, y:10, w:150,h:160, side:'L', doorY:95,  floor:'--floor-boss', label:'🎯 Кабинет маркетолога'},
+  sc:   {x:200,y:10, w:150,h:160, side:'R', doorY:95,  floor:'--floor-sc',   label:'🔍 Разведка'},
+  mkL:  {x:10, y:180,w:150,h:210, side:'L', doorY:285, floor:'--floor-mk',   label:'📦 Товары и дизайн'},
+  mkR:  {x:200,y:180,w:150,h:210, side:'R', doorY:285, floor:'--floor-mk',   label:'🛒 Маркетплейсы'},
+  vidL: {x:10, y:400,w:150,h:210, side:'L', doorY:505, floor:'--floor-vid',  label:'🎬 Видеостудия'},
+  vidR: {x:200,y:400,w:150,h:210, side:'R', doorY:505, floor:'--floor-vid',  label:'🎬 Видеостудия'},
+  ig:   {x:10, y:620,w:150,h:210, side:'L', doorY:725, floor:'--floor-ig',   label:'📸 Instagram'},
+  tg:   {x:200,y:620,w:150,h:210, side:'R', doorY:725, floor:'--floor-tg',   label:'✈️ Telegram'},
+  yt:   {x:10, y:840,w:150,h:210, side:'L', doorY:945, floor:'--floor-yt',   label:'▶️ YouTube'},
+  tt:   {x:200,y:840,w:150,h:210, side:'R', doorY:945, floor:'--floor-tt',   label:'🎵 TikTok'},
+  rest: {x:10, y:1060,w:340,h:265,side:'B', doorY:1060,floor:'--floor-rest', label:'☕ Зона отдыха'},
 };
 function inner(r){ const R=ROOMS[r]; if(R.side==='L') return [R.x+R.w-12,R.doorY+12]; if(R.side==='R') return [R.x+12,R.doorY+12]; return [CX,R.y+22]; }
 function corr(r){ const R=ROOMS[r]; return R.side==='B' ? [CX,R.y-6] : [CX,R.doorY+12]; }
 
 /* ---------- Агенты ---------- */
 const SK=['#f1c7a0','#e0ac80','#c68c5c','#a8714a'], HR=['#2b1d14','#3a2a1a','#111','#5a3b22','#6b6b6b'];
-const DEPT={boss:'#c0392b', mk:'#2e86de', sc:'#27ae60', vid:'#8e44ad'};
+const DEPT={boss:'#c0392b', mk:'#2e86de', sc:'#27ae60', vid:'#8e44ad', ig:'#d6336c', tg:'#1c93d1', yt:'#d62828', tt:'#2b2b2b'};
 const A = [
  ['marketolog','Маркетолог','Руководит всей командой','🎯','boss','boss',{tie:1}],
  ['razvedchik','Гл. разведчик','Руководит разведчиками','🔍','sc','sc',{cap:0}],
@@ -175,35 +195,49 @@ const A = [
  ['r_uzum','Разв. Uzum','Наши карточки против конкурентов на Uzum','🟣','sc','sc',{}],
  ['r_wb','Разв. WB','Разведка Wildberries','🟪','sc','sc',{}],
  ['tovaroved','Товаровед','Остатки, цены, товары','📦','mk','mkL',{}],
- ['statistika','Статистика','Охваты и просмотры Instagram','📊','mk','mkL',{glasses:1}],
  ['kontent','Контент-план','Расписание постов и сторис','📅','mk','mkL',{}],
- ['smm','SMM','Профиль @tecnologia.uz','👤','mk','mkL',{}],
  ['dizayner','Дизайнер','Обложки, картинки','🖌','mk','mkL',{cap:1}],
- ['storis','Сторис','Сторис Instagram','📱','mk','mkL',{}],
+ ['kitay','Китай','Поиск товаров на 1688/Taobao','🇨🇳','mk','mkL',{}],
  ['sahifachi','Сайт','Страницы товаров','🌐','mk','mkR',{}],
  ['targetolog','Таргетолог','Реклама (подготовка)','💰','mk','mkR',{glasses:1}],
- ['kanalchi','Канал','Telegram-канал магазина','📢','mk','mkR',{}],
- ['kitay','Китай','Поиск товаров на 1688/Taobao','🇨🇳','mk','mkR',{}],
- ['youtube','YouTube','Канал YouTube, команда Shorts','▶️','mk','mkR',{}],
- ['tiktok','TikTok','Профиль TikTok, команда клипов','🎵','mk','mkR',{}],
+ ['uzum_analitik','Аналит. Uzum','Продажи и карточки Uzum: идём вверх или вниз','📈','mk','mkR',{glasses:1}],
+ ['wb_analitik','Аналит. WB','Продажи и карточки Wildberries','📉','mk','mkR',{}],
  ['direktor','Директор','Руководит видео','🧠','vid','vidL',{beard:1}],
  ['analitik','Аналитик','Разбор товара и отзывов','🔎','vid','vidL',{glasses:1}],
  ['ssenarist','Сценарист','Сценарии Reels','📝','vid','vidL',{}],
  ['ovoz','Голос','Озвучка на узбекском','🎙','vid','vidL',{beard:1}],
  ['vizual','Визуал','Кадры и сцены','🎨','vid','vidR',{cap:1}],
  ['montajyor','Монтажёр','Сборка Reels','🎬','vid','vidR',{}],
- ['publikator','Публикатор','Публикация Reels и сторис','📤','vid','vidR',{}],
- ['otvetchik','Ответчик','Ответы на «+»','💬','vid','vidR',{}],
+ ['instagram','Instagram','Главный по Instagram, ведёт команду','📸','ig','ig',{tie:1},'Маркетологу'],
+ ['smm','SMM','Профиль @tecnologia.uz','👤','ig','ig',{}],
+ ['storis','Сторис','Сторис Instagram','📱','ig','ig',{}],
+ ['statistika','Статистика','Охваты и просмотры Instagram','📊','ig','ig',{glasses:1}],
+ ['publikator','Публикатор','Публикация Reels и сторис','📤','ig','ig',{}],
+ ['otvetchik','Ответчик','Ответы на «+»','💬','ig','ig',{}],
+ ['telegram','Telegram','Главный по Telegram-группе @mgznuz','✈️','tg','tg',{tie:1},'Маркетологу'],
+ ['kanalchi','Канал','Посты в Telegram-канал и группу','📢','tg','tg',{}],
+ ['tg_analitik','Аналит. TG','Цифры Telegram-группы','📊','tg','tg',{glasses:1}],
+ ['youtube','YouTube','Главный по YouTube, команда Shorts','▶️','yt','yt',{tie:1},'Маркетологу'],
+ ['yt_upakovka','Упаковка YT','Заголовки, обложки, описания Shorts','🖼','yt','yt',{cap:1}],
+ ['yt_publikator','Публ. YT','Публикация Shorts','📤','yt','yt',{}],
+ ['yt_otvetchik','Ответ. YT','Ответы на комментарии YouTube','💬','yt','yt',{}],
+ ['yt_analitik','Аналит. YT','Просмотры и досмотры Shorts','📊','yt','yt',{glasses:1}],
+ ['tiktok','TikTok','Главный по TikTok, команда клипов','🎵','tt','tt',{tie:1},'Маркетологу'],
+ ['tt_montajyor','Монтаж TT','Адаптация роликов под TikTok','🎬','tt','tt',{cap:1}],
+ ['tt_publikator','Публ. TT','Публикация в TikTok','📤','tt','tt',{}],
+ ['tt_otvetchik','Ответ. TT','Ответы на комментарии TikTok','💬','tt','tt',{}],
+ ['tt_analitik','Аналит. TT','Просмотры и досмотры TikTok','📊','tt','tt',{glasses:1}],
 ];
-const REPORTS={sc:'Маркетологу (через Гл. разведчика)', mk:'Маркетологу', vid:'Директору', boss:'Вам'};
+const REPORTS={sc:'Маркетологу (через Гл. разведчика)', mk:'Маркетологу', vid:'Директору', boss:'Вам',
+  ig:'Instagram-главному', tg:'Telegram-главному', yt:'YouTube-главному', tt:'TikTok-главному'};
 
 /* места за столами */
 const SEATS={boss:[[85,110]], sc:[[245,78],[305,78],[245,148],[305,148]]};
-['mkL','mkR','vidL','vidR'].forEach(r=>{const R=ROOMS[r]; const rows=r.startsWith('mk')?3:2; SEATS[r]=[];
-  for(let i=0;i<rows;i++) for(const dx of [38,100]) SEATS[r].push([R.x+dx, R.y+(r.startsWith('mk')?62:70)+i*(r.startsWith('mk')?60:80)]);});
+['mkL','mkR','vidL','vidR','ig','tg','yt','tt'].forEach(r=>{const R=ROOMS[r], v=r.startsWith('vid'), rows=v?2:3; SEATS[r]=[];
+  for(let i=0;i<rows;i++) for(const dx of [38,100]) SEATS[r].push([R.x+dx, R.y+(v?70:62)+i*(v?80:60)]);});
 /* места отдыха */
-const REST=[]; [40,80,120,240,280,320].forEach(x=>REST.push([x,690])); [162,202].forEach(x=>REST.push([x,714]));
-for(let i=0;i<8;i++) REST.push([40+i*40,775]); for(let i=0;i<7;i++) REST.push([60+i*40,850]);
+const RY=440; const REST=[]; [40,80,120,240,280,320].forEach(x=>REST.push([x,690+RY])); [162,202].forEach(x=>REST.push([x,714+RY]));
+for(let i=0;i<8;i++) REST.push([40+i*40,775+RY]); for(let i=0;i<7;i++) REST.push([60+i*40,850+RY]);
 const isSleepSpot=i=>i<6||(i>=8&&i<16);
 /* очередь к маркетологу */
 const QUEUE=[]; for(let i=0;i<12;i++) QUEUE.push([CX, 70+i*24]);
@@ -213,22 +247,55 @@ function el(tag,cls,style,html){const e=document.createElement(tag); if(cls)e.cl
 function px(o){const r={};for(const k in o)r[k]=typeof o[k]==='number'?o[k]+'px':o[k];return r;}
 
 /* рисуем офис */
-el('div','corr',px({left:CX-17,top:10,width:34,height:614}));
+el('div','corr',px({left:CX-17,top:10,width:34,height:1054}));
+for(let y=40;y<1050;y+=110) el('div','deco',px({left:CX-6,top:y,fontSize:11,opacity:.55}),'💡');
 for(const k in ROOMS){const R=ROOMS[k]; const d=el('div','room',px({left:R.x,top:R.y,width:R.w,height:R.h,background:`var(${R.floor})`}));
-  d.innerHTML=`<div class="lbl">${R.label}</div>`; d.onclick=ev=>{ev.stopPropagation(); closeSheet(); zoomTo(ZOOM===k?null:k);};
+  d.innerHTML=`<div class="lbl">${R.label}</div>`; d.title=R.label; d.onclick=ev=>{ev.stopPropagation(); closeSheet(); zoomTo(ZOOM===k?null:k);};
   if(R.side==='L') el('div','door',px({left:R.x+R.w-3,top:R.doorY,height:26}));
   if(R.side==='R') el('div','door',px({left:R.x,top:R.doorY,height:26}));
   if(R.side==='B') el('div','door',px({left:CX-17,top:R.y,width:34,height:3}));
 }
 /* декор */
-const D=(t,x,y,s)=>el('div','deco',px({left:x,top:y,fontSize:s||14}),t);
-D('🪟',20,22,18);D('🪴',135,140);D('🏆',22,140,13);D('🗺',215,22,14);D('🪴',330,145);D('🪴',20,365);D('🖨',325,365);D('📌',215,195,11);D('🪴',330,365);
-D('🎥',20,585);D('💡',135,412,12);D('🎚',215,585);D('🪴',330,585);
-D('📺',172,632,18);D('☕',214,694,11);D('🍵',140,694,11);D('🪴',20,640);D('🪴',328,640);D('🎮',172,752,14);D('🏓',333,815,13);D('📚',14,815,13);D('🪴',20,862);D('🪴',328,862);
-el('div','rug',px({left:110,top:745,width:140,height:50}));
-el('div','sofa',px({left:22,top:680,width:116,height:20}));el('div','sofa',px({left:222,top:680,width:116,height:20}));
-el('div','counter',px({left:150,top:707,width:64,height:12}));
-for(let i=0;i<8;i++) el('div','bean',px({left:28+i*40,top:772,background:['#e67e22','#16a085','#2980b9','#d35400','#8e44ad','#27ae60','#c0392b','#2c3e50','#f39c12'][i]}));
+const D=(t,x,y,s,c)=>el('div','deco'+(c?' '+c:''),px({left:x,top:y,fontSize:s||14}),t);
+const SCR=(x,y,w,h,bg,t)=>el('div','scr',px({left:x,top:y,width:w,height:h,background:bg}),t);
+/* кабинет: окно с небом по времени, часы, кубок */
+const win=el('div','win',px({left:20,top:36,width:34,height:24}));
+const clk=el('div','clock',px({left:96,top:40}));
+function sky(){ const d=new Date(), h=d.getHours();
+  win.style.background = h>=6&&h<17 ? 'linear-gradient(#7ec8f5,#cdeefd)' : h>=17&&h<20 ? 'linear-gradient(#ff9a5a,#ffd39a)' : 'linear-gradient(#0d1530,#2a3560)';
+  win.textContent = h>=6&&h<17 ? '☀️' : h>=17&&h<20 ? '🌇' : '🌙';
+  clk.textContent = d.toTimeString().slice(0,5); }
+sky(); setInterval(sky,30000);
+D('🏆',22,140,13);D('🪴',135,140);D('🛋',60,140,16);
+/* разведка: доска с картой и графиком */
+el('div','board',px({left:262,top:34,width:44,height:26})).innerHTML='<div style="font-size:15px;line-height:22px;text-align:center">🗺📈</div>';
+D('🔭',322,38,14);D('🪴',330,145);
+/* товары и дизайн / маркетплейсы */
+D('📦',130,214,13);D('🎨',130,230,12);D('🪴',20,365);D('🖨',130,365);
+SCR(262,214,48,20,'linear-gradient(90deg,#7b2ff7,#c74bd8)','Uzum');D('🛒',322,216,13);D('🪴',330,365);D('📌',215,365,11);
+/* видеостудия */
+el('div','ringl',px({left:128,top:430}));D('🎥',20,585);D('🎬',130,585,13);
+el('div','ringl',px({left:318,top:430}));D('🎚',215,585);D('🎞',322,585,13);D('🎙',262,430,13);
+/* Instagram */
+SCR(70,646,52,22,'linear-gradient(45deg,#f9a825,#e91e63,#8e24aa)','📸 Reels');el('div','ringl',px({left:134,top:652}));
+D('❤️',138,700,12,'flt');D('💬',138,760,12,'flt');D('🪴',138,805);
+/* Telegram */
+SCR(260,646,52,22,'#229ed9','✈️ @mgznuz');D('✈️',326,652,13,'flt');D('📢',328,700,12);D('🪴',328,805);
+/* YouTube */
+SCR(70,866,52,22,'#e62117','▶ Shorts');D('🥈',138,870,13);D('👍',138,920,12,'flt');D('🔔',138,980,12,'flt');D('🪴',138,1025);
+/* TikTok */
+SCR(260,866,52,22,'#111','<span style="color:#25f4ee">♪</span><span style="color:#fe2c55">♪</span>&nbsp;TikTok');el('div','ringl',px({left:324,top:870}));
+D('🎵',328,920,12,'flt');D('🔥',328,980,12,'flt');D('🪴',328,1025);
+/* зона отдыха */
+const R0=RY;
+D('📺',172,632+R0,18);D('☕',214,694+R0,11);D('♨️',214,682+R0,9,'steam');D('🍵',140,694+R0,11);D('🪴',20,640+R0);D('🪴',328,640+R0);
+D('🎮',172,752+R0,14);D('🏓',333,815+R0,13);D('📚',14,815+R0,13);D('🪴',20,862+R0);D('🪴',328,862+R0);D('🌀',300,1068,13,'fan');
+const tank=el('div','tank',px({left:230,top:1066,width:60,height:22}));
+tank.innerHTML='<div class="deco swim" style="left:2px;top:3px;font-size:10px">🐟</div><div class="deco swim" style="left:10px;top:10px;font-size:9px;animation-delay:-3s">🐠</div>';
+el('div','rug',px({left:110,top:745+R0,width:140,height:50}));
+el('div','sofa',px({left:22,top:680+R0,width:116,height:20}));el('div','sofa',px({left:222,top:680+R0,width:116,height:20}));
+el('div','counter',px({left:150,top:707+R0,width:64,height:12}));
+for(let i=0;i<8;i++) el('div','bean',px({left:28+i*40,top:772+R0,background:['#e67e22','#16a085','#2980b9','#d35400','#8e44ad','#27ae60','#c0392b','#2c3e50','#f39c12'][i]}));
 
 function figSVG(o){
   const sk=SK[o.s%SK.length], hr=HR[o.h%HR.length], sh=o.shirt, pa='#34495e';
@@ -249,13 +316,13 @@ function figSVG(o){
 }
 
 const agents={}; const roomUse={};
-A.forEach(([id,name,role,em,dept,room,look],i)=>{
+A.forEach(([id,name,role,em,dept,room,look,rep],i)=>{
   roomUse[room]=(roomUse[room]||0); const seat=SEATS[room][roomUse[room]++];
   const big=room==='boss';
   const desk=el('div','desk'+(big?' big':''),px({left:seat[0]-(big?23:15),top:seat[1]-9,zIndex:seat[1]+6}));
   desk.innerHTML='<div class="laptop"></div>';
   const e=el('div','agent',{zIndex:seat[1]}); e.innerHTML='<div class="ring"></div>'+figSVG({...look,s:i*7,h:i*3,shirt:DEPT[dept]})+'<div class="prop"></div><div class="bubble"></div>';
-  const a={id,name,role,em,dept,room,seat,desk,laptop:desk.firstChild,e,bub:e.querySelector('.bubble'),prop:e.querySelector('.prop'),act:'think',ract:null,nextR:0,x:seat[0],y:seat[1],cur:room,path:[],state:'work',task:'',since:Date.now(),spot:null};
+  const a={id,name,role,em,dept,room,rep,seat,desk,laptop:desk.firstChild,e,bub:e.querySelector('.bubble'),prop:e.querySelector('.prop'),act:'think',ract:null,nextR:0,x:seat[0],y:seat[1],cur:room,path:[],state:'work',task:'',since:Date.now(),spot:null};
   e.onclick=ev=>{ev.stopPropagation();openSheet(a);};
   agents[id]=a; place(a);
 });
@@ -385,7 +452,7 @@ function openSheet(a){
    <div class="hd"><div class="em">${a.em}</div><div><h3>${a.name}</h3><div class="role">${a.role}</div></div></div>
    <div class="st" style="color:${CLR[a.state]}"><span class="dot" style="background:${CLR[a.state]}"></span>${LBL[a.state]} · ${actLabel(a)}</div>
    <div class="task">${a.state==='rest' ? 'Сейчас задач нет' : esc(a.task)}</div>
-   <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${REPORTS[a.dept]}</div>
+   <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${a.rep||REPORTS[a.dept]}</div>
    ${orderBox(a)}`;
   document.getElementById('sheet').classList.add('open');
   if(tg&&tg.HapticFeedback) try{tg.HapticFeedback.selectionChanged();}catch(e){}
@@ -396,9 +463,9 @@ document.addEventListener('click',e=>{ if(!e.target.closest('#sheet')) closeShee
 /* масштаб под экран */
 let ZOOM=null, VK=1, VX=0, VY=0;   // VK — увеличение (1 = весь офис), VX/VY — сдвиг карты в px
 const wrapE=document.getElementById('wrap');
-function geo(){ const w=Math.min(document.documentElement.clientWidth,520)-8, b=w/360, full=895*b;
+function geo(){ const w=Math.min(document.documentElement.clientWidth,520)-8, b=w/360, full=1335*b;
   const H=VK>1.01?Math.min(full,Math.max(320,innerHeight-130)):full; return {w,b,H}; }
-function clampV(){ const {w,b,H}=geo(), S=b*VK; VX=Math.min(0,Math.max(w-360*S,VX)); VY=Math.min(0,Math.max(H-895*S,VY)); }
+function clampV(){ const {w,b,H}=geo(), S=b*VK; VX=Math.min(0,Math.max(w-360*S,VX)); VY=Math.min(0,Math.max(H-1335*S,VY)); }
 function fit(){ const {w,b,H}=geo(); wrapE.style.width=w+'px'; wrapE.style.height=H+'px'; clampV();
   map.style.transform=`translate(${VX}px,${VY}px) scale(${b*VK})`;
   map.classList.toggle('zoomed',VK>1.5); document.getElementById('zoomOut').style.display=VK>1.01?'inline-block':'none'; }
