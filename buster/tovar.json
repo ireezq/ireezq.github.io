@@ -1,0 +1,25 @@
+{
+  "nomi": "Bolalar uchun yumshoq avtokreslo-buster",
+  "qisqa": "Karkassiz yumshoq o‘rindiq, 6 oylikdan 6 yoshgacha bolalar uchun. Yengil, mashinada ham, uyda ham.",
+  "rasmlar": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+  ],
+  "afzalliklar": [
+    "Yumshoq o‘rindiq, baland suyanchiq va bosh tayanchi",
+    "Sozlanadigan kamarlar bolani mahkam ushlaydi",
+    "Yengil (380 g), mashinada ham, uyda stulda ham ishlatiladi"
+  ],
+  "tugmalar": [
+    {
+      "nomi": "Uzum Market — Ireezq",
+      "url": "https://uzum.uz/ru/product/detskoe-beskarkasnoe-avtokreslo-3217222"
+    },
+    {
+      "nomi": "Uzum Market — Selection time",
+      "url": "https://uzum.uz/ru/product/detskoe-beskarkasnoe-avtokreslo-3217211"
+    }
+  ]
+}

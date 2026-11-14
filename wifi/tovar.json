@@ -1,0 +1,25 @@
+{
+  "nomi": "Wi-Fi signal kuchaytirgich (repiter 3 in 1)",
+  "qisqa": "Uydagi Wi-Fi yetmagan xonalarga signalni yetkazadi. Rozetkaga ulanadi, bir necha daqiqada sozlanadi.",
+  "rasmlar": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+  ],
+  "afzalliklar": [
+    "6 ta antenna, signal devor orqali o‘tadi",
+    "Barcha routerlarga mos, 2 ta LAN port",
+    "Telefon, noutbuk, televizor va kameralar uchun"
+  ],
+  "tugmalar": [
+    {
+      "nomi": "Uzum Market — Selection time",
+      "url": "https://uzum.uz/ru/product/moschnyj-usilitel-signala-2515556"
+    },
+    {
+      "nomi": "Wildberries",
+      "url": "https://www.wildberries.ru/catalog/1141928833/detail.aspx"
+    }
+  ]
+}
