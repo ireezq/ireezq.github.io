@@ -540,9 +540,10 @@ wrapE.addEventListener('wheel',e=>{ if(!e.ctrlKey && VK<=1.01 && e.deltaY>0) ret
   map.classList.add('drag'); zoomAt(VK*Math.exp(-e.deltaY/(e.ctrlKey?200:500)), e.clientX-r.left, e.clientY-r.top); clearTimeout(wrapE._t); wrapE._t=setTimeout(()=>map.classList.remove('drag'),150); },{passive:false});
 /* мышь: зажать и тянуть */
 let MD=null;
-wrapE.addEventListener('mousedown',e=>{ if(e.button!==0||VK<=1.01) return; MD={x:e.clientX,y:e.clientY,vx:VX,vy:VY}; moved=false; });
+wrapE.addEventListener('mousedown',e=>{ if(e.button!==0) return; MD={x:e.clientX,y:e.clientY,vx:VX,vy:VY,sy:window.scrollY,z:VK>1.01}; moved=false; });
 window.addEventListener('mousemove',e=>{ if(!MD) return; const dx=e.clientX-MD.x, dy=e.clientY-MD.y; if(!moved&&Math.hypot(dx,dy)<5) return;
-  moved=true; map.classList.add('drag'); wrapE.style.cursor='grabbing'; VX=MD.vx+dx; VY=MD.vy+dy; fit(); });
+  moved=true; wrapE.style.cursor='grabbing';
+  if(MD.z){ map.classList.add('drag'); VX=MD.vx+dx; VY=MD.vy+dy; fit(); } else window.scrollTo(0,MD.sy-dy); });
 window.addEventListener('mouseup',()=>{ if(!MD) return; MD=null; map.classList.remove('drag'); wrapE.style.cursor=''; if(moved) setTimeout(()=>{moved=false;},0); });
 window.addEventListener('resize',fit); fit();
 
