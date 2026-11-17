@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ru">
-<head><meta name="robots" content="noindex,nofollow">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Городок агентов</title>
@@ -53,6 +53,10 @@
   .arc{position:absolute;width:38px;height:50px;border:1.5px solid var(--ac);border-radius:6px 6px 3px 3px;background:#0a1030;box-shadow:0 0 12px var(--ac);z-index:1}
   .arc:before{content:'';position:absolute;left:4px;right:4px;top:5px;height:20px;background:var(--ac);opacity:.7;border-radius:2px;animation:glow 1.6s ease-in-out infinite alternate}
   @keyframes glow{from{filter:brightness(.6)}to{filter:brightness(1.4)}}
+  .amen{position:absolute;border:1.5px solid var(--c);border-radius:9px;background:linear-gradient(160deg,color-mix(in srgb,var(--c) 28%,#0a1030),#0a1030);box-shadow:0 0 12px color-mix(in srgb,var(--c) 55%,transparent);z-index:1;display:flex;align-items:center;justify-content:center;font-size:20px}
+  .fount{position:absolute;border-radius:50%;border:2px solid #19d3ff;background:radial-gradient(circle,#bff 0 6%,#19d3ff66 7% 45%,#0a2a6a 46%);box-shadow:0 0 22px #19d3ff88;z-index:1}
+  .agent.t3 svg{filter:drop-shadow(0 0 12px #fff) drop-shadow(0 0 6px var(--ac)) drop-shadow(0 0 3px #fff)}
+  .agent.t3 .np{display:block;font-size:14px;font-weight:900;color:#fff;border:2px solid #fff;background:#1a0a3aee;text-shadow:0 0 10px #ff3df0;box-shadow:0 0 18px #ff3df0,0 0 8px #fff}
   .bench{position:absolute;height:5px;border-radius:3px;background:#2dff8a55;box-shadow:0 0 8px #2dff8a66;z-index:1}
   .lamp{position:absolute;width:3px;height:36px;background:#7aa;z-index:1}
   .lamp:before{content:'';position:absolute;left:-6px;top:-8px;width:15px;height:15px;border-radius:50%;background:#fff6c8;box-shadow:0 0 18px 6px #ffe98a88;animation:glow 3s ease-in-out infinite alternate}
@@ -91,7 +95,7 @@
   .agent.s-wait .bc{background:var(--wait);box-shadow:0 0 12px var(--wait);animation:bcp .9s infinite alternate}
   .agent.s-err .bc{background:var(--err);box-shadow:0 0 12px var(--err);animation:bcp .5s infinite alternate}
   @keyframes bcp{from{opacity:.4}to{opacity:1}}
-  .agent.t0{--bt:-10px;--bb:12px}.agent.t1{--bt:-12px;--bb:15px}.agent.t2{--bt:-28px;--bb:31px}
+  .agent.t3{--bt:-34px;--bb:37px}.agent.t0{--bt:-10px;--bb:12px}.agent.t1{--bt:-12px;--bb:15px}.agent.t2{--bt:-28px;--bb:31px}
   .np{display:none;position:absolute;left:50%;top:calc(100% + 4px);transform:translateX(-50%) scale(var(--ni));transform-origin:50% 0;white-space:nowrap;font-size:9px;font-weight:800;color:#dff;background:#050816e6;border:1px solid var(--c);border-radius:6px;padding:0 4px;pointer-events:none;z-index:4;box-shadow:0 0 6px var(--g)}
   .agent.t1 .np{display:block;font-size:11px;border-color:var(--ac);color:#fff;text-shadow:0 0 6px var(--ac);box-shadow:0 0 10px var(--ac)}
   .agent.t2 .np{display:block;font-size:13px;font-weight:900;color:#ffe9a0;border:1.5px solid #ffd23f;background:#2a1a00ee;text-shadow:0 0 8px #ffd23f;box-shadow:0 0 14px #ffd23f}
@@ -194,9 +198,10 @@ if (tg) { try { tg.ready(); tg.expand(); tg.setHeaderColor && tg.setHeaderColor(
 /* ---------- Данные об агентах ---------- */
 const SK=['#f1c7a0','#e0ac80','#c68c5c','#a8714a'], HR=['#2b1d14','#3a2a1a','#111','#5a3b22','#6b6b6b'];
 const T2=new Set(['marketolog','mp_glavnyj','pt_glavnyj']);
-const T1=new Set(['razvedchik','instagram','telegram','youtube','tiktok','direktor','mp_uz_glavnyj','mp_uz1_glavnyj','mp_uz2_glavnyj','mp_uz3_glavnyj','mp_wb_glavnyj']);
-const tierOf=id=>T2.has(id)?2:T1.has(id)?1:0;
-const TH={0:[38,63],1:[50,83],2:[64,107]};
+const T3=new Set(['vid_sozdatel','mp_sozdatel']);
+const T1=new Set(['lr_glavnyj','razvedchik','instagram','telegram','youtube','tiktok','direktor','mp_uz_glavnyj','mp_uz1_glavnyj','mp_uz2_glavnyj','mp_uz3_glavnyj','mp_wb_glavnyj']);
+const tierOf=id=>T3.has(id)?3:T2.has(id)?2:T1.has(id)?1:0;
+const TH={0:[38,63],1:[50,83],2:[64,107],3:[78,130]};
 const INFO={
  marketolog:['Маркетолог','Руководит всей командой маркетинга','🎯',{tie:1}],
  razvedchik:['Гл. разведчик','Руководит разведчиками','🔍',{}],
@@ -245,6 +250,10 @@ const INFO={
  mp_glavnyj:['e-com','Самый главный по маркетплейсам, отвечает вам','👑',{tie:1}],
  mp_uz_glavnyj:['Главный Uzum','Ведёт три магазина Uzum Market','🟣',{tie:1}],
  mp_wb_glavnyj:['Главный WB','Ведёт магазин Wildberries','🟪',{tie:1}],
+ vid_sozdatel:['Создатель видео','Создание агентов для видеопроизводства','🏗',{tie:1}],
+ mp_sozdatel:['Создатель МП','Команда агентов для маркетплейсов','🏛',{tie:1}],
+ lr_glavnyj:['Главный Lightroom','Lightroom в проектах','🌅',{tie:1}],
+ lr_fork:['Lightroom (fork)','Lightroom в проектах (вторая ветка)','🌇',{glasses:1}],
 };
 const SHOP={uz1:['Play','Uzum Playtime'],uz2:['Sel','Uzum Selection time'],uz3:['Mgzn','Uzum Mgzn'],wb:['WB','Wildberries']};
 const MR={kartochki:['Карточки','Карточки товаров','🗂'],infografika:['Инфографика','Фото и инфографика','🖼'],konkurenty:['Конкуренты','Конкуренты и цены','🕵️'],prodaji:['Продажи','Продажи и воронка','💹'],ostatki:['Остатки','Остатки и запас','📦'],postavki:['Поставки','Поставки на склад','🚚']};
@@ -269,21 +278,23 @@ const BL=[
  {k:'uz2',t:'UZUM · SELECTION',c:'#d14dff',col:2,row:'C',gate:'t',rep:'Главному Selection',rows:[['mp_uz2_glavnyj'],mem('uz2').slice(0,3),mem('uz2').slice(3)]},
  {k:'uz3',t:'UZUM · MGZN',c:'#ff5fd2',col:3,row:'C',gate:'t',rep:'Главному Mgzn',rows:[['mp_uz3_glavnyj'],mem('uz3').slice(0,3),mem('uz3').slice(3)]},
  {k:'wb',t:'WILDBERRIES',c:'#9b5cff',col:0,span:2,row:'D',gate:'t',rep:'Главному WB',rows:[['mp_wb_glavnyj'],mem('wb')]},
+ {k:'lr',t:'LIGHTROOM',c:'#ffb347',col:0,span:2,row:'E',gate:'t',rep:'Главному Lightroom',rows:[['lr_glavnyj'],['lr_fork']]},
+ {k:'mk',t:'СОЗДАТЕЛИ АГЕНТОВ',c:'#ffffff',col:2,span:2,row:'E',gate:'t',rep:'Вам',rows:[['vid_sozdatel','mp_sozdatel']]},
  {k:'pt',t:'ПОИСК ТОВАРА',c:'#ff9a1f',col:2,span:2,row:'D',gate:'t',rep:'Главному поиска',rows:[['pt_glavnyj'],['pt_spros','pt_sezon','pt_cena','pt_kitay','pt_ekonomika']]},
 ];
 const REPO={marketolog:'Вам',mp_glavnyj:'Вам',pt_glavnyj:'Вам',razvedchik:'Маркетологу',direktor:'Маркетологу',instagram:'Маркетологу',telegram:'Маркетологу',youtube:'Маркетологу',tiktok:'Маркетологу',
- mp_uz_glavnyj:'e-com',mp_wb_glavnyj:'e-com',mp_uz1_glavnyj:'Главному Uzum',mp_uz2_glavnyj:'Главному Uzum',mp_uz3_glavnyj:'Главному Uzum'};
+ mp_uz_glavnyj:'e-com',mp_wb_glavnyj:'e-com',mp_uz1_glavnyj:'Главному Uzum',mp_uz2_glavnyj:'Главному Uzum',mp_uz3_glavnyj:'Главному Uzum',lr_glavnyj:'Вам',vid_sozdatel:'Вам',mp_sozdatel:'Вам'};
 
 /* ---------- Раскладка города ---------- */
 const MW=800, GXs=[10,210,410,610];
-const FIRST={0:26+63+8,1:26+83+8,2:26+107+10}, GAP={0:80,1:98,2:118};
+const FIRST={0:26+63+8,1:26+83+8,2:26+107+10,3:26+130+12}, GAP={0:80,1:98,2:118,3:145};
 const BK={}; BL.forEach(b=>{ BK[b.k]=b; b.w=b.span===2?380:180; b.x=GXs[b.col];
   let y=0; b.seats=[]; b.rows.forEach((row,ri)=>{ const mt=Math.max(...row.map(tierOf)); y=ri===0?FIRST[mt]:y+GAP[mt]; row.forEach((id,i)=>b.seats.push({id,rx:b.w*(i+.5)/row.length,ry:y})); });
   b.need=b.decor?250:y+30; });
 const rowH={}; BL.forEach(b=>{ rowH[b.row]=Math.max(rowH[b.row]||0,b.need); });
 const YA=30, ST=28;
-const yStA=YA+rowH.A+4, YB=yStA+ST+4, YPARK=YB+rowH.B+10, PARKH=270, YBAN2=YPARK+PARKH+8, yStC=YBAN2+22+6, YC=yStC+ST+4, yStD=YC+rowH.C+4, YD=yStD+ST+4, MH=YD+rowH.D+14;
-const rowY={A:YA,B:YB,C:YC,D:YD}, SY={A:yStA+14,B:yStA+14,C:yStC+14,D:yStD+14};
+const yStA=YA+rowH.A+4, YB=yStA+ST+4, YPARK=YB+rowH.B+10, PARKH=440, YBAN2=YPARK+PARKH+8, yStC=YBAN2+22+6, YC=yStC+ST+4, yStD=YC+rowH.C+4, YD=yStD+ST+4, yBAN3=YD+rowH.D+8, yStE=yBAN3+22+6, YE=yStE+ST+4, MH=YE+rowH.E+14;
+const rowY={A:YA,B:YB,C:YC,D:YD,E:YE}, SY={A:yStA+14,B:yStA+14,C:yStC+14,D:yStD+14,E:yStE+14};
 const PARKMID=YPARK+PARKH/2;
 BL.forEach(b=>{ b.y=rowY[b.row]; b.h=rowH[b.row]; b.gx=b.x+b.w/2; b.edge=b.gate==='b'?b.y+b.h:b.y; });
 
@@ -292,12 +303,13 @@ function el(tag,cls,style,html){const e=document.createElement(tag); if(cls)e.cl
 const setV=(e,c)=>{ e.style.setProperty('--c',c); e.style.setProperty('--g',c+'66'); e.style.setProperty('--f',c+'22'); };
 
 /* дороги */
-[['A',yStA],['C',yStC],['D',yStD]].forEach(([k,y])=>el('div','road',{top:y}));
-const av=el('div','av',{top:yStA,height:yStD+ST-yStA});
+[['A',yStA],['C',yStC],['D',yStD],['E',yStE]].forEach(([k,y])=>el('div','road',{top:y}));
+const av=el('div','av',{top:yStA,height:yStE+ST-yStA});
 ['#19d3ff','#ff3df0','#2dff8a','#ffd23f','#19d3ff','#ff9a1f'].forEach((c,i)=>{ const p=document.createElement('div'); p.className='pkt'; p.style.setProperty('--c',c); p.style.animationDelay=(-i*1)+'s'; p.style.animationDuration=(5+i%3)+'s'; av.appendChild(p); });
 /* баннеры */
 const ban1=el('div','ban',{top:4},'МАРКЕТИНГ'); ban1.style.setProperty('--c','#19d3ff');
-const ban2=el('div','ban',{top:YBAN2},'МАРКЕТПЛЕЙСЫ · ПОИСК ТОВАРА'); ban2.style.setProperty('--c','#ff3df0');
+const ban2=el('div','ban',{top:YBAN2},'E-COM · ПОИСК ТОВАРА'); ban2.style.setProperty('--c','#ff3df0');
+const ban3=el('div','ban',{top:yBAN3},'LIGHTROOM · СОЗДАТЕЛИ'); ban3.style.setProperty('--c','#ffb347');
 /* кварталы */
 BL.forEach(b=>{
   if(b.decor) return;
@@ -317,8 +329,17 @@ el('div','park',{top:YPARK,height:PARKH},'<div class="pl">🌳 ПАРК · ОТ�
 el('div','pond',{left:150,top:YPARK+16,width:140,height:46}); el('div','plbl',{left:176,top:YPARK+64},'☕ КАФЕ');
 [[510,'#ff3df0'],[556,'#19d3ff'],[602,'#2dff8a']].forEach(([x,c])=>{ const a=el('div','arc',{left:x,top:YPARK+12}); a.style.setProperty('--ac',c); });
 el('div','plbl',{left:532,top:YPARK+64},'🎮 АРКАДА');
-[70,345,455,725].forEach(x=>el('div','lamp',{left:x,top:YPARK+30}));
-[[20,100],[315,70],[415,70],[675,105]].forEach(([x,w])=>{ [1,3].forEach(r=>el('div','bench',{left:x,width:w,top:YPARK+66+r*58+4})); });
+const AM=(x,y,w,h,c,ico,lbl)=>{ const a=el('div','amen',{left:x,top:y,width:w,height:h},ico); a.style.setProperty('--c',c); el('div','plbl',{left:x,top:y+h+2,width:w,textAlign:'center'},lbl); };
+AM(20,YPARK+14,90,46,'#ff9a1f','🏋️','ЗАЛ');
+AM(680,YPARK+14,90,46,'#b36bff','📚','БИБЛИОТЕКА');
+const PB=YPARK+PARKH-58;
+AM(20,PB,90,42,'#ff77b8','🛍','КИОСК');
+AM(150,PB,100,42,'#ffd23f','🍕','ЕДА');
+el('div','fount',{left:355,top:PB-4,width:90,height:50}); el('div','plbl',{left:355,top:PB+48,width:90,textAlign:'center'},'⛲ ФОНТАН');
+AM(550,PB,100,42,'#25f4ee','🎤','ПЕРЕГОВОРНАЯ');
+AM(680,PB,90,42,'#2dff8a','🛋','ЛАУНДЖ');
+[125,330,470,665].forEach(x=>el('div','lamp',{left:x,top:YPARK+30}));
+[[130,110],[315,70],[415,70],[490,160]].forEach(([x,w])=>{ [2,4].forEach(r=>el('div','bench',{left:x,width:w,top:YPARK+66+r*58+4})); });
 
 /* ---------- Фигура ---------- */
 function figSVG(o){
@@ -327,7 +348,7 @@ function figSVG(o){
    <rect class="lg l" x="7" y="29" width="4.2" height="10" rx="1.6" fill="${pa}"/><rect class="lg r" x="12.8" y="29" width="4.2" height="10" rx="1.6" fill="${pa}"/>
    <rect class="arm l" x="3" y="18" width="4" height="11" rx="2" fill="${sh}"/><rect class="arm r" x="17" y="18" width="4" height="11" rx="2" fill="${sh}"/>
    <rect x="6" y="16.5" width="12" height="14" rx="3.5" fill="${sh}"/>
-   ${t===2?'<path d="M12 17.5l-1.7 2 1.7 8 1.7-8z" fill="#ffd23f"/><path d="M6 17.5h12" stroke="#ffd23f" stroke-width="1"/>':t===1?'<path d="M12 19.6l1.1 2.3 2.5.3-1.9 1.7.5 2.5-2.2-1.3-2.2 1.3.5-2.5-1.9-1.7 2.5-.3z" fill="#ffd23f" stroke="#7a4b00" stroke-width=".25"/>':o.tie?'<path d="M12 17.5l-1.6 2 1.6 7.5 1.6-7.5z" fill="#f1c40f"/>':''}
+   ${t>=2?'<path d="M12 17.5l-1.7 2 1.7 8 1.7-8z" fill="#ffd23f"/><path d="M6 17.5h12" stroke="#ffd23f" stroke-width="1"/>':t===1?'<path d="M12 19.6l1.1 2.3 2.5.3-1.9 1.7.5 2.5-2.2-1.3-2.2 1.3.5-2.5-1.9-1.7 2.5-.3z" fill="#ffd23f" stroke="#7a4b00" stroke-width=".25"/>':o.tie?'<path d="M12 17.5l-1.6 2 1.6 7.5 1.6-7.5z" fill="#f1c40f"/>':''}
    <circle cx="12" cy="10" r="7" fill="${sk}"/>
    ${o.beard?`<path d="M5.4 11 Q6 17.5 12 17.3 Q18 17.5 18.6 11 Q17 14.5 12 14.6 Q7 14.5 5.4 11z" fill="${hr}"/>`:''}
    <path d="M5 9.5 Q4.6 2.2 12 2.6 Q19.4 2.2 19 9.5 Q17.5 5.6 12 6.1 Q6.5 5.6 5 9.5z" fill="${hr}"/>
@@ -336,18 +357,18 @@ function figSVG(o){
    <g class="eyes-c"><path d="M8.4 10.6h2.2M13.4 10.6h2.2" stroke="#222" stroke-width=".9" stroke-linecap="round"/></g>
    ${o.glasses?'<g fill="none" stroke="#222" stroke-width=".7"><circle cx="9.5" cy="10.4" r="2"/><circle cx="14.5" cy="10.4" r="2"/><path d="M11.5 10.4h1"/></g>':''}
    ${o.beard?'':'<path d="M10.4 13.4q1.6 1.1 3.2 0" stroke="#7a3b2e" fill="none" stroke-width=".8" stroke-linecap="round"/>'}
-   ${t===2?'<path d="M4.5 3.2 L6 -4 L9 0 L12 -6.5 L15 0 L18 -4 L19.5 3.2 Z" fill="#ffd23f" stroke="#ff9a1f" stroke-width=".6"/><circle cx="12" cy="-4.6" r="1" fill="#ff3b5c"/>':''}
+   ${t>=2?'<path d="M4.5 3.2 L6 -4 L9 0 L12 -6.5 L15 0 L18 -4 L19.5 3.2 Z" fill="#ffd23f" stroke="#ff9a1f" stroke-width=".6"/><circle cx="12" cy="-4.6" r="1" fill="#ff3b5c"/>':''}
   </g></svg>`;
 }
 
 /* ---------- Агенты ---------- */
 const agents={}; let idx=0;
 BL.forEach(b=>{ b.seats.forEach(s=>{
-  const id=s.id, inf=INFO[id], tier=tierOf(id), [w,h]=TH[tier], ac=tier===2?'#ffd23f':b.c;
+  const id=s.id, inf=INFO[id], tier=tierOf(id), [w,h]=TH[tier], ac=tier===3?'#ffffff':tier===2?'#ffd23f':b.c;
   const sx=b.x+s.rx, sy=b.y+s.ry, i=idx++;
   const pad=el('div','seat',{left:sx-w*.6,top:sy-w*.18,width:w*1.2,height:w*.36}); setV(pad,b.c);
   const e=el('div','agent t'+tier); e.style.setProperty('--w',w+'px'); e.style.setProperty('--h',h+'px'); setV(e,b.c); e.style.setProperty('--ac',ac);
-  e.innerHTML=(tier?'<div class="beam"></div>':'')+(tier?'<div class="aura"></div>':'')+(tier===2?'<div class="aura a2"></div>':'')+'<div class="ring"></div>'+
+  e.innerHTML=(tier?'<div class="beam"></div>':'')+(tier?'<div class="aura"></div>':'')+(tier>=2?'<div class="aura a2"></div>':'')+'<div class="ring"></div>'+
     figSVG({...inf[3],s:i*7,h:i*3,shirt:b.c,tier,w,h2:h,tie:inf[3].tie})+'<div class="bc"></div><div class="prop"></div><div class="np">'+inf[0]+'</div><div class="bubble"></div>';
   const a={id,name:inf[0],role:inf[1],em:inf[2],blk:b.k,tier,w,h,rep:REPO[id]||b.rep,seat:[sx,sy],pad,e,bub:e.querySelector('.bubble'),prop:e.querySelector('.prop'),
     act:'think',ract:null,nextR:0,x:sx,y:sy,loc:{t:'block',k:b.k},path:[],state:'work',task:'',since:Date.now(),spot:null};
@@ -359,9 +380,9 @@ const AN=Object.keys(agents).length;
 function place(a){ a.e.style.transform=`translate(${a.x-a.w/2}px,${a.y-a.h+1}px)`; a.e.style.zIndex=Math.round(a.y)+10; }
 
 /* места отдыха в парке */
-const SPOTS=[]; for(let r=0;r<4;r++){ for(let x=30+(r%2)*20;x<=770;x+=40){ if(Math.abs(x-400)<24) continue;
-  SPOTS.push({x,y:YPARK+66+r*58,kind:(x>=130&&x<=310)?'coffee':(x>=490&&x<=670)?'game':(r%2?'sofa':'plain')}); } }
-const KIND_R={coffee:['coffee','chat','stretch','phone'],game:['game','pong','stretch','chat'],sofa:['sleep','sit','phone','book'],plain:['stretch','chat','phone','sit']};
+const SPOTS=[]; for(let r=0;r<6;r++){ for(let x=30+(r%2)*20;x<=770;x+=40){ if(Math.abs(x-400)<24) continue; const y=YPARK+66+r*58; if(y>YPARK+PARKH-70) continue;
+  SPOTS.push({x,y,kind:(r<=1&&x<=110)?'gym':(r<=1&&x>=690)?'lib':(x>=130&&x<=310)?'coffee':(x>=490&&x<=670)?'game':(r%2?'sofa':'plain')}); } }
+const KIND_R={coffee:['coffee','chat','stretch','phone'],game:['game','pong','stretch','chat'],sofa:['sleep','sit','phone','book'],plain:['stretch','chat','phone','sit'],gym:['stretch','pong','chat'],lib:['book','book','sit','phone']};
 const used=new Set();
 function freeIdx(n,key){ const free=[]; for(let i=0;i<n;i++) if(!used.has(key(i))) free.push(i); return free.length?free[Math.floor(Math.random()*free.length)]:Math.floor(Math.random()*n); }
 function doorPos(b,i){ return [b.gx-50+(i%6)*20, SY[b.row]+9]; }
@@ -398,7 +419,7 @@ function setState(a,state,task,since,act){
   if(prev!==state){ releaseSpot(a);
     if(state==='work'||state==='err') route(a,a.seat,{t:'block',k:a.blk});
     else if(state==='rest') goRest(a);
-    else if(state==='wait'){ if(a.tier===2) route(a,a.seat,{t:'block',k:a.blk}); else goWait(a); } }
+    else if(state==='wait'){ if(a.tier>=2) route(a,a.seat,{t:'block',k:a.blk}); else goWait(a); } }
   decorate(a); if(changed) logEvent(a); renderCounts(); listSoon(); if(sheetA===a) openSheet(a);
 }
 function setAct(a,act){ if(a.act===act) return; a.act=act; decorate(a); listSoon(); if(sheetA===a) openSheet(a); }
@@ -428,7 +449,7 @@ function renderList(){
   document.getElementById('list').innerHTML=L.map(a=>{
     const chip=a.state==='wait'?'📄 ждёт':a.state==='err'?'⚠️ ошибка':actLabel(a);
     const tk=a.state==='rest'?'Задач нет':esc(a.task);
-    return `<div class="row" data-id="${a.id}"><span class="em">${a.em}</span><div style="flex:1;min-width:0"><div class="nm">${a.tier===2?'👑 ':a.tier===1?'★ ':''}${a.name}</div><div class="tk">${tk}</div></div>`+
+    return `<div class="row" data-id="${a.id}"><span class="em">${a.em}</span><div style="flex:1;min-width:0"><div class="nm">${a.tier===3?'👑👑 ':a.tier===2?'👑 ':a.tier===1?'★ ':''}${a.name}</div><div class="tk">${tk}</div></div>`+
       `<div style="text-align:right"><span class="chip" style="background:${CLR[a.state]}">${chip}</span><div class="ag">${ago(a.since)}</div></div></div>`; }).join('');
 }
 document.getElementById('list').addEventListener('click',ev=>{ const r=ev.target.closest('.row'); if(r){ ev.stopPropagation(); openSheet(agents[r.dataset.id]); } });
@@ -489,7 +510,7 @@ function openSheet(a){
   if(sheetA&&sheetA!==a) sheetA.e.classList.remove('sel');
   sheetA=a; a.e.classList.add('sel');
   document.getElementById('sheetBody').innerHTML=`
-   <div class="hd"><div class="em">${a.em}</div><div><h3>${a.tier===2?'👑 ':a.tier===1?'★ ':''}${a.name}</h3><div class="role">${a.role}</div></div></div>
+   <div class="hd"><div class="em">${a.em}</div><div><h3>${a.tier===3?'👑👑 ':a.tier===2?'👑 ':a.tier===1?'★ ':''}${a.name}</h3><div class="role">${a.role}</div></div></div>
    <div class="st" style="color:${CLR[a.state]}"><span class="dot" style="color:${CLR[a.state]};background:${CLR[a.state]}"></span>${LBL[a.state]} · ${actLabel(a)}</div>
    <div class="task">${a.state==='rest' ? 'Сейчас задач нет' : esc(a.task)}</div>
    <div class="meta">Обновлено: ${ago(a.since)} · Отчитывается: ${a.rep}</div>
@@ -609,7 +630,7 @@ const MPD={kartochki:['Правлю карточку','Пишу название
 function demoTasks(id){ if(DEMO_TASKS[id]) return DEMO_TASKS[id]; const m=id.match(/^mp_(?:uz\d|wb)_(\w+)$/); if(m) return m[1]==='glavnyj'?['Раздаю задачи команде','Сводка для главного']:(MPD[m[1]]||['Работаю']); return ['Работаю']; }
 function demoPick(id){ const r=Math.random(); const st=r<.52?'work':r<.86?'rest':r<.96?'wait':'err';
   const t=demoTasks(id); let task=t[Math.floor(Math.random()*t.length)];
-  if(st==='wait') task=(tierOf(id)===2?'Жду вашего ответа: ':'Сдал работу: ')+task.toLowerCase(); if(st==='err') task='Не получилось: '+task.toLowerCase();
+  if(st==='wait') task=(tierOf(id)>=2?'Жду вашего ответа: ':'Сдал работу: ')+task.toLowerCase(); if(st==='err') task='Не получилось: '+task.toLowerCase();
   return [st,task]; }
 (async()=>{
   const live=await loadReal();
