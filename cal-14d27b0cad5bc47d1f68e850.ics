@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:4653547ac25963c45ff000f6adffb2f6@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261110T080000Z
 DTEND:20261110T081500Z
 SUMMARY:📱 Stories · Massajyor
@@ -17,7 +17,7 @@ DESCRIPTION:Сторис: массажёр\nмассажёр (зацепка\, �
 END:VEVENT
 BEGIN:VEVENT
 UID:772db153130d67b23cf03264a7229b5a@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261110T080000Z
 DTEND:20261110T081500Z
 SUMMARY:📱 Stories · Husky
@@ -25,7 +25,7 @@ DESCRIPTION:Сторис: Husky\nЗацепка и «+»\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
 UID:12cd8249fb1504fc2d9cdfdfab971088@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261110T140000Z
 DTEND:20261110T141500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
@@ -33,7 +33,7 @@ DESCRIPTION:Telegram: Husky\n\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:b90e3c37a6c0935643df1292ffe1a1d0@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261111T080000Z
 DTEND:20261111T081500Z
 SUMMARY:📱 Stories · Namlagich ✔ chiqdi
@@ -41,15 +41,55 @@ DESCRIPTION:Сторис: увлажнитель\nувлажнитель\, по�
 END:VEVENT
 BEGIN:VEVENT
 UID:fee17a66ea3ccc7421f80ceb40c83e86@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261111T080000Z
 DTEND:20261111T081500Z
 SUMMARY:📱 Stories · Rolikli ✔ chiqdi
 DESCRIPTION:Сторис: 4 цвета (1)\nРозовый и голубой\, зацепка про 9 роликов\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
+UID:cc01a93b581af09b50adcb059dbe39e7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261111T080000Z
+DTEND:20261111T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Сторис: опрос про шею\n\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:c7a8e1f365c1cd92f05634b8d780f7ab@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261111T080000Z
+DTEND:20261111T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Сторис: массажёр (акция)\nЦелый город акция\, доп. публикация\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:464bf7804df0d6b851822b6d948907a7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261111T080000Z
+DTEND:20261111T081500Z
+SUMMARY:📱 Stories · Namlagich ✔ chiqdi
+DESCRIPTION:Сторис: увлажнитель (плюс)\n11_3_namlagich_plyus.jpg\, доп. по акции\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:18b5a52abb294372dbe8f27459357f3f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261111T090000Z
+DTEND:20261111T091500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: Увлажнитель (видео\, акция)\nПеренос с 12.11 по слову пользователя\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:2b371ca18d4041d6570946df81c4b368@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261111T130000Z
+DTEND:20261111T131500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: Массажёр: Soat 18:00 (акция)\nПеренос с 12.11\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:a894c57c0786e86050adf936b721bd84@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261111T140000Z
 DTEND:20261111T141500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
@@ -57,7 +97,7 @@ DESCRIPTION:Telegram: Массажёр для водителей (видео)\n�
 END:VEVENT
 BEGIN:VEVENT
 UID:41ca152f9c055d53cec479866f0b424b@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261111T150000Z
 DTEND:20261111T151500Z
 SUMMARY:🎬 Reels · Massajyor
@@ -69,32 +109,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cc01a93b581af09b50adcb059dbe39e7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261111T080000Z
-DTEND:20261111T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Сторис: опрос про шею\n\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:67e6aaf16e067a177f51fa977a443f2a@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261111T160000Z
 DTEND:20261111T161500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
 DESCRIPTION:Telegram: Увлажнитель\n\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:c48de837041fddb9baa249ab36531c4a@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261112T080000Z
-DTEND:20261112T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Сторис: массажёр (плюс-кадр)\n12_3_massajyor_plyus.jpg\, 12_1/12_2 вышли 11.11 17:00\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:3d95e419a094972c283134167adb83af@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T070000Z
 DTEND:20261112T071500Z
 SUMMARY:🎬 Reels · Rolikli
@@ -106,8 +130,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c48de837041fddb9baa249ab36531c4a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261112T080000Z
+DTEND:20261112T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Сторис: массажёр (плюс-кадр)\n12_3_massajyor_plyus.jpg\, 12_1/12_2 вышли 11.11 17:00\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:7486ce69b87adc6c20497946091aa954@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T080000Z
 DTEND:20261112T081500Z
 SUMMARY:📱 Stories · Rolikli ✔ chiqdi
@@ -115,15 +147,23 @@ DESCRIPTION:Сторис: 4 цвета (2)\nЛайм и лавандовый\, �
 END:VEVENT
 BEGIN:VEVENT
 UID:0d7eeef371d152a7f61f184757160cc3@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T080000Z
 DTEND:20261112T081500Z
 SUMMARY:📱 Stories · CarPlay ✔ chiqdi
 DESCRIPTION:Сторис: CarPlay без кабеля (1)\nЗацепка «Mashinangizda CarPlay bormi?»\, опрос\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
+UID:6d80d97b974651a6a5914fd996fa2cbf@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261112T080000Z
+DTEND:20261112T081500Z
+SUMMARY:📱 Stories · Namlagich ✔ chiqdi
+DESCRIPTION:Сторис: тест про сухой воздух\n\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:b36e173cdc7f60d469f779c616b1a88a@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T130000Z
 DTEND:20261112T131500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
@@ -131,7 +171,7 @@ DESCRIPTION:Telegram: Роликовый\, карточка 4 цвета\nФот
 END:VEVENT
 BEGIN:VEVENT
 UID:d9d5eae8d7d3ced8132946d7b04b9ba8@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T140000Z
 DTEND:20261112T141500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
@@ -139,7 +179,7 @@ DESCRIPTION:Telegram: Увлажнитель: сухой воздух\n\nHolat: 
 END:VEVENT
 BEGIN:VEVENT
 UID:d109629d2b0c1e4c2ec751ae42c04e53@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T150000Z
 DTEND:20261112T151500Z
 SUMMARY:🎬 Reels · Husky
@@ -151,24 +191,24 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6d80d97b974651a6a5914fd996fa2cbf@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261112T080000Z
-DTEND:20261112T081500Z
-SUMMARY:📱 Stories · Namlagich ✔ chiqdi
-DESCRIPTION:Сторис: тест про сухой воздух\n\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:c82fc3039de04942fb818c767feda1fd@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261112T160000Z
 DTEND:20261112T161500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
 DESCRIPTION:Telegram: Массажёр: конец рабочего дня\n\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
+UID:6e65301877d4aab25f62e15a7cd41eaf@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261113T073000Z
+DTEND:20261113T074500Z
+SUMMARY:✈️ Telegram · Namlagich ✔ chiqdi
+DESCRIPTION:Telegram: увлажнитель\, 3 шага (видео\, d1)\nпо очереди d1\, тест дня\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:03afcd1ed1b511bfb434df8eb1b57f21@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T080000Z
 DTEND:20261113T081500Z
 SUMMARY:📱 Stories · Rolikli ✔ chiqdi
@@ -176,7 +216,7 @@ DESCRIPTION:Сторис: 4 цвета (3)\nКак работает\, «скол
 END:VEVENT
 BEGIN:VEVENT
 UID:7c61a7b1f8fd8569f6c8bb6ab84bdb97@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T080000Z
 DTEND:20261113T081500Z
 SUMMARY:📱 Stories · CarPlay ✔ chiqdi
@@ -184,15 +224,31 @@ DESCRIPTION:Сторис: CarPlay без кабеля (2)\n2 в 1: iPhone и And
 END:VEVENT
 BEGIN:VEVENT
 UID:6f181b6a0eff0b2d13847968ec9170a5@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T080000Z
 DTEND:20261113T081500Z
 SUMMARY:📱 Stories · Gamepad ✔ chiqdi
 DESCRIPTION:Сторис: геймпад\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
+UID:c72a877941a1a9a3e20abf4942cb66c9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261113T080000Z
+DTEND:20261113T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Сторис: опрос про водителей\nфайлы готовы: 13_massajyor_animatsiya.mp4 + sorovnoma_v2\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:4e74a57fe96d2cd79cf46ca37a31d5b3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261113T103000Z
+DTEND:20261113T104500Z
+SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
+DESCRIPTION:Telegram: массажёр\, подарок отцу (фото\, d2)\nпо очереди d2\, тест дня\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:2d23392016ab1f55137e0c7207cdb558@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T150000Z
 DTEND:20261113T151500Z
 SUMMARY:🎬 Reels · Massajyor ✔ chiqdi
@@ -205,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ef8dfd92b6846e05c68167e5764803bc@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T150000Z
 DTEND:20261113T151500Z
 SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
@@ -213,31 +269,39 @@ DESCRIPTION:Telegram: Увлажнитель: признаки сухого во
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd8797c646dec3a40898f92a9ad2cf0@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T153000Z
 DTEND:20261113T154500Z
 SUMMARY:✈️ Telegram · Gamepad ✔ chiqdi
 DESCRIPTION:Telegram: геймпад\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:c72a877941a1a9a3e20abf4942cb66c9@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261113T080000Z
-DTEND:20261113T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Сторис: опрос про водителей\nфайлы готовы: 13_massajyor_animatsiya.mp4 + sorovnoma_v2\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:27dd84ec08769d7dfd6fc82fd9433c60@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261113T163000Z
 DTEND:20261113T164500Z
 SUMMARY:✈️ Telegram · CarPlay ✔ chiqdi
 DESCRIPTION:Telegram: CarPlay адаптер\nФото + кнопка-ссылка\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
+UID:e9dad9395cc5287fb8b9dbf2990d491b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T043000Z
+DTEND:20261114T044500Z
+SUMMARY:✈️ Telegram · Mikrofon ✔ chiqdi
+DESCRIPTION:Telegram: микрофон\, mikrofon_1_animatsiya.mp4 + кнопка\nтест времени: утро\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:b8efd3193ff109b7a9b91dd31bf6929c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T060000Z
+DTEND:20261114T061500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: Массажёр: 3 скорости\nпо очереди p6\, тест полдня\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:d912e679c0c933d85db0d6fbf20ad532@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T080000Z
 DTEND:20261114T081500Z
 SUMMARY:📱 Stories · Massajyor ✔ chiqdi
@@ -245,489 +309,39 @@ DESCRIPTION:Instagram Сторис: массажёр\nмассажёр: 3 ско
 END:VEVENT
 BEGIN:VEVENT
 UID:6cdbb3d6b29bfa7468a70f423b98bf09@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T080000Z
 DTEND:20261114T081500Z
 SUMMARY:📱 Stories · Sapogi ✔ chiqdi
 DESCRIPTION:Instagram Сторис: домашние сапожки (1)\nСерый и чёрный\, только товар\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:94766ef7fa72f1eb725eb6f21a579d15@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T130000Z
-DTEND:20261114T131500Z
-SUMMARY:✈️ Telegram · Sapogi ✔ chiqdi
-DESCRIPTION:Telegram: домашние сапожки\nФото 2 цветов + кнопка-ссылка\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:b8efd3193ff109b7a9b91dd31bf6929c@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T060000Z
-DTEND:20261114T061500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: Массажёр: 3 скорости\nпо очереди p6\, тест полдня\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:fb09bc31f68f7be1194a49b8ebc928a1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T150000Z
-DTEND:20261114T151500Z
-SUMMARY:🎬 Reels · CarPlay
-DESCRIPTION:Instagram Рилс: CarPlay без кабеля\nТолько иномарки с CarPlay\; Директор\, голос и video.json уже есть\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · CarPlay
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c6077990b04690a5322a2386dab9d4d1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T151500Z
-DTEND:20261114T153000Z
-SUMMARY:✈️ Telegram · CarPlay ✔ chiqdi
-DESCRIPTION:Telegram: CarPlay (рилс)\nВидео рилса + кнопка\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:9fd45edcd163ac6c5ab29a0ed31359dd@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T080000Z
 DTEND:20261114T081500Z
 SUMMARY:📱 Stories · Namlagich ✔ chiqdi
 DESCRIPTION:Instagram Сторис: подсветка в темноте\nфайл готов: 14_namlagich_aromat_plyus.jpg («+» есть)\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:26007666e636d0e9576feade1538121e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T160000Z
-DTEND:20261114T161500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: Увлажнитель: 3 шага\n\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:94f0abd9853d6afc771d4eae3363589d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T080000Z
-DTEND:20261115T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: увлажнитель\nувлажнитель: 3 шага\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:6db0c9c80d252e7fb5cc38fea585e440@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T070000Z
-DTEND:20261115T071500Z
-SUMMARY:🎬 Reels · Namlagich ✔ chiqdi
-DESCRIPTION:Instagram Рилс: Ночник\nXonangiz kechasi shunday bo'lsa…\; нет файла\, отмена\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Namlagich ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0bfd9bbdb5f81d606cb6f04b2373a103@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T080000Z
-DTEND:20261115T081500Z
-SUMMARY:📱 Stories · Sapogi ✔ chiqdi
-DESCRIPTION:Instagram Сторис: домашние сапожки (2)\nфайлы готовы (sapogi_3\, sapogi_4)\; без «+»\; urls заменить на v2 после «sapogi v2 = 200»\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:4f4c548ee63ab21757c9657810e9fe62@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T140000Z
-DTEND:20261115T141500Z
-SUMMARY:✈️ Telegram · Telegram
-DESCRIPTION:Telegram: увлажнитель\, 7 цветов\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:f8b3c27dbd446f7bc4dcedaf1726efcc@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T080000Z
-DTEND:20261115T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Instagram Сторис: вопросы про массажёр\nфайлы готовы: 15_massajyor_animatsiya.mp4 + savollar\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:78f22ddcc7fc42532f37ccfc751a76a2@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T080000Z
-DTEND:20261115T081500Z
-SUMMARY:📱 Stories · Klikker
-DESCRIPTION:Instagram Сторис: кликер (1)\nЧёрный 8 шт\; не обещать приёмник в комплекте\; только сторис/Telegram\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:7d1315816387ea2f0675a5c38c5f4fd0@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:📱 Stories · Massajyor
-DESCRIPTION:Instagram Сторис: массажёр\nмассажёр: подарок отцу\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:52af85f02d41da1e50767280edd4f102@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:🎬 Reels · Mikrofon ✔ chiqdi
-DESCRIPTION:Instagram Рилс: петличный микрофон\nСценарий r1 есть\; без брака-обещаний\, 2 шт + приёмник Lightning/Type-C\; нет mp4 рилса\, отмена 13.11\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Mikrofon ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8fc93dca9bdb30958368e0ee14bbabc1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:📱 Stories · Mikrofon
-DESCRIPTION:Instagram Сторис: микрофон\nДля iPhone 15 (Type-C) и Android\; файлы готовы: Сторис6-11-16\\mikrofon_1_animatsiya.mp4 → mikrofon_2_plyus.jpg\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:c1c1e48b494c8c7ab0140a472c0d5089@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T060000Z
-DTEND:20261116T061500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: массажёр\, подарок отцу\nпо очереди p9\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:6bf617c90fd8493bd77c85d3413c9ced@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T153000Z
-DTEND:20261116T154500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: опрос\nМассажёр или увлажнитель\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:8dc04e2a3127888f8f0a03a51bc1cb5a@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:📱 Stories · Massajyor
-DESCRIPTION:Instagram Сторис: опрос про усталость\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:87b99b8030a8b7a03959914ef849112b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T080000Z
-DTEND:20261117T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:6eef4aab9191fdc0dbb5701635493129@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T080000Z
-DTEND:20261117T081500Z
-SUMMARY:📱 Stories · Proektor
-DESCRIPTION:Instagram Сторис: проектор звёздного неба\nпосле подтверждения наличия Товароведом\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:30421e7b038388bfe1808ca90569926d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T080000Z
-DTEND:20261117T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: как пользоваться\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:289e19b3f0c531643e053d7586467465@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Massajyor
-DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:34932a238ea0a2a055c0f3687ee4493d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Proektor
-DESCRIPTION:Instagram Сторис: проектор\, опрос\nпосле подтверждения наличия Товароведом\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:c8d9fefffc8e73cb00012a332a296f22@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Podstakannik
-DESCRIPTION:Instagram Сторис: подстаканник\nТолько мужчины\; без цены и площадки\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:b67ecb460ecc7075a98ba399070f5fc6@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T130000Z
-DTEND:20261118T131500Z
-SUMMARY:✈️ Telegram · Podstakannik ✔ chiqdi
-DESCRIPTION:Telegram: подстаканник\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:72021e07c75147414c8408d5308ad507@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T150000Z
-DTEND:20261118T151500Z
-SUMMARY:🎬 Reels · Massajyor ✔ chiqdi
-DESCRIPTION:Instagram Рилс: Ответы на вопросы\nSizning savollaringizga javob\; заменён планом 15–21.11 (1 Reels в день\, одобрен 14.11)\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Massajyor ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d596a07d9ea1ab584cbe3043850fd491@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Massajyor
-DESCRIPTION:Instagram Сторис: ответы на вопросы\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:9eb0b4437dcbc4839024d0e8ea56ff7c@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261119T080000Z
-DTEND:20261119T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:c6e782c3acd5c04ea4a269d271aa6da8@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261119T080000Z
-DTEND:20261119T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: опрос про увлажнитель\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:557c54244bfdd8000239a9a8fc8b9b07@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261120T080000Z
-DTEND:20261120T081500Z
-SUMMARY:📱 Stories · Klikker ✔ chiqdi
-DESCRIPTION:Instagram Сторис: кликер (одна сторис в день)\nбез «всегда в наличии»\, без количества\; в канал не репостить (TG-пост 18:00)\; «+» только после «пункт включён»\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:65b6e93e2aaf245229698dfda3efdc66@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261120T130000Z
-DTEND:20261120T131500Z
-SUMMARY:✈️ Telegram · Klikker ✔ chiqdi
-DESCRIPTION:Telegram: кликер\nЧёрный\; не обещать приёмник в комплекте\; только сторис/Telegram\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:c6905801a606d0cd837419dca9ba994f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261120T140000Z
-DTEND:20261120T141500Z
-SUMMARY:✈️ Telegram · Shtativ ✔ chiqdi
-DESCRIPTION:Telegram: штатив\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:25769d01a39ab4057078a20f162f8ef1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261121T150000Z
-DTEND:20261121T151500Z
-SUMMARY:🎬 Reels · Mikrofon K15 ✔ chiqdi
-DESCRIPTION:Instagram Рилс: микрофон K15\nОтдельный товар от комплекта 2 шт (um2066926)\; заменён планом 15–21.11 (1 Reels в день\, одобрен 14.11)\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Mikrofon K15 ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:18b5a52abb294372dbe8f27459357f3f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261111T090000Z
-DTEND:20261111T091500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: Увлажнитель (видео\, акция)\nПеренос с 12.11 по слову пользователя\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:c7a8e1f365c1cd92f05634b8d780f7ab@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261111T080000Z
-DTEND:20261111T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Сторис: массажёр (акция)\nЦелый город акция\, доп. публикация\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:2b371ca18d4041d6570946df81c4b368@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261111T130000Z
-DTEND:20261111T131500Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: Массажёр: Soat 18:00 (акция)\nПеренос с 12.11\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:464bf7804df0d6b851822b6d948907a7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261111T080000Z
-DTEND:20261111T081500Z
-SUMMARY:📱 Stories · Namlagich ✔ chiqdi
-DESCRIPTION:Сторис: увлажнитель (плюс)\n11_3_namlagich_plyus.jpg\, доп. по акции\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:e9dad9395cc5287fb8b9dbf2990d491b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261114T043000Z
-DTEND:20261114T044500Z
-SUMMARY:✈️ Telegram · Mikrofon ✔ chiqdi
-DESCRIPTION:Telegram: микрофон\, mikrofon_1_animatsiya.mp4 + кнопка\nтест времени: утро\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:6a8281ccdf3e9591d26f1e4405f89bb4@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T080000Z
 DTEND:20261114T081500Z
 SUMMARY:📱 Stories · Gamepad ✔ chiqdi
 DESCRIPTION:Instagram Сторис Gamepad (Сторис/2026-11-13/gejmpad)\nтест времени: день\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:aeee97ce48a4bb216b663923af87fdba@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T071500Z
-DTEND:20261115T073000Z
-SUMMARY:✈️ Telegram · Klikker ✔ chiqdi
-DESCRIPTION:Telegram: кликер (рилс) + кнопка\nединый слот\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:95a7e324ae27dfee9fdd57a004d0fc47@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T083000Z
-DTEND:20261115T084500Z
-SUMMARY:✈️ Telegram · Sapogi
-DESCRIPTION:Telegram: сапоги\, sapogi_3_animatsiya.mp4 + кнопка\nтест времени: день\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:802c4a5f9325add9e000c1b4f2764dd3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T151500Z
-DTEND:20261118T153000Z
-SUMMARY:✈️ Telegram · Namlagich ✔ chiqdi
-DESCRIPTION:Telegram: увлажнитель (рилс) + кнопка\nединый слот\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:6e65301877d4aab25f62e15a7cd41eaf@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261113T073000Z
-DTEND:20261113T074500Z
-SUMMARY:✈️ Telegram · Namlagich ✔ chiqdi
-DESCRIPTION:Telegram: увлажнитель\, 3 шага (видео\, d1)\nпо очереди d1\, тест дня\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:4e74a57fe96d2cd79cf46ca37a31d5b3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261113T103000Z
-DTEND:20261113T104500Z
-SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
-DESCRIPTION:Telegram: массажёр\, подарок отцу (фото\, d2)\nпо очереди d2\, тест дня\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:e585c5d07b4f315dcb6f5dd7e5e7ff5a@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T153500Z
-DTEND:20261116T155000Z
-SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
-DESCRIPTION:Telegram: текст к опросу (p11)\nпо очереди p11\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:db9fa96364126b3557cd98b4bbd1adea@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T070000Z
-DTEND:20261115T071500Z
-SUMMARY:🎬 Reels · Klikker ✔ chiqdi
-DESCRIPTION:Instagram Рилс: кликер\, вход+обзор\nВидео\\kliker_vhod_v2_c3.mp4\; обложка Видео\\kliker_vhod_v2_cover.png\; план 15–21.11 одобрен 14.11\; выход после финальной проверки и слова пользователя через Маркетолога\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Klikker ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6fba8e8a000b0436ffd80c082b9289f7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:🎬 Reels · Wi-Fi ✔ chiqdi
-DESCRIPTION:Instagram Рилс: усилитель Wi-Fi\, вход+обзор\nВидео\\wifi_vhod_v5_c3.mp4\; обложка Видео\\wifi_vhod_v5_cover.png\; нужно слово пользователя через Маркетолога\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Wi-Fi ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:81ab142b8afada96457c8de332f11c87@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T090000Z
-DTEND:20261117T091500Z
-SUMMARY:🎬 Reels · Avtokreslo ✔ chiqdi
-DESCRIPTION:Instagram Рилс: автокресло-бустер А\, вход+обзор\nединый слот\; без «+»\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Avtokreslo ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e603c97048e1b3450d05e88e1b533ba3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T150000Z
-DTEND:20261118T151500Z
-SUMMARY:🎬 Reels · Namlagich ✔ chiqdi
-DESCRIPTION:Instagram Рилс: увлажнитель 2 л\, вход+обзор\nвход UYQUDA HAVO QURIYDIMI? → HOZIR YUMSHATAMIZ\; видео готово (принято Директором 15.11 09:39)\; cover: https://ireezq.github.io/covers/namlagich_vhod_v3_cover.jpg\; IG Видео/namlagich_vhod_v3.mp4\, YT _yt.mp4\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Namlagich ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:57cc05c1acdac8188b3772c82325abf3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T080000Z
-DTEND:20261115T081500Z
-SUMMARY:📱 Stories · Shtativ ✔ chiqdi
-DESCRIPTION:Instagram Сторис: штатив\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Сторис-мейкера\; только мужчины\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:5eed8cc8ff560b33ac9c781446830419@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T120000Z
-DTEND:20261116T121500Z
-SUMMARY:✈️ Telegram · Shtativ ✔ chiqdi
-DESCRIPTION:Telegram: штатив\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Каналчи\; только мужчины\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:42bf26d958cc0411b40a3429cffb60c1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Massajyor ✔ chiqdi
-DESCRIPTION:Instagram Сторис: массажёр серый\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Сторис-мейкера\; серый\, остаток 22\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:e217d73ae037c9c8500bc1df8a5a060c@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261127T150000Z
-DTEND:20261127T151500Z
-SUMMARY:🎬 Reels · Avtokreslo
-DESCRIPTION:Instagram Рилс: автокресло-бустер\, вариант Б (v6d)\nфайл Видео/proba_vhod_v6d_c3.mp4\; единый слот\; без «+»\, пока Ответчик не подтвердит пункт buster\; запас buster_B_bezplus_post.txt\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Avtokreslo
-TRIGGER:-PT30M
-END:VALARM
+UID:94766ef7fa72f1eb725eb6f21a579d15@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T130000Z
+DTEND:20261114T131500Z
+SUMMARY:✈️ Telegram · Sapogi ✔ chiqdi
+DESCRIPTION:Telegram: домашние сапожки\nФото 2 цветов + кнопка-ссылка\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:b80523cfa8ebb659238703f66c4b47f8@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T133000Z
 DTEND:20261114T134500Z
 SUMMARY:▶️ YouTube · Avtokreslo ✔ chiqdi
@@ -739,47 +353,21 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:892fd99a2aeda7072f65bab881fe9a6e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T070000Z
-DTEND:20261115T071500Z
-SUMMARY:▶️ YouTube · Klikker
-DESCRIPTION:YouTube: кликер\nединый слот\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Klikker
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d8e8047feaf2b7a49c0c224b9d4717f4@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:▶️ YouTube · Wi-Fi
-DESCRIPTION:YouTube: Wi-Fi\nединый слот\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Wi-Fi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4661e30f93ab6dfad3111102436d8f97@ireezq
-DTSTAMP:20261123T132713Z
+UID:fb09bc31f68f7be1194a49b8ebc928a1@ireezq
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T150000Z
 DTEND:20261114T151500Z
-SUMMARY:▶️ YouTube · CarPlay
-DESCRIPTION:YouTube: CarPlay\nединый слот\; нужна версия: подпись и заголовок\nHolat: reja
+SUMMARY:🎬 Reels · CarPlay
+DESCRIPTION:Instagram Рилс: CarPlay без кабеля\nТолько иномарки с CarPlay\; Директор\, голос и video.json уже есть\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · CarPlay
+DESCRIPTION:🎬 Reels · CarPlay
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:73b1c94d79c10f4b133d130768ad1d8a@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261114T150000Z
 DTEND:20261114T151500Z
 SUMMARY:🎵 TikTok · CarPlay
@@ -791,66 +379,63 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a3a7f139972ad65774a88e7fbbfdeb24@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T090000Z
-DTEND:20261117T091500Z
-SUMMARY:🎵 TikTok · Avtokreslo
-DESCRIPTION:TikTok: бустер А\nединый слот\nHolat: reja
+UID:4661e30f93ab6dfad3111102436d8f97@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T150000Z
+DTEND:20261114T151500Z
+SUMMARY:▶️ YouTube · CarPlay
+DESCRIPTION:YouTube: CarPlay\nединый слот\; нужна версия: подпись и заголовок\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Avtokreslo
+DESCRIPTION:▶️ YouTube · CarPlay
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5eebcbb3bf48593305790f1580b7f841@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261127T150000Z
-DTEND:20261127T151500Z
-SUMMARY:🎵 TikTok · Avtokreslo
-DESCRIPTION:TikTok: бустер Б\nединый слот\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\; перенос на 10.12 решением Маркетолога 20.11 (слот 23.11 занят Притчей)\; поправка Маркетолога 20.11: бустер Б остаётся на 27.11\nHolat: reja
+UID:c6077990b04690a5322a2386dab9d4d1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T151500Z
+DTEND:20261114T153000Z
+SUMMARY:✈️ Telegram · CarPlay ✔ chiqdi
+DESCRIPTION:Telegram: CarPlay (рилс)\nВидео рилса + кнопка\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:26007666e636d0e9576feade1538121e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261114T160000Z
+DTEND:20261114T161500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: Увлажнитель: 3 шага\n\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:6db0c9c80d252e7fb5cc38fea585e440@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T070000Z
+DTEND:20261115T071500Z
+SUMMARY:🎬 Reels · Namlagich ✔ chiqdi
+DESCRIPTION:Instagram Рилс: Ночник\nXonangiz kechasi shunday bo'lsa…\; нет файла\, отмена\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Avtokreslo
+DESCRIPTION:🎬 Reels · Namlagich ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8779298e71f991cdb812456bfdfe31e1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261115T093000Z
-DTEND:20261115T094500Z
-SUMMARY:✈️ Telegram · Shtativ
-DESCRIPTION:Telegram: репост сторис штатив (r1)\n\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:c9bbbd660346f1742a4974d805643323@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T074500Z
-DTEND:20261118T080000Z
-SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
-DESCRIPTION:Telegram: репост сторис массажёр серый (r2)\n\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:65a6a93c9af69f29133cfbf10aacdd28@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T091500Z
-DTEND:20261117T093000Z
-SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
-DESCRIPTION:Telegram: бустер А (b1)\nединый слот\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:7dfac36e93758b103aba6d6dc929b870@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261127T151500Z
-DTEND:20261127T153000Z
-SUMMARY:✈️ Telegram · Avtokreslo
-DESCRIPTION:Telegram: бустер Б (b2)\nединый слот\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
+UID:db9fa96364126b3557cd98b4bbd1adea@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T070000Z
+DTEND:20261115T071500Z
+SUMMARY:🎬 Reels · Klikker ✔ chiqdi
+DESCRIPTION:Instagram Рилс: кликер\, вход+обзор\nВидео\\kliker_vhod_v2_c3.mp4\; обложка Видео\\kliker_vhod_v2_cover.png\; план 15–21.11 одобрен 14.11\; выход после финальной проверки и слова пользователя через Маркетолога\nHolat: chiqdi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Klikker ✔ chiqdi
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:789227bd9de074681c42373165ee55e3@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261115T070000Z
 DTEND:20261115T071500Z
 SUMMARY:🎵 TikTok · Klikker
@@ -862,8 +447,159 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:892fd99a2aeda7072f65bab881fe9a6e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T070000Z
+DTEND:20261115T071500Z
+SUMMARY:▶️ YouTube · Klikker
+DESCRIPTION:YouTube: кликер\nединый слот\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Klikker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aeee97ce48a4bb216b663923af87fdba@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T071500Z
+DTEND:20261115T073000Z
+SUMMARY:✈️ Telegram · Klikker ✔ chiqdi
+DESCRIPTION:Telegram: кликер (рилс) + кнопка\nединый слот\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:94f0abd9853d6afc771d4eae3363589d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T080000Z
+DTEND:20261115T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: увлажнитель\nувлажнитель: 3 шага\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:0bfd9bbdb5f81d606cb6f04b2373a103@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T080000Z
+DTEND:20261115T081500Z
+SUMMARY:📱 Stories · Sapogi ✔ chiqdi
+DESCRIPTION:Instagram Сторис: домашние сапожки (2)\nфайлы готовы (sapogi_3\, sapogi_4)\; без «+»\; urls заменить на v2 после «sapogi v2 = 200»\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:f8b3c27dbd446f7bc4dcedaf1726efcc@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T080000Z
+DTEND:20261115T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Instagram Сторис: вопросы про массажёр\nфайлы готовы: 15_massajyor_animatsiya.mp4 + savollar\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:78f22ddcc7fc42532f37ccfc751a76a2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T080000Z
+DTEND:20261115T081500Z
+SUMMARY:📱 Stories · Klikker
+DESCRIPTION:Instagram Сторис: кликер (1)\nЧёрный 8 шт\; не обещать приёмник в комплекте\; только сторис/Telegram\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:57cc05c1acdac8188b3772c82325abf3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T080000Z
+DTEND:20261115T081500Z
+SUMMARY:📱 Stories · Shtativ ✔ chiqdi
+DESCRIPTION:Instagram Сторис: штатив\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Сторис-мейкера\; только мужчины\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:95a7e324ae27dfee9fdd57a004d0fc47@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T083000Z
+DTEND:20261115T084500Z
+SUMMARY:✈️ Telegram · Sapogi
+DESCRIPTION:Telegram: сапоги\, sapogi_3_animatsiya.mp4 + кнопка\nтест времени: день\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:8779298e71f991cdb812456bfdfe31e1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T093000Z
+DTEND:20261115T094500Z
+SUMMARY:✈️ Telegram · Shtativ
+DESCRIPTION:Telegram: репост сторис штатив (r1)\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:4f4c548ee63ab21757c9657810e9fe62@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261115T140000Z
+DTEND:20261115T141500Z
+SUMMARY:✈️ Telegram · Telegram
+DESCRIPTION:Telegram: увлажнитель\, 7 цветов\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c1e48b494c8c7ab0140a472c0d5089@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T060000Z
+DTEND:20261116T061500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: массажёр\, подарок отцу\nпо очереди p9\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:52af85f02d41da1e50767280edd4f102@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:🎬 Reels · Mikrofon ✔ chiqdi
+DESCRIPTION:Instagram Рилс: петличный микрофон\nСценарий r1 есть\; без брака-обещаний\, 2 шт + приёмник Lightning/Type-C\; нет mp4 рилса\, отмена 13.11\nHolat: chiqdi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Mikrofon ✔ chiqdi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6fba8e8a000b0436ffd80c082b9289f7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:🎬 Reels · Wi-Fi ✔ chiqdi
+DESCRIPTION:Instagram Рилс: усилитель Wi-Fi\, вход+обзор\nВидео\\wifi_vhod_v5_c3.mp4\; обложка Видео\\wifi_vhod_v5_cover.png\; нужно слово пользователя через Маркетолога\nHolat: chiqdi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Wi-Fi ✔ chiqdi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7d1315816387ea2f0675a5c38c5f4fd0@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:📱 Stories · Massajyor
+DESCRIPTION:Instagram Сторис: массажёр\nмассажёр: подарок отцу\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:8fc93dca9bdb30958368e0ee14bbabc1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:📱 Stories · Mikrofon
+DESCRIPTION:Instagram Сторис: микрофон\nДля iPhone 15 (Type-C) и Android\; файлы готовы: Сторис6-11-16\\mikrofon_1_animatsiya.mp4 → mikrofon_2_plyus.jpg\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:8dc04e2a3127888f8f0a03a51bc1cb5a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:📱 Stories · Massajyor
+DESCRIPTION:Instagram Сторис: опрос про усталость\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:8fe5dad73692f347f4e7c4784bc4abaf@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:📱 Stories · Wi-Fi ✔ chiqdi
+DESCRIPTION:Instagram Сторис: Wi-Fi\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
 UID:91050b3f2048b11a5f2a0ae19dd8d53e@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261116T080000Z
 DTEND:20261116T081500Z
 SUMMARY:🎵 TikTok · Wi-Fi
@@ -875,255 +611,61 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d8e8047feaf2b7a49c0c224b9d4717f4@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T080000Z
+DTEND:20261116T081500Z
+SUMMARY:▶️ YouTube · Wi-Fi
+DESCRIPTION:YouTube: Wi-Fi\nединый слот\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Wi-Fi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f6d7ccd163353a3d146e20388e78997e@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261116T082000Z
 DTEND:20261116T083500Z
 SUMMARY:✈️ Telegram · Wi-Fi ✔ chiqdi
 DESCRIPTION:Telegram: Wi-Fi (рилс) + кнопка\nединый слот\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:c5ef561d1714e82a6ea29dca7e4efa31@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T150000Z
-DTEND:20261118T151500Z
-SUMMARY:▶️ YouTube · Namlagich (tayyor)
-DESCRIPTION:YouTube: увлажнитель\nединый слот\; нужна версия: подпись и заголовок\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Namlagich (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6d9e37891cbfdcf40593bc96f9b99da2@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T150000Z
-DTEND:20261118T151500Z
-SUMMARY:🎵 TikTok · Namlagich (tayyor)
-DESCRIPTION:TikTok: увлажнитель\nединый слот\; нужна версия: подпись и заголовок\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Namlagich (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cb36d618dc59cb21d42d7bb52e08df72@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261122T150000Z
-DTEND:20261122T151500Z
-SUMMARY:🎬 Reels · Husky ✔ chiqdi
-DESCRIPTION:Instagram Рилс: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; без цены и названий площадок\; «+» только по строке Ответчика\; стиль 1 Джон\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Husky ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9b1f0f0cc2017044b1c18d1a9500c828@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261122T150000Z
-DTEND:20261122T151500Z
-SUMMARY:▶️ YouTube · Husky
-DESCRIPTION:YouTube: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; нужна версия: подпись и заголовок\; стиль 1 Джон\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Husky
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:902f16611242c6722d9b4a4e85616c59@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261122T150000Z
-DTEND:20261122T151500Z
-SUMMARY:🎵 TikTok · Husky
-DESCRIPTION:TikTok: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; нужна версия: подпись и заголовок\; стиль 1 Джон\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Husky
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:487be98c47c464d0c5907d90b962f7a6@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261122T151500Z
-DTEND:20261122T153000Z
-SUMMARY:✈️ Telegram · Husky ✔ chiqdi
-DESCRIPTION:Telegram: Хаски + кнопка\nединый слот\; готовое видео есть\, проверить по чек-листу\; кнопка\, не голая ссылка\; стиль 1 Джон\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:9e28341c6e277890f0fba00d4bdd42dd@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261122T080000Z
-DTEND:20261122T081500Z
-SUMMARY:📱 Stories · Husky
-DESCRIPTION:Instagram Сторис: Хаски\nфото с карточки\; текст в зоне y=260..1660\; дубль в канал\; стиль 1 Джон\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:f2c524e299d6dd7913ef79fffc04e02e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261124T150000Z
-DTEND:20261124T151500Z
-SUMMARY:🎬 Reels · Massajyor (tayyor)
-DESCRIPTION:Instagram Рилс: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Massajyor (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b67529f12ee6f278aa4b526cf167f68d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261124T150000Z
-DTEND:20261124T151500Z
-SUMMARY:▶️ YouTube · Massajyor (tayyor)
-DESCRIPTION:YouTube: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Massajyor (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c44346977d093a7d91504aaa0c6e08d6@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261124T150000Z
-DTEND:20261124T151500Z
-SUMMARY:🎵 TikTok · Massajyor (tayyor)
-DESCRIPTION:TikTok: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Massajyor (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:853f884e4e171f846275306fb548e6d1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261124T151500Z
-DTEND:20261124T153000Z
-SUMMARY:✈️ Telegram · Massajyor (tayyor)
-DESCRIPTION:Telegram: массажёр v4 + кнопка\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
-END:VEVENT
-BEGIN:VEVENT
-UID:507eefe7e4ebce562706811194bbb0ee@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261124T080000Z
-DTEND:20261124T081500Z
-SUMMARY:📱 Stories · Massajyor
-DESCRIPTION:Instagram Сторис: массажёр\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:cc2a7bc1b64bfb1f5135454a45be13e5@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261130T150000Z
-DTEND:20261130T151500Z
-SUMMARY:🎬 Reels · Gejmpad (tayyor)
-DESCRIPTION:Instagram Рилс: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Gejmpad (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d3e063e86a1136bbde62cf151c165699@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261130T150000Z
-DTEND:20261130T151500Z
-SUMMARY:▶️ YouTube · Gejmpad (tayyor)
-DESCRIPTION:YouTube: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Gejmpad (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:58e2e09dce701142501c2872833efb41@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261130T150000Z
-DTEND:20261130T151500Z
-SUMMARY:🎵 TikTok · Gejmpad (tayyor)
-DESCRIPTION:TikTok: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Gejmpad (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:40246b186ae13c5ca8d1b7e4702cdfb6@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261130T151500Z
-DTEND:20261130T153000Z
-SUMMARY:✈️ Telegram · Gejmpad (tayyor)
-DESCRIPTION:Telegram: Геймпад Б + кнопка\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
-END:VEVENT
-BEGIN:VEVENT
-UID:8fe5dad73692f347f4e7c4784bc4abaf@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261116T080000Z
-DTEND:20261116T081500Z
-SUMMARY:📱 Stories · Wi-Fi ✔ chiqdi
-DESCRIPTION:Instagram Сторис: Wi-Fi\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
+UID:5eed8cc8ff560b33ac9c781446830419@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T120000Z
+DTEND:20261116T121500Z
+SUMMARY:✈️ Telegram · Shtativ ✔ chiqdi
+DESCRIPTION:Telegram: штатив\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Каналчи\; только мужчины\; без цены и площадки\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:defa9f1d41a1eeb33f8be44015da4b61@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261116T121500Z
 DTEND:20261116T123000Z
 SUMMARY:✈️ Telegram · Wi-Fi ✔ chiqdi
 DESCRIPTION:Telegram: репост сторис Wi-Fi\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:3c6cccbeda7737d9773951a3292a99c5@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T080000Z
-DTEND:20261117T081500Z
-SUMMARY:📱 Stories · Avtokreslo ✔ chiqdi
-DESCRIPTION:Instagram Сторис: бустер А\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
+UID:6bf617c90fd8493bd77c85d3413c9ced@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T153000Z
+DTEND:20261116T154500Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: опрос\nМассажёр или увлажнитель\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:7ad48c611208a194fa0480c6a5c3d066@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T124500Z
-DTEND:20261117T130000Z
-SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
-DESCRIPTION:Telegram: репост сторис бустер А\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:84b028636f7fbc37b98b26c0c2036c9e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261118T080000Z
-DTEND:20261118T081500Z
-SUMMARY:📱 Stories · Namlagich ✔ chiqdi
-DESCRIPTION:Instagram Сторис: увлажнитель\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; только если Reels 20:00 вышел\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:2fe55df9c26c6fda061e22cdc7045260@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261127T080000Z
-DTEND:20261127T081500Z
-SUMMARY:📱 Stories · Avtokreslo
-DESCRIPTION:Instagram Сторис: бустер Б\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:7a53414cf582ce0b820d162ac802be78@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261119T151500Z
-DTEND:20261119T153000Z
-SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
-DESCRIPTION:Telegram: репост сторис бустер Б\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; репост снят по правилу один пост на товар в день\, 17.11\nHolat: chiqdi
+UID:e585c5d07b4f315dcb6f5dd7e5e7ff5a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261116T153500Z
+DTEND:20261116T155000Z
+SUMMARY:✈️ Telegram · Telegram ✔ chiqdi
+DESCRIPTION:Telegram: текст к опросу (p11)\nпо очереди p11\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:3943f37ae2f21a3ba24edd759b31142f@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261117T060000Z
 DTEND:20261117T061500Z
 SUMMARY:🎬 Reels · KakNasNayti ✔ chiqdi
@@ -1135,21 +677,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:db29c0b3d9e354684654a609221d732f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261117T060000Z
-DTEND:20261117T061500Z
-SUMMARY:▶️ YouTube · KakNasNayti ✅
-DESCRIPTION:YouTube: Как нас найти\nединый слот\; Видео/kak_nas_nayti_v1_10.mp4 (_yt\, _tg)\; ссылка https://ireezq.github.io/topish/ (кнопка в TG)\; ролик одобрен пользователем 16.11 16:14\, «да» Маркетолога\; без цены и названий площадок\; перенос с 23.11 (слово польз. 16.11 19:57)\nHolat: tasdiqlangan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · KakNasNayti ✅
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:068f6d22ac32f3ca43800a8345776b4b@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261117T060000Z
 DTEND:20261117T061500Z
 SUMMARY:🎵 TikTok · KakNasNayti ✅
@@ -1161,63 +690,243 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:db29c0b3d9e354684654a609221d732f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T060000Z
+DTEND:20261117T061500Z
+SUMMARY:▶️ YouTube · KakNasNayti ✅
+DESCRIPTION:YouTube: Как нас найти\nединый слот\; Видео/kak_nas_nayti_v1_10.mp4 (_yt\, _tg)\; ссылка https://ireezq.github.io/topish/ (кнопка в TG)\; ролик одобрен пользователем 16.11 16:14\, «да» Маркетолога\; без цены и названий площадок\; перенос с 23.11 (слово польз. 16.11 19:57)\nHolat: tasdiqlangan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · KakNasNayti ✅
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:15b9a98273a7a1f75e3c40230dc567a8@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261117T061500Z
 DTEND:20261117T063000Z
 SUMMARY:✈️ Telegram · KakNasNayti ✔ chiqdi
 DESCRIPTION:Telegram: Как нас найти + кнопка\nединый слот\; Видео/kak_nas_nayti_v1_10.mp4 (_yt\, _tg)\; ссылка https://ireezq.github.io/topish/ (кнопка в TG)\; ролик одобрен пользователем 16.11 16:14\, «да» Маркетолога\; без цены и названий площадок\; перенос с 23.11 (слово польз. 16.11 19:57)\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:a6687569f58472aa7ed9ae44ef61be99@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261121T150000Z
-DTEND:20261121T151500Z
-SUMMARY:🎬 Reels · Wi-Fi ✔ chiqdi
-DESCRIPTION:Instagram Рилс: Wi-Fi мультик v4\nочередь 39\, подпись без «+» до пункта ChatPlace\; стиль 2 мультик\nHolat: chiqdi
+UID:87b99b8030a8b7a03959914ef849112b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T080000Z
+DTEND:20261117T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:6eef4aab9191fdc0dbb5701635493129@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T080000Z
+DTEND:20261117T081500Z
+SUMMARY:📱 Stories · Proektor
+DESCRIPTION:Instagram Сторис: проектор звёздного неба\nпосле подтверждения наличия Товароведом\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:30421e7b038388bfe1808ca90569926d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T080000Z
+DTEND:20261117T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: как пользоваться\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:3c6cccbeda7737d9773951a3292a99c5@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T080000Z
+DTEND:20261117T081500Z
+SUMMARY:📱 Stories · Avtokreslo ✔ chiqdi
+DESCRIPTION:Instagram Сторис: бустер А\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:81ab142b8afada96457c8de332f11c87@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T090000Z
+DTEND:20261117T091500Z
+SUMMARY:🎬 Reels · Avtokreslo ✔ chiqdi
+DESCRIPTION:Instagram Рилс: автокресло-бустер А\, вход+обзор\nединый слот\; без «+»\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Wi-Fi ✔ chiqdi
+DESCRIPTION:🎬 Reels · Avtokreslo ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7d5ac1a4e0b008bce5e956d1daa5ef69@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261121T150000Z
-DTEND:20261121T151500Z
-SUMMARY:▶️ YouTube · Wi-Fi
-DESCRIPTION:YouTube: Wi-Fi мультик v4\nединый слот\; стиль 2 мультик\nHolat: reja
+UID:a3a7f139972ad65774a88e7fbbfdeb24@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T090000Z
+DTEND:20261117T091500Z
+SUMMARY:🎵 TikTok · Avtokreslo
+DESCRIPTION:TikTok: бустер А\nединый слот\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Wi-Fi
+DESCRIPTION:🎵 TikTok · Avtokreslo
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:aacffc103e4a5dab3378f97a9eac0443@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261121T150000Z
-DTEND:20261121T151500Z
-SUMMARY:🎵 TikTok · Wi-Fi
-DESCRIPTION:TikTok: Wi-Fi мультик v4\nединый слот\, файл multik_wifi_v4_tiktok_qr.mp4\; стиль 2 мультик\nHolat: reja
+UID:65a6a93c9af69f29133cfbf10aacdd28@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T091500Z
+DTEND:20261117T093000Z
+SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
+DESCRIPTION:Telegram: бустер А (b1)\nединый слот\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:7ad48c611208a194fa0480c6a5c3d066@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261117T124500Z
+DTEND:20261117T130000Z
+SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
+DESCRIPTION:Telegram: репост сторис бустер А\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:c9bbbd660346f1742a4974d805643323@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T074500Z
+DTEND:20261118T080000Z
+SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
+DESCRIPTION:Telegram: репост сторис массажёр серый (r2)\n\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:289e19b3f0c531643e053d7586467465@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Massajyor
+DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:34932a238ea0a2a055c0f3687ee4493d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Proektor
+DESCRIPTION:Instagram Сторис: проектор\, опрос\nпосле подтверждения наличия Товароведом\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d9fefffc8e73cb00012a332a296f22@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Podstakannik
+DESCRIPTION:Instagram Сторис: подстаканник\nТолько мужчины\; без цены и площадки\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:d596a07d9ea1ab584cbe3043850fd491@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Massajyor
+DESCRIPTION:Instagram Сторис: ответы на вопросы\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:42bf26d958cc0411b40a3429cffb60c1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Massajyor ✔ chiqdi
+DESCRIPTION:Instagram Сторис: массажёр серый\nМаркетолог 14.11 (замер Uzum): ставим раньше\, материал нужен от Сторис-мейкера\; серый\, остаток 22\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:84b028636f7fbc37b98b26c0c2036c9e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T080000Z
+DTEND:20261118T081500Z
+SUMMARY:📱 Stories · Namlagich ✔ chiqdi
+DESCRIPTION:Instagram Сторис: увлажнитель\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; только если Reels 20:00 вышел\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:b67ecb460ecc7075a98ba399070f5fc6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T130000Z
+DTEND:20261118T131500Z
+SUMMARY:✈️ Telegram · Podstakannik ✔ chiqdi
+DESCRIPTION:Telegram: подстаканник\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:72021e07c75147414c8408d5308ad507@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T150000Z
+DTEND:20261118T151500Z
+SUMMARY:🎬 Reels · Massajyor ✔ chiqdi
+DESCRIPTION:Instagram Рилс: Ответы на вопросы\nSizning savollaringizga javob\; заменён планом 15–21.11 (1 Reels в день\, одобрен 14.11)\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Wi-Fi
+DESCRIPTION:🎬 Reels · Massajyor ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2d10250b6ffc3949d443635f03dd4bf8@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261121T151500Z
-DTEND:20261121T153000Z
-SUMMARY:✈️ Telegram · Wi-Fi ✔ chiqdi
-DESCRIPTION:Telegram: Wi-Fi мультик v4\ntg_queue w4\, версия канала без «+» и маркетплейса\; стиль 2 мультик\nHolat: chiqdi
+UID:e603c97048e1b3450d05e88e1b533ba3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T150000Z
+DTEND:20261118T151500Z
+SUMMARY:🎬 Reels · Namlagich ✔ chiqdi
+DESCRIPTION:Instagram Рилс: увлажнитель 2 л\, вход+обзор\nвход UYQUDA HAVO QURIYDIMI? → HOZIR YUMSHATAMIZ\; видео готово (принято Директором 15.11 09:39)\; cover: https://ireezq.github.io/covers/namlagich_vhod_v3_cover.jpg\; IG Видео/namlagich_vhod_v3.mp4\, YT _yt.mp4\nHolat: chiqdi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Namlagich ✔ chiqdi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d9e37891cbfdcf40593bc96f9b99da2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T150000Z
+DTEND:20261118T151500Z
+SUMMARY:🎵 TikTok · Namlagich (tayyor)
+DESCRIPTION:TikTok: увлажнитель\nединый слот\; нужна версия: подпись и заголовок\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Namlagich (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5ef561d1714e82a6ea29dca7e4efa31@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T150000Z
+DTEND:20261118T151500Z
+SUMMARY:▶️ YouTube · Namlagich (tayyor)
+DESCRIPTION:YouTube: увлажнитель\nединый слот\; нужна версия: подпись и заголовок\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Namlagich (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:802c4a5f9325add9e000c1b4f2764dd3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261118T151500Z
+DTEND:20261118T153000Z
+SUMMARY:✈️ Telegram · Namlagich ✔ chiqdi
+DESCRIPTION:Telegram: увлажнитель (рилс) + кнопка\nединый слот\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb0b4437dcbc4839024d0e8ea56ff7c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261119T080000Z
+DTEND:20261119T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: блок дня\n\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:c6e782c3acd5c04ea4a269d271aa6da8@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261119T080000Z
+DTEND:20261119T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: опрос про увлажнитель\n\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
 UID:a2ae2d4e4055d14d173df1eb7cec4f72@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261119T150000Z
 DTEND:20261119T151500Z
 SUMMARY:🎬 Reels · Massajyor ✔ chiqdi
@@ -1229,16 +938,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4bd923363c5f9da400600bc688683de9@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261119T151500Z
-DTEND:20261119T153000Z
-SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
-DESCRIPTION:Telegram: мультик массажёра (код)\nединый слот\; версия канала без «+»\; TG-главный\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
 UID:a4e9aa5a5097177a8b52a9c81a0b19b2@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261119T150000Z
 DTEND:20261119T151500Z
 SUMMARY:🎵 TikTok · Massajyor
@@ -1251,7 +952,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8ca84a0ee65022bf7a84c48a418ebca5@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261119T150000Z
 DTEND:20261119T151500Z
 SUMMARY:▶️ YouTube · Massajyor
@@ -1263,118 +964,48 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ce9f072ac0205017efa388d477c39f88@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261206T150000Z
-DTEND:20261206T151500Z
-SUMMARY:🎬 Reels · VR Box
-DESCRIPTION:Instagram Рилс: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; без цены и названий площадок\; «+» только по строке Ответчика\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · VR Box
-TRIGGER:-PT30M
-END:VALARM
+UID:7a53414cf582ce0b820d162ac802be78@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261119T151500Z
+DTEND:20261119T153000Z
+SUMMARY:✈️ Telegram · Avtokreslo ✔ chiqdi
+DESCRIPTION:Telegram: репост сторис бустер Б\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; репост снят по правилу один пост на товар в день\, 17.11\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:bcf6a914aa29eee3af749dc5d31e518b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261206T150000Z
-DTEND:20261206T151500Z
-SUMMARY:▶️ YouTube · VR Box
-DESCRIPTION:YouTube: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; нужна версия: подпись и заголовок\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · VR Box
-TRIGGER:-PT30M
-END:VALARM
+UID:4bd923363c5f9da400600bc688683de9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261119T151500Z
+DTEND:20261119T153000Z
+SUMMARY:✈️ Telegram · Massajyor ✔ chiqdi
+DESCRIPTION:Telegram: мультик массажёра (код)\nединый слот\; версия канала без «+»\; TG-главный\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:270ceda3c1c20a264a9f1f77a72241f7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261206T150000Z
-DTEND:20261206T151500Z
-SUMMARY:🎵 TikTok · VR Box
-DESCRIPTION:TikTok: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; нужна версия: подпись и заголовок\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · VR Box
-TRIGGER:-PT30M
-END:VALARM
+UID:557c54244bfdd8000239a9a8fc8b9b07@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261120T080000Z
+DTEND:20261120T081500Z
+SUMMARY:📱 Stories · Klikker ✔ chiqdi
+DESCRIPTION:Instagram Сторис: кликер (одна сторис в день)\nбез «всегда в наличии»\, без количества\; в канал не репостить (TG-пост 18:00)\; «+» только после «пункт включён»\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:8fd535e946adfdd3ff60837f52cb8c71@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261206T151500Z
-DTEND:20261206T153000Z
-SUMMARY:✈️ Telegram · VR Box
-DESCRIPTION:Telegram: VR Box + кнопка\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; кнопка\, не голая ссылка\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+UID:65b6e93e2aaf245229698dfda3efdc66@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261120T130000Z
+DTEND:20261120T131500Z
+SUMMARY:✈️ Telegram · Klikker ✔ chiqdi
+DESCRIPTION:Telegram: кликер\nЧёрный\; не обещать приёмник в комплекте\; только сторис/Telegram\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:678caea9fea9ec62a21d97b4d49e53fa@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261206T080000Z
-DTEND:20261206T081500Z
-SUMMARY:📱 Stories · VR Box
-DESCRIPTION:Instagram Сторис: VR Box\nфото с карточки\; текст в зоне y=260..1660\; дубль в канал\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:9263a704d130a7c04a79793abc5b5504@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261208T150000Z
-DTEND:20261208T151500Z
-SUMMARY:🎬 Reels · Namlagich
-DESCRIPTION:Instagram Рилс: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Namlagich
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1b0ce06cd955ff06d0ee28dac581becd@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261208T150000Z
-DTEND:20261208T151500Z
-SUMMARY:▶️ YouTube · Namlagich
-DESCRIPTION:YouTube: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Namlagich
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9092b94d3621e156668680090b38785f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261208T150000Z
-DTEND:20261208T151500Z
-SUMMARY:🎵 TikTok · Namlagich
-DESCRIPTION:TikTok: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Namlagich
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3f89ce48f75be309587eab357105dcf5@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261208T151500Z
-DTEND:20261208T153000Z
-SUMMARY:✈️ Telegram · Namlagich
-DESCRIPTION:Telegram: увлажнитель v2 + кнопка\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:d87bb79dc73665e2adc4d5263f3a86a2@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261208T080000Z
-DTEND:20261208T081500Z
-SUMMARY:📱 Stories · Namlagich
-DESCRIPTION:Instagram Сторис: увлажнитель v2\nтекст в зоне y=260..1660\; дубль в канал\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+UID:c6905801a606d0cd837419dca9ba994f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261120T140000Z
+DTEND:20261120T141500Z
+SUMMARY:✈️ Telegram · Shtativ ✔ chiqdi
+DESCRIPTION:Telegram: штатив\nТолько мужчины\; без цены и площадки\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:4b6b94ad1fff581ff0858e2e2701d0d1@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261120T150000Z
 DTEND:20261120T151500Z
 SUMMARY:🎬 Reels · Namlagich ✔ chiqdi
@@ -1386,21 +1017,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6374e7f97f4976fbff58b2badccf4b8f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261120T150000Z
-DTEND:20261120T151500Z
-SUMMARY:▶️ YouTube · Namlagich ✔ chiqdi
-DESCRIPTION:Pritcha havo namlagich\nПритча v9\, очередь pr20\; без цены и названий площадок\nHolat: chiqdi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Namlagich ✔ chiqdi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ed25664c637b4434ff774b9e4f827aee@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261120T150000Z
 DTEND:20261120T151500Z
 SUMMARY:🎵 TikTok · Namlagich ✔ chiqdi
@@ -1412,8 +1030,21 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:6374e7f97f4976fbff58b2badccf4b8f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261120T150000Z
+DTEND:20261120T151500Z
+SUMMARY:▶️ YouTube · Namlagich ✔ chiqdi
+DESCRIPTION:Pritcha havo namlagich\nПритча v9\, очередь pr20\; без цены и названий площадок\nHolat: chiqdi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Namlagich ✔ chiqdi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:85a1d18274b89a9ebab4f88d4db85f04@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261120T151500Z
 DTEND:20261120T153000Z
 SUMMARY:✈️ Telegram · Namlagich ✔ chiqdi
@@ -1421,400 +1052,138 @@ DESCRIPTION:Pritcha havo namlagich\nПритча v9\, очередь pr20\; бе
 END:VEVENT
 BEGIN:VEVENT
 UID:6283c3db00f81f07fdeb976596fcd34c@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261121T130000Z
 DTEND:20261121T131500Z
 SUMMARY:✈️ Telegram · Mikrofon K15 ✔ chiqdi
 DESCRIPTION:Mikrofon K15 (n5)\nфото-пост канала\, очередь n5\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:c42ce716c2a080868deee174a6574f69@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T150000Z
-DTEND:20261126T151500Z
-SUMMARY:🎬 Reels · Sapogi
-DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+UID:25769d01a39ab4057078a20f162f8ef1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261121T150000Z
+DTEND:20261121T151500Z
+SUMMARY:🎬 Reels · Mikrofon K15 ✔ chiqdi
+DESCRIPTION:Instagram Рилс: микрофон K15\nОтдельный товар от комплекта 2 шт (um2066926)\; заменён планом 15–21.11 (1 Reels в день\, одобрен 14.11)\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Sapogi
+DESCRIPTION:🎬 Reels · Mikrofon K15 ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:37ab8cc90ce77c645d2827a53e0ba5fb@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T150000Z
-DTEND:20261126T151500Z
-SUMMARY:▶️ YouTube · Sapogi
-DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+UID:a6687569f58472aa7ed9ae44ef61be99@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261121T150000Z
+DTEND:20261121T151500Z
+SUMMARY:🎬 Reels · Wi-Fi ✔ chiqdi
+DESCRIPTION:Instagram Рилс: Wi-Fi мультик v4\nочередь 39\, подпись без «+» до пункта ChatPlace\; стиль 2 мультик\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Sapogi
+DESCRIPTION:🎬 Reels · Wi-Fi ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2fc3a2bf32b4b202d68d8176c7d4aa5b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T150000Z
-DTEND:20261126T151500Z
-SUMMARY:🎵 TikTok · Sapogi
-DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+UID:aacffc103e4a5dab3378f97a9eac0443@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261121T150000Z
+DTEND:20261121T151500Z
+SUMMARY:🎵 TikTok · Wi-Fi
+DESCRIPTION:TikTok: Wi-Fi мультик v4\nединый слот\, файл multik_wifi_v4_tiktok_qr.mp4\; стиль 2 мультик\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Sapogi
+DESCRIPTION:🎵 TikTok · Wi-Fi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cc9a4bb3e400a1fe8f8859383e660f40@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T151500Z
-DTEND:20261126T153000Z
-SUMMARY:✈️ Telegram · Sapogi
-DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
-END:VEVENT
-BEGIN:VEVENT
-UID:9bb072e827e6212b9a29379a1bc924e4@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T080000Z
-DTEND:20261126T081500Z
-SUMMARY:📱 Stories · Sapogi
-DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
-END:VEVENT
-BEGIN:VEVENT
-UID:57ed192808d55084cd8211a73cb855af@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261211T150000Z
-DTEND:20261211T151500Z
-SUMMARY:🎬 Reels · Derzhatel 360
-DESCRIPTION:Derzhatel 360\nстиль 2 мультик\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | WB остаток 0: в финале только Uzum\, остаток Uzum проверить до 10.12\nHolat: reja
+UID:7d5ac1a4e0b008bce5e956d1daa5ef69@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261121T150000Z
+DTEND:20261121T151500Z
+SUMMARY:▶️ YouTube · Wi-Fi
+DESCRIPTION:YouTube: Wi-Fi мультик v4\nединый слот\; стиль 2 мультик\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Derzhatel 360
+DESCRIPTION:▶️ YouTube · Wi-Fi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:db7018667fccef7d588043681635a1f3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261211T150000Z
-DTEND:20261211T151500Z
-SUMMARY:▶️ YouTube · Derzhatel 360
-DESCRIPTION:Derzhatel 360\nстиль 2 мультик\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | WB остаток 0: в финале только Uzum\, остаток Uzum проверить до 10.12\nHolat: reja
+UID:2d10250b6ffc3949d443635f03dd4bf8@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261121T151500Z
+DTEND:20261121T153000Z
+SUMMARY:✈️ Telegram · Wi-Fi ✔ chiqdi
+DESCRIPTION:Telegram: Wi-Fi мультик v4\ntg_queue w4\, версия канала без «+» и маркетплейса\; стиль 2 мультик\nHolat: chiqdi
+END:VEVENT
+BEGIN:VEVENT
+UID:9e28341c6e277890f0fba00d4bdd42dd@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261122T080000Z
+DTEND:20261122T081500Z
+SUMMARY:📱 Stories · Husky
+DESCRIPTION:Instagram Сторис: Хаски\nфото с карточки\; текст в зоне y=260..1660\; дубль в канал\; стиль 1 Джон\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:cb36d618dc59cb21d42d7bb52e08df72@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261122T150000Z
+DTEND:20261122T151500Z
+SUMMARY:🎬 Reels · Husky ✔ chiqdi
+DESCRIPTION:Instagram Рилс: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; без цены и названий площадок\; «+» только по строке Ответчика\; стиль 1 Джон\nHolat: chiqdi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Derzhatel 360
+DESCRIPTION:🎬 Reels · Husky ✔ chiqdi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7c9cbb62d44978541de265d1e699bfa7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261211T150000Z
-DTEND:20261211T151500Z
-SUMMARY:🎵 TikTok · Derzhatel 360
-DESCRIPTION:Derzhatel 360\nстиль 2 мультик\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | WB остаток 0: в финале только Uzum\, остаток Uzum проверить до 10.12\nHolat: reja
+UID:902f16611242c6722d9b4a4e85616c59@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261122T150000Z
+DTEND:20261122T151500Z
+SUMMARY:🎵 TikTok · Husky
+DESCRIPTION:TikTok: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; нужна версия: подпись и заголовок\; стиль 1 Джон\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Derzhatel 360
+DESCRIPTION:🎵 TikTok · Husky
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:59bbb25fd63584441d420453ab3608b4@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261211T151500Z
-DTEND:20261211T153000Z
-SUMMARY:✈️ Telegram · Derzhatel 360
-DESCRIPTION:Derzhatel 360\nстиль 2 мультик\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | WB остаток 0: в финале только Uzum\, остаток Uzum проверить до 10.12\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:fcd9e77e39b772f48a68b859ae55551c@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261211T080000Z
-DTEND:20261211T081500Z
-SUMMARY:📱 Stories · Derzhatel 360
-DESCRIPTION:Derzhatel 360\nстиль 2 мультик\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | WB остаток 0: в финале только Uzum\, остаток Uzum проверить до 10.12\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:feab42cbed9c4b02252d6b42cbd5b896@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T150000Z
-DTEND:20261128T151500Z
-SUMMARY:🎬 Reels · CarPlay
-DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+UID:9b1f0f0cc2017044b1c18d1a9500c828@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261122T150000Z
+DTEND:20261122T151500Z
+SUMMARY:▶️ YouTube · Husky
+DESCRIPTION:YouTube: Хаски\nединый слот\; готовое видео есть\, проверить по чек-листу\; нужна версия: подпись и заголовок\; стиль 1 Джон\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · CarPlay
+DESCRIPTION:▶️ YouTube · Husky
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:434aec784dcbd30a38adb8e5e566c423@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T150000Z
-DTEND:20261128T151500Z
-SUMMARY:▶️ YouTube · CarPlay
-DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · CarPlay
-TRIGGER:-PT30M
-END:VALARM
+UID:487be98c47c464d0c5907d90b962f7a6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261122T151500Z
+DTEND:20261122T153000Z
+SUMMARY:✈️ Telegram · Husky ✔ chiqdi
+DESCRIPTION:Telegram: Хаски + кнопка\nединый слот\; готовое видео есть\, проверить по чек-листу\; кнопка\, не голая ссылка\; стиль 1 Джон\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
-UID:f9b2bbaca7a74726e8b2c63e19a8eb00@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T150000Z
-DTEND:20261128T151500Z
-SUMMARY:🎵 TikTok · CarPlay
-DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · CarPlay
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b3a94a22c1a0bfe16e284d5b8ef8ca71@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T151500Z
-DTEND:20261128T153000Z
-SUMMARY:✈️ Telegram · CarPlay
-DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:e93f85605ed0b633a753855aa0c5711b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T080000Z
-DTEND:20261128T081500Z
-SUMMARY:📱 Stories · CarPlay
-DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:fc2d4b5efa0aac0aade5beec329be5a0@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261201T150000Z
-DTEND:20261201T151500Z
-SUMMARY:🎬 Reels · Q9 (tayyor)
-DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Q9 (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc0586fb9a4e343f6a6830f46f8120c1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261201T150000Z
-DTEND:20261201T151500Z
-SUMMARY:▶️ YouTube · Q9 (tayyor)
-DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Q9 (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5d1ff7e6ee0bc4af43a7f9db4109b78b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261201T150000Z
-DTEND:20261201T151500Z
-SUMMARY:🎵 TikTok · Q9 (tayyor)
-DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Q9 (tayyor)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e481372ca6840e0c0aaf50854bbfd17e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261201T151500Z
-DTEND:20261201T153000Z
-SUMMARY:✈️ Telegram · Q9 (tayyor)
-DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
-END:VEVENT
-BEGIN:VEVENT
-UID:d3051727fe29bc4700a727e6e67bc9a8@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261201T080000Z
-DTEND:20261201T081500Z
-SUMMARY:📱 Stories · Q9 (tayyor)
-DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
-END:VEVENT
-BEGIN:VEVENT
-UID:be9c422970457bb41ca5e00c9a890fb3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261202T150000Z
-DTEND:20261202T151500Z
-SUMMARY:🎬 Reels · Proektor
-DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Proektor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e1a119bf69043842b81c6bc0617916bd@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261202T150000Z
-DTEND:20261202T151500Z
-SUMMARY:▶️ YouTube · Proektor
-DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Proektor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8a4b646f6699b1770025bdb2cb2a3a8a@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261202T150000Z
-DTEND:20261202T151500Z
-SUMMARY:🎵 TikTok · Proektor
-DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Proektor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ffd4b857baf0a3638bba605e64a5c14b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261202T151500Z
-DTEND:20261202T153000Z
-SUMMARY:✈️ Telegram · Proektor
-DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:b7dd84005a40490ff2b844790cda63c1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261202T080000Z
-DTEND:20261202T081500Z
-SUMMARY:📱 Stories · Proektor
-DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:c74bd753aeb8d87eded778f6e7e55613@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261212T150000Z
-DTEND:20261212T151500Z
-SUMMARY:🎬 Reels · Rolikovyj massajyor
-DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Rolikovyj massajyor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:48cc31071bc3871d7b9f8b5b43938bab@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261212T150000Z
-DTEND:20261212T151500Z
-SUMMARY:▶️ YouTube · Rolikovyj massajyor
-DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Rolikovyj massajyor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6a7f09800e1d9c9ed8f38126ee21fba0@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261212T150000Z
-DTEND:20261212T151500Z
-SUMMARY:🎵 TikTok · Rolikovyj massajyor
-DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Rolikovyj massajyor
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c0ff06ca6a5996533fe8ae250ce293c3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261212T151500Z
-DTEND:20261212T153000Z
-SUMMARY:✈️ Telegram · Rolikovyj massajyor
-DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:e67e038b505cc8ae84a2de97e8603b02@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261212T080000Z
-DTEND:20261212T081500Z
-SUMMARY:📱 Stories · Rolikovyj massajyor
-DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:df6e853a5e3a4bc27c371ecf4928342a@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261203T150000Z
-DTEND:20261203T151500Z
-SUMMARY:🎬 Reels · Avtokreslo
-DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Avtokreslo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:08cae68f70c134ed4821eee929961d01@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261203T150000Z
-DTEND:20261203T151500Z
-SUMMARY:▶️ YouTube · Avtokreslo
-DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Avtokreslo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:de4e8423c20368a64a89e1f660d1c820@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261203T150000Z
-DTEND:20261203T151500Z
-SUMMARY:🎵 TikTok · Avtokreslo
-DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Avtokreslo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e52bca78f812de939d3a635027acfc03@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261203T151500Z
-DTEND:20261203T153000Z
-SUMMARY:✈️ Telegram · Avtokreslo
-DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
-END:VEVENT
-BEGIN:VEVENT
-UID:ab8523eea20f33dcdcfb7db63bccd297@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261203T080000Z
-DTEND:20261203T081500Z
-SUMMARY:📱 Stories · Avtokreslo
-DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+UID:ff4b155c8ea0377764c8c854fa1a3117@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261123T080000Z
+DTEND:20261123T081500Z
+SUMMARY:📱 Stories · Mikrofon ✔ chiqdi
+DESCRIPTION:Instagram Сторис: Pritcha mikrofon\nстиль 3 Притча\; единый слот\; одобрено пользователем TG 20.11 13:43\; файл Видео/pritcha_mikrofon/chernovik_v10.mp4 (_tg)\; без цены\nHolat: chiqdi
 END:VEVENT
 BEGIN:VEVENT
 UID:29842ff1e545c455812e529b30486264@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261123T150000Z
 DTEND:20261123T151500Z
 SUMMARY:🎬 Reels · Mikrofon
@@ -1826,21 +1195,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:175e6292ac86d809942d3872025ee284@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261123T150000Z
-DTEND:20261123T151500Z
-SUMMARY:▶️ YouTube · Mikrofon
-DESCRIPTION:YouTube: Pritcha mikrofon\nстиль 3 Притча\; единый слот\; одобрено пользователем TG 20.11 13:43\; файл Видео/pritcha_mikrofon/chernovik_v10.mp4 (_tg)\; без цены\; файл Видео/pritcha_mikrofon/chernovik_v10_yt.mp4\nHolat: tasdiqlangen
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Mikrofon
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:110d8a7328bc399da898f1a9e283b1e7@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261123T150000Z
 DTEND:20261123T151500Z
 SUMMARY:🎵 TikTok · Mikrofon
@@ -1852,81 +1208,437 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:175e6292ac86d809942d3872025ee284@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261123T150000Z
+DTEND:20261123T151500Z
+SUMMARY:▶️ YouTube · Mikrofon
+DESCRIPTION:YouTube: Pritcha mikrofon\nстиль 3 Притча\; единый слот\; одобрено пользователем TG 20.11 13:43\; файл Видео/pritcha_mikrofon/chernovik_v10.mp4 (_tg)\; без цены\; файл Видео/pritcha_mikrofon/chernovik_v10_yt.mp4\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Mikrofon
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:b0bf9620795542bbdc4de06dc3011550@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261123T151500Z
 DTEND:20261123T153000Z
 SUMMARY:✈️ Telegram · Mikrofon
 DESCRIPTION:Telegram: Pritcha mikrofon\nстиль 3 Притча\; единый слот\; одобрено пользователем TG 20.11 13:43\; файл Видео/pritcha_mikrofon/chernovik_v10.mp4 (_tg)\; без цены\nHolat: tasdiqlangen
 END:VEVENT
 BEGIN:VEVENT
-UID:ff4b155c8ea0377764c8c854fa1a3117@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261123T080000Z
-DTEND:20261123T081500Z
-SUMMARY:📱 Stories · Mikrofon ✔ chiqdi
-DESCRIPTION:Instagram Сторис: Pritcha mikrofon\nстиль 3 Притча\; единый слот\; одобрено пользователем TG 20.11 13:43\; файл Видео/pritcha_mikrofon/chernovik_v10.mp4 (_tg)\; без цены\nHolat: chiqdi
-END:VEVENT
-BEGIN:VEVENT
-UID:b47a1069a29fe68600ca3e4edf9878c3@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261205T150000Z
-DTEND:20261205T151500Z
-SUMMARY:🎬 Reels · Pritcha7
-DESCRIPTION:Instagram Рилс: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+UID:99a7263bcbe7cab5bd6375c9cfd3eff9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T070000Z
+DTEND:20261124T071500Z
+SUMMARY:🎬 Reels · CarPlay
+DESCRIPTION:Reels: CarPlay мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; ЖДЁТ «да» пользователя\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Pritcha7
+DESCRIPTION:🎬 Reels · CarPlay
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:19c8c61ce7f2f0cf392942c2b965dc0d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261205T150000Z
-DTEND:20261205T151500Z
-SUMMARY:▶️ YouTube · Pritcha7
-DESCRIPTION:YouTube: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+UID:503cd3dad27c3f8c7a706b66187e9364@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T070000Z
+DTEND:20261124T071500Z
+SUMMARY:🎵 TikTok · CarPlay
+DESCRIPTION:TikTok: CarPlay мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; ЖДЁТ «да» пользователя\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Pritcha7
+DESCRIPTION:🎵 TikTok · CarPlay
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e3f4de0840944f5f8a63e4dea2db9fc0@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261205T150000Z
-DTEND:20261205T151500Z
-SUMMARY:🎵 TikTok · Pritcha7
-DESCRIPTION:TikTok: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+UID:3dcf93a297904c931efb87952ce0849e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T070000Z
+DTEND:20261124T071500Z
+SUMMARY:▶️ YouTube · CarPlay
+DESCRIPTION:YouTube: CarPlay мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; ЖДЁТ «да» пользователя\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Pritcha7
+DESCRIPTION:▶️ YouTube · CarPlay
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d7be70d4310858a18958bc4e99bd58aa@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261205T151500Z
-DTEND:20261205T153000Z
-SUMMARY:✈️ Telegram · Pritcha7
-DESCRIPTION:Telegram: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+UID:5a3db7f9c669ed6a7d3d472bb58561e0@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T071500Z
+DTEND:20261124T073000Z
+SUMMARY:✈️ Telegram · CarPlay
+DESCRIPTION:Telegram: CarPlay мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; ЖДЁТ «да» пользователя\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
-UID:380b899ea3165f5dc107521e2c082280@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261205T080000Z
-DTEND:20261205T081500Z
-SUMMARY:📱 Stories · Pritcha7
-DESCRIPTION:Instagram Сторис: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+UID:432a5a3345b7cfd510760114b78e84c0@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T150000Z
+DTEND:20261124T151500Z
+SUMMARY:🎬 Reels · Gejmpad
+DESCRIPTION:Reels: геймпад Джон (новый)\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:db9c466aebc9aef00be2bdcc2896cd1d@ireezq
-DTSTAMP:20261123T132713Z
+UID:94023cd389264d3ab640a371e8ca1c49@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T150000Z
+DTEND:20261124T151500Z
+SUMMARY:🎵 TikTok · Gejmpad
+DESCRIPTION:TikTok: геймпад Джон (новый)\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:198dfedfbd10d53dbf4d993585a1032e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T150000Z
+DTEND:20261124T151500Z
+SUMMARY:▶️ YouTube · Gejmpad
+DESCRIPTION:YouTube: геймпад Джон (новый)\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5434c269bb62e5aa087bf06b5d6e3e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261124T151500Z
+DTEND:20261124T153000Z
+SUMMARY:✈️ Telegram · Gejmpad
+DESCRIPTION:Telegram: геймпад Джон (новый)\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:f2cb1ef42206c0b62e57cfc8bccb0a5f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T070000Z
+DTEND:20261125T071500Z
+SUMMARY:🎬 Reels · Avtokreslo
+DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Avtokreslo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:559a0453974274666f455da6f75a0ad7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T070000Z
+DTEND:20261125T071500Z
+SUMMARY:📱 Stories · Avtokreslo
+DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:25fb222615379d28675dc222cd392517@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T070000Z
+DTEND:20261125T071500Z
+SUMMARY:✈️ Telegram · Avtokreslo
+DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:d2935b1da3d60fee7ded8b3680bc0a6c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T070000Z
+DTEND:20261125T071500Z
+SUMMARY:🎵 TikTok · Avtokreslo
+DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Avtokreslo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:109ae77e0ae21fb928c35dab6654364a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T070000Z
+DTEND:20261125T071500Z
+SUMMARY:▶️ YouTube · Avtokreslo
+DESCRIPTION:Avtokreslo\nстиль 2 мультик (сиденье-бустер\, Видео/multik_kreslo/multik_kreslo_v2.mp4)\; Режиссёр: годен\, ждёт «да» пользователя\; дата 03.12 одна\; один слот\; без цены и названий площадок\; ОДОБРЕНО пользователем TG 20.11 12:02\; только Uzum Selection time\, финал «Uzum Market» + «+»\; YT без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Avtokreslo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b90a3f7500ad640b945be874a753c969@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T080000Z
+DTEND:20261125T081500Z
+SUMMARY:📱 Stories · Massajyor
+DESCRIPTION:Instagram Сторис: массажёр\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:1d7996700155b32d9ba47cd7b34192c8@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T120000Z
+DTEND:20261125T121500Z
+SUMMARY:📱 Stories · Wifi usilitel
+DESCRIPTION:Сторис: Wi-Fi усилитель\nStoris\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:f02bb9361dfec2a458a8fa6346de3c2a@ireezq
+DTSTAMP:20261123T142212Z
 DTSTART:20261125T150000Z
 DTEND:20261125T151500Z
+SUMMARY:🎬 Reels · Massajyor (tayyor)
+DESCRIPTION:Instagram Рилс: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Massajyor (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a42997d13ced7acb417704ad06bce9f1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T150000Z
+DTEND:20261125T151500Z
+SUMMARY:🎵 TikTok · Massajyor (tayyor)
+DESCRIPTION:TikTok: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Massajyor (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3b4c5aa9d52308fa8e9dfbbdb4bfd1ce@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T150000Z
+DTEND:20261125T151500Z
+SUMMARY:▶️ YouTube · Massajyor (tayyor)
+DESCRIPTION:YouTube: массажёр v4\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Massajyor (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:762f4938096f996838f9ebc03f1d9c74@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261125T151500Z
+DTEND:20261125T153000Z
+SUMMARY:✈️ Telegram · Massajyor (tayyor)
+DESCRIPTION:Telegram: массажёр v4 + кнопка\nединый слот\; Видео/massajor_vhod_v4_3.mp4 (_yt\, _tg)\; одобрено пользователем 15.11 через Маркетолога\; cover ждём от Сахифачи\; подпись massajor_v4_post.txt от SMM\; стиль 1 Джон\nHolat: tayyor
+END:VEVENT
+BEGIN:VEVENT
+UID:0cb43fd9a8fd0fd839615a6809beeacf@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T070000Z
+DTEND:20261126T071500Z
+SUMMARY:🎬 Reels · Gejmpad
+DESCRIPTION:Reels: геймпад мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fc60c616460437ae0add96691677513@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T070000Z
+DTEND:20261126T071500Z
+SUMMARY:🎵 TikTok · Gejmpad
+DESCRIPTION:TikTok: геймпад мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de1d0ab09a9a9859fac8225795f855e1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T070000Z
+DTEND:20261126T071500Z
+SUMMARY:▶️ YouTube · Gejmpad
+DESCRIPTION:YouTube: геймпад мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Gejmpad
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c692d50db938f63d35f1d91ed0d8acd4@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T071500Z
+DTEND:20261126T073000Z
+SUMMARY:✈️ Telegram · Gejmpad
+DESCRIPTION:Telegram: геймпад мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb072e827e6212b9a29379a1bc924e4@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T080000Z
+DTEND:20261126T081500Z
+SUMMARY:📱 Stories · Sapogi
+DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:939846683b21dbd2007d95947dac93a1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T111500Z
+DTEND:20261126T113000Z
+SUMMARY:✈️ Telegram · Wifi usilitel
+DESCRIPTION:Пост канала: Wi-Fi усилитель\nkanalchi-2\, «+» Ответчик-2\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:c42ce716c2a080868deee174a6574f69@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T150000Z
+DTEND:20261126T151500Z
+SUMMARY:🎬 Reels · Sapogi
+DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2fc3a2bf32b4b202d68d8176c7d4aa5b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T150000Z
+DTEND:20261126T151500Z
+SUMMARY:🎵 TikTok · Sapogi
+DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:37ab8cc90ce77c645d2827a53e0ba5fb@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T150000Z
+DTEND:20261126T151500Z
+SUMMARY:▶️ YouTube · Sapogi
+DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cc9a4bb3e400a1fe8f8859383e660f40@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261126T151500Z
+DTEND:20261126T153000Z
+SUMMARY:✈️ Telegram · Sapogi
+DESCRIPTION:Pritcha: uy tapochkilari\nстиль 3 Притча сапоги v3 одобрена пользователем 21.11 13:48\; Видео/pritcha_sapogi/vypusk_26_11.md\; один слот\; YouTube без «+»\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:900e5ef94d84d7523433cb7d5fa35d16@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T070000Z
+DTEND:20261127T071500Z
+SUMMARY:🎬 Reels · Q9 (tayyor)
+DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Q9 (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:87898fe11f41d84724561d963bc53097@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T070000Z
+DTEND:20261127T071500Z
+SUMMARY:📱 Stories · Q9 (tayyor)
+DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
+END:VEVENT
+BEGIN:VEVENT
+UID:251555ffea9c5daeabb6136bd5c90c42@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T070000Z
+DTEND:20261127T071500Z
+SUMMARY:✈️ Telegram · Q9 (tayyor)
+DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
+END:VEVENT
+BEGIN:VEVENT
+UID:a58051ac0fccb786fe57043cad928751@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T070000Z
+DTEND:20261127T071500Z
+SUMMARY:🎵 TikTok · Q9 (tayyor)
+DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Q9 (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:49d4b45b3724faedfa1482715f6638b3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T070000Z
+DTEND:20261127T071500Z
+SUMMARY:▶️ YouTube · Q9 (tayyor)
+DESCRIPTION:Q9 (WB)\nстиль 2 мультик\; готов (Q9 v2 принят\, файл Видео/multik_q9/multik_q9_v2.mp4\, да Маркетолога)\; один слот\; без цены и названий площадок\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Q9 (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2fe55df9c26c6fda061e22cdc7045260@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T080000Z
+DTEND:20261127T081500Z
+SUMMARY:📱 Stories · Avtokreslo
+DESCRIPTION:Instagram Сторис: бустер Б\nпо «да» Маркетолога 16.11 10:40\; сторис в день Reels + репост в канал +15 мин\; текст в зоне y=260..1660\; без цены и площадки\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:7aa5d4f2e739cbf404770f1bdb573a53@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T080000Z
+DTEND:20261127T081500Z
+SUMMARY:📱 Stories · Cherepashka
+DESCRIPTION:Черепашка (Stories)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:f8fb9a026d1cc2363593e439bb8b3e51@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T150000Z
+DTEND:20261201T151500Z
+SUMMARY:🎬 Reels · Avtokreslo
+DESCRIPTION:Instagram Рилс: автокресло-бустер\, вариант Б (v6d)\nфайл Видео/proba_vhod_v6d_c3.mp4\; единый слот\; без «+»\, пока Ответчик не подтвердит пункт buster\; запас buster_B_bezplus_post.txt\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Avtokreslo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1457ff7c3013d605b65762db2332125@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T150000Z
+DTEND:20261127T151500Z
 SUMMARY:🎬 Reels · Cherepashka
 DESCRIPTION:Черепашка (Reels)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
 BEGIN:VALARM
@@ -1936,23 +1648,23 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:641990b092c81e792367c45be6ad8e0e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261125T150000Z
-DTEND:20261125T151500Z
-SUMMARY:▶️ YouTube · Cherepashka
-DESCRIPTION:Черепашка (YouTube)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
+UID:ed338ed4fa5b39cbbd4d505035f5e294@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T150000Z
+DTEND:20261201T151500Z
+SUMMARY:🎵 TikTok · Avtokreslo
+DESCRIPTION:TikTok: бустер Б\nединый слот\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\; перенос на 10.12 решением Маркетолога 20.11 (слот 23.11 занят Притчей)\; поправка Маркетолога 20.11: бустер Б остаётся на 27.11\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Cherepashka
+DESCRIPTION:🎵 TikTok · Avtokreslo
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3827067c78d8549aa917b5e1c5f59402@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261125T150000Z
-DTEND:20261125T151500Z
+UID:12d36984fcfb87678c93672879b4e874@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T150000Z
+DTEND:20261127T151500Z
 SUMMARY:🎵 TikTok · Cherepashka
 DESCRIPTION:Черепашка (TikTok)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
 BEGIN:VALARM
@@ -1962,136 +1674,23 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:50822c7c15d5785389dbbb01afac765f@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261125T151500Z
-DTEND:20261125T153000Z
-SUMMARY:✈️ Telegram · Cherepashka
-DESCRIPTION:Черепашка (Telegram)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
-END:VEVENT
-BEGIN:VEVENT
-UID:d09bcc246d8276fb66fdf7ee7003c36c@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261125T080000Z
-DTEND:20261125T081500Z
-SUMMARY:📱 Stories · Cherepashka
-DESCRIPTION:Черепашка (Stories)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
-END:VEVENT
-BEGIN:VEVENT
-UID:6176e4be82b047b9f95588223875cb23@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261207T150000Z
-DTEND:20261207T151500Z
-SUMMARY:🎬 Reels · Uggi
-DESCRIPTION:Мультик: домашние угги (Reels)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Uggi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b30a2dd6f2e79e7b5840938bcad6340b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261207T150000Z
-DTEND:20261207T151500Z
-SUMMARY:▶️ YouTube · Uggi
-DESCRIPTION:Мультик: домашние угги (YouTube)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Uggi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:463562853a1a4787bf29d026248e62b7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261207T150000Z
-DTEND:20261207T151500Z
-SUMMARY:🎵 TikTok · Uggi
-DESCRIPTION:Мультик: домашние угги (TikTok)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Uggi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3c5647dc9d37455439f5c6971aa8ba65@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261207T151500Z
-DTEND:20261207T153000Z
-SUMMARY:✈️ Telegram · Uggi
-DESCRIPTION:Мультик: домашние угги (Telegram)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:1a8934f1ebaed56af45aa5629703326e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261207T080000Z
-DTEND:20261207T081500Z
-SUMMARY:📱 Stories · Uggi
-DESCRIPTION:Мультик: домашние угги (Stories)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:edf84f5463424c60bcdd7c594fcd615d@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261214T150000Z
-DTEND:20261214T151500Z
-SUMMARY:🎬 Reels · Sapogi
-DESCRIPTION:Instagram Рилс: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · Sapogi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e81c50b51953f39e87cb7098995b202e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261214T150000Z
-DTEND:20261214T151500Z
-SUMMARY:▶️ YouTube · Sapogi
-DESCRIPTION:YouTube: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Sapogi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:76cc0392dd091c5822b3e6392cc0d46b@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261214T150000Z
-DTEND:20261214T151500Z
-SUMMARY:🎵 TikTok · Sapogi
-DESCRIPTION:TikTok: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · Sapogi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d69559713603a54bdeb9b46bd340695e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261214T151500Z
-DTEND:20261214T153000Z
-SUMMARY:✈️ Telegram · Sapogi
-DESCRIPTION:Telegram: Сапожки-угги + кнопка\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:9730b9c9af28227c6dfaea27944cb4d7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261214T080000Z
-DTEND:20261214T081500Z
-SUMMARY:📱 Stories · Sapogi
-DESCRIPTION:Instagram Сторис: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
-END:VEVENT
-BEGIN:VEVENT
-UID:8f354170de15d1163fee818a5b53bd85@ireezq
-DTSTAMP:20261123T132713Z
+UID:3483beef4d402b23bc4cc4ff13ce851a@ireezq
+DTSTAMP:20261123T142212Z
 DTSTART:20261127T150000Z
 DTEND:20261127T151500Z
+SUMMARY:▶️ YouTube · Cherepashka
+DESCRIPTION:Черепашка (YouTube)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Cherepashka
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ceee2e57bd4032fbd975f800fabca5ad@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T150000Z
+DTEND:20261201T151500Z
 SUMMARY:▶️ YouTube · Avtokreslo
 DESCRIPTION:YouTube: бустер Б «Автокресло»\nотложенная id lnMr0rkpXpQ\, в Studio уже стоит на 27.11 20:00\; решение Маркетолога 20.11\nHolat: reja
 BEGIN:VALARM
@@ -2101,63 +1700,197 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a33230512a5ae17ee9759df7d59867eb@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261215T150000Z
-DTEND:20261215T151500Z
-SUMMARY:🎬 Reels · CherepashkaMult
-DESCRIPTION:Черепашка мультик (Reels)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+UID:aaaa6e1627f071a2ec790ea15d5e442e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T151500Z
+DTEND:20261201T153000Z
+SUMMARY:✈️ Telegram · Avtokreslo
+DESCRIPTION:Telegram: бустер Б (b2)\nединый слот\; перенос по правилу один пост на товар в день\, 17.11\; стиль 1 Джон\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:52294b25532385d78e31cf0038d60644@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261127T151500Z
+DTEND:20261127T153000Z
+SUMMARY:✈️ Telegram · Cherepashka
+DESCRIPTION:Черепашка (Telegram)\nстиль 1\; Видео/cherepashka_vhod_v3_5.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; Маркетолог 20.11: должен выйти\; вместо Jon6\; без цены и названий площадок | перестановка 23.11: медленные первыми\nHolat: tasdiqlangen
+END:VEVENT
+BEGIN:VEVENT
+UID:ad63306aa7078ccfdff4f05b8bfce214@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T070000Z
+DTEND:20261128T071500Z
+SUMMARY:🎬 Reels · Wifi usilitel
+DESCRIPTION:Reels: Wi-Fi усилитель мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; финал «Uzum Market va Wildberries'da bor»\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎬 Reels · CherepashkaMult
+DESCRIPTION:🎬 Reels · Wifi usilitel
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9f02957d408f67de6b09ed63d1b83f77@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261215T150000Z
-DTEND:20261215T151500Z
-SUMMARY:▶️ YouTube · CherepashkaMult
-DESCRIPTION:Черепашка мультик (YouTube)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+UID:2c5e5f9bc0cce5f008ae07d971fdb79d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T070000Z
+DTEND:20261128T071500Z
+SUMMARY:🎵 TikTok · Wifi usilitel
+DESCRIPTION:TikTok: Wi-Fi усилитель мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; финал «Uzum Market va Wildberries'da bor»\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · CherepashkaMult
+DESCRIPTION:🎵 TikTok · Wifi usilitel
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:475097f714ad539704379132f030bf84@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261215T150000Z
-DTEND:20261215T151500Z
-SUMMARY:🎵 TikTok · CherepashkaMult
-DESCRIPTION:Черепашка мультик (TikTok)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+UID:4353b31fe41ddaacabcac210f512b419@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T070000Z
+DTEND:20261128T071500Z
+SUMMARY:▶️ YouTube · Wifi usilitel
+DESCRIPTION:YouTube: Wi-Fi усилитель мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; финал «Uzum Market va Wildberries'da bor»\nHolat: reja
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🎵 TikTok · CherepashkaMult
+DESCRIPTION:▶️ YouTube · Wifi usilitel
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8e3f663f106f089f5514929400ed7a01@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261215T151500Z
-DTEND:20261215T153000Z
-SUMMARY:✈️ Telegram · CherepashkaMult
-DESCRIPTION:Черепашка мультик (Telegram)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+UID:a10c1af2d21b6f4c56b71913288a3781@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T071500Z
+DTEND:20261128T073000Z
+SUMMARY:✈️ Telegram · Wifi usilitel
+DESCRIPTION:Telegram: Wi-Fi усилитель мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\; финал «Uzum Market va Wildberries'da bor»\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
-UID:06912f1da6056549fae5f80a5f87ec77@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261215T080000Z
-DTEND:20261215T081500Z
-SUMMARY:📱 Stories · CherepashkaMult
-DESCRIPTION:Черепашка мультик (Stories)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+UID:e93f85605ed0b633a753855aa0c5711b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T080000Z
+DTEND:20261128T081500Z
+SUMMARY:📱 Stories · CarPlay
+DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:89280fb00f44fb34752ab19f0d3b3cd2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T111500Z
+DTEND:20261128T113000Z
+SUMMARY:✈️ Telegram · Wifi usilitel
+DESCRIPTION:Пост канала: Wi-Fi усилитель\nkanalchi-2\, «+» Ответчик-2\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:a82a7036d5378aeea8727ebac078946e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T120000Z
+DTEND:20261128T121500Z
+SUMMARY:📱 Stories · Wifi usilitel
+DESCRIPTION:Сторис: Wi-Fi усилитель\nStoris\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:feab42cbed9c4b02252d6b42cbd5b896@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T150000Z
+DTEND:20261128T151500Z
+SUMMARY:🎬 Reels · CarPlay
+DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b2bbaca7a74726e8b2c63e19a8eb00@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T150000Z
+DTEND:20261128T151500Z
+SUMMARY:🎵 TikTok · CarPlay
+DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:434aec784dcbd30a38adb8e5e566c423@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T150000Z
+DTEND:20261128T151500Z
+SUMMARY:▶️ YouTube · CarPlay
+DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b3a94a22c1a0bfe16e284d5b8ef8ca71@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261128T151500Z
+DTEND:20261128T153000Z
+SUMMARY:✈️ Telegram · CarPlay
+DESCRIPTION:CarPlay v5 Jon\nDirektor-3\, srok 28.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:8e3945988ead889aef4d9b0d8bb24561@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T070000Z
+DTEND:20261129T071500Z
+SUMMARY:🎬 Reels · Proektor
+DESCRIPTION:Reels: проектор мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06a5595e8a6d9eeb941274ee353dab1d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T070000Z
+DTEND:20261129T071500Z
+SUMMARY:🎵 TikTok · Proektor
+DESCRIPTION:TikTok: проектор мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42b6cdec46c477b4d46d7ef4a8023109@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T070000Z
+DTEND:20261129T071500Z
+SUMMARY:▶️ YouTube · Proektor
+DESCRIPTION:YouTube: проектор мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e78637ec1bcc825bbff19818b611761@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T071500Z
+DTEND:20261129T073000Z
+SUMMARY:✈️ Telegram · Proektor
+DESCRIPTION:Telegram: проектор мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:eb26e0a06d40632b996db51449637bd7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T080000Z
+DTEND:20261129T081500Z
+SUMMARY:📱 Stories · Husky
+DESCRIPTION:Хаски (Джон)\nстиль 1\; husky_r2 из очереди\, проверить файлы до 01.12\; медленный товар\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
 UID:ec7c52025508b08c986842f26de8a6a6@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261129T150000Z
 DTEND:20261129T151500Z
 SUMMARY:🎬 Reels · Husky
@@ -2169,21 +1902,8 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6333f5eb3e5794d9fbc5a1fd68d38b70@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261129T150000Z
-DTEND:20261129T151500Z
-SUMMARY:▶️ YouTube · Husky
-DESCRIPTION:Хаски (Джон)\nстиль 1\; husky_r2 из очереди\, проверить файлы до 01.12\; медленный товар\nHolat: reja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ YouTube · Husky
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:2068e466f025ef0f4b08d933a86302c0@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261129T150000Z
 DTEND:20261129T151500Z
 SUMMARY:🎵 TikTok · Husky
@@ -2195,51 +1915,1310 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:6333f5eb3e5794d9fbc5a1fd68d38b70@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261129T150000Z
+DTEND:20261129T151500Z
+SUMMARY:▶️ YouTube · Husky
+DESCRIPTION:Хаски (Джон)\nстиль 1\; husky_r2 из очереди\, проверить файлы до 01.12\; медленный товар\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Husky
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:03205d0409e594b1cfc918e9cf6ed34f@ireezq
-DTSTAMP:20261123T132713Z
+DTSTAMP:20261123T142212Z
 DTSTART:20261129T151500Z
 DTEND:20261129T153000Z
 SUMMARY:✈️ Telegram · Husky
 DESCRIPTION:Хаски (Джон)\nстиль 1\; husky_r2 из очереди\, проверить файлы до 01.12\; медленный товар\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
-UID:eb26e0a06d40632b996db51449637bd7@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261129T080000Z
-DTEND:20261129T081500Z
-SUMMARY:📱 Stories · Husky
-DESCRIPTION:Хаски (Джон)\nстиль 1\; husky_r2 из очереди\, проверить файлы до 01.12\; медленный товар\nHolat: reja
+UID:58898695dcb9ae4a0b662fda78d5484c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T070000Z
+DTEND:20261130T071500Z
+SUMMARY:🎬 Reels · CherepashkaMult
+DESCRIPTION:Черепашка мультик (Reels)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · CherepashkaMult
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1d7996700155b32d9ba47cd7b34192c8@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261125T120000Z
-DTEND:20261125T121500Z
-SUMMARY:📱 Stories · Wifi usilitel
-DESCRIPTION:Сторис: Wi-Fi усилитель\nStoris\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+UID:8734cc841fd6524d469ea1b5b7392c70@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T070000Z
+DTEND:20261130T071500Z
+SUMMARY:📱 Stories · CherepashkaMult
+DESCRIPTION:Черепашка мультик (Stories)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
-UID:939846683b21dbd2007d95947dac93a1@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261126T111500Z
-DTEND:20261126T113000Z
+UID:ddf59d8e862329ed58738490d44bd3a9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T070000Z
+DTEND:20261130T071500Z
+SUMMARY:✈️ Telegram · CherepashkaMult
+DESCRIPTION:Черепашка мультик (Telegram)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2aa81df865b744009e879a641a5a93@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T070000Z
+DTEND:20261130T071500Z
+SUMMARY:🎵 TikTok · CherepashkaMult
+DESCRIPTION:Черепашка мультик (TikTok)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · CherepashkaMult
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff8b63a9a1e490c3d6daa440ad5a66b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T070000Z
+DTEND:20261130T071500Z
+SUMMARY:▶️ YouTube · CherepashkaMult
+DESCRIPTION:Черепашка мультик (YouTube)\nстиль 2 мультик\; Видео/multik_cherepashka/multik_cherepashka_v2.mp4 (_720)\; Режиссёр годен\, Маркетолог 20.11\; только Uzum\; «+» после выхода Reels\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · CherepashkaMult
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2a7bc1b64bfb1f5135454a45be13e5@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T150000Z
+DTEND:20261130T151500Z
+SUMMARY:🎬 Reels · Gejmpad (tayyor)
+DESCRIPTION:Instagram Рилс: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Gejmpad (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:58e2e09dce701142501c2872833efb41@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T150000Z
+DTEND:20261130T151500Z
+SUMMARY:🎵 TikTok · Gejmpad (tayyor)
+DESCRIPTION:TikTok: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Gejmpad (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e063e86a1136bbde62cf151c165699@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T150000Z
+DTEND:20261130T151500Z
+SUMMARY:▶️ YouTube · Gejmpad (tayyor)
+DESCRIPTION:YouTube: Геймпад Б\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Gejmpad (tayyor)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:40246b186ae13c5ca8d1b7e4702cdfb6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261130T151500Z
+DTEND:20261130T153000Z
+SUMMARY:✈️ Telegram · Gejmpad (tayyor)
+DESCRIPTION:Telegram: Геймпад Б + кнопка\nединый слот\; Видео/gejmpad_vhod_b.mp4 (_yt\, _tg)\; cover https://ireezq.github.io/covers/gejmpad_vhod_b_cover.png\; не раньше 30.11 | перестановка 23.11: медленные первыми\nHolat: tayyor
+END:VEVENT
+BEGIN:VEVENT
+UID:5b77ba79693f43bc5cbd3ea579a969f9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T070000Z
+DTEND:20261201T071500Z
+SUMMARY:🎬 Reels · Husky
+DESCRIPTION:Reels: хаски мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Husky
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:accef771011ded3a47a627454a8b15e1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T070000Z
+DTEND:20261201T071500Z
+SUMMARY:🎵 TikTok · Husky
+DESCRIPTION:TikTok: хаски мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Husky
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3403d0d555a25515b7d68ced7f1f7b2a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T070000Z
+DTEND:20261201T071500Z
+SUMMARY:▶️ YouTube · Husky
+DESCRIPTION:YouTube: хаски мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Husky
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4743ca93874f3ae75156e35b33f4db@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261201T071500Z
+DTEND:20261201T073000Z
+SUMMARY:✈️ Telegram · Husky
+DESCRIPTION:Telegram: хаски мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:3deed20781e4589a9a0e606cf37b7c82@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T070000Z
+DTEND:20261202T071500Z
+SUMMARY:🎬 Reels · Massajyor
+DESCRIPTION:Reels: массажёр шеи мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53896e6df0a1d40d6428b9aff70b4cb9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T070000Z
+DTEND:20261202T071500Z
+SUMMARY:🎵 TikTok · Massajyor
+DESCRIPTION:TikTok: массажёр шеи мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a287da32cceba5eb0642524a33d45c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T070000Z
+DTEND:20261202T071500Z
+SUMMARY:▶️ YouTube · Massajyor
+DESCRIPTION:YouTube: массажёр шеи мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07eaa16e47a6d506dfa3ef13d8b5fdae@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T071500Z
+DTEND:20261202T073000Z
+SUMMARY:✈️ Telegram · Massajyor
+DESCRIPTION:Telegram: массажёр шеи мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:b7dd84005a40490ff2b844790cda63c1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T080000Z
+DTEND:20261202T081500Z
+SUMMARY:📱 Stories · Proektor
+DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:be9c422970457bb41ca5e00c9a890fb3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T150000Z
+DTEND:20261202T151500Z
+SUMMARY:🎬 Reels · Proektor
+DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a4b646f6699b1770025bdb2cb2a3a8a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T150000Z
+DTEND:20261202T151500Z
+SUMMARY:🎵 TikTok · Proektor
+DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1a119bf69043842b81c6bc0617916bd@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T150000Z
+DTEND:20261202T151500Z
+SUMMARY:▶️ YouTube · Proektor
+DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd4b857baf0a3638bba605e64a5c14b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261202T151500Z
+DTEND:20261202T153000Z
+SUMMARY:✈️ Telegram · Proektor
+DESCRIPTION:Proektor v4\nстиль 1 Джон\; заказ\; один слот\; без цены и названий площадок | перестановка 23.11: медленные первыми | v4c если апскейл готов к 28.11\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:efcb18da8d82d45747c66d91da2dea6b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T070000Z
+DTEND:20261203T071500Z
+SUMMARY:🎬 Reels · Sapogi
+DESCRIPTION:Reels: сапожки-угги мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0b233ba1f84dd5ec92c208939f766475@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T070000Z
+DTEND:20261203T071500Z
+SUMMARY:🎵 TikTok · Sapogi
+DESCRIPTION:TikTok: сапожки-угги мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:411f4ce3f6cb87add79d4e5996938294@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T070000Z
+DTEND:20261203T071500Z
+SUMMARY:▶️ YouTube · Sapogi
+DESCRIPTION:YouTube: сапожки-угги мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c466629ddbfb8a48f681d99d33b273@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T071500Z
+DTEND:20261203T073000Z
+SUMMARY:✈️ Telegram · Sapogi
+DESCRIPTION:Telegram: сапожки-угги мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:eeb32def00f55cbb6ebdb9554845579b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T070000Z
+DTEND:20261204T071500Z
+SUMMARY:🎬 Reels · Mikrofon 2 sht
+DESCRIPTION:Reels: микрофон 2 шт мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5edf2e2f7ffd06bb3525eaf7f82cc2e9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T070000Z
+DTEND:20261204T071500Z
+SUMMARY:🎵 TikTok · Mikrofon 2 sht
+DESCRIPTION:TikTok: микрофон 2 шт мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3954a757815e4197765bc2b82cd8d60@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T070000Z
+DTEND:20261204T071500Z
+SUMMARY:▶️ YouTube · Mikrofon 2 sht
+DESCRIPTION:YouTube: микрофон 2 шт мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b75a776820b742888979925ab315bc7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T071500Z
+DTEND:20261204T073000Z
+SUMMARY:✈️ Telegram · Mikrofon 2 sht
+DESCRIPTION:Telegram: микрофон 2 шт мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:ee7fb09f1bbacbcca19ad8991ad092ec@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T150000Z
+DTEND:20261204T151500Z
+SUMMARY:🎬 Reels · Wifi usilitel
+DESCRIPTION:Reels: Wi-Fi усилитель Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; финал Uzum и WB\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a827dbef019574ee205018886705c163@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T150000Z
+DTEND:20261204T151500Z
+SUMMARY:🎵 TikTok · Wifi usilitel
+DESCRIPTION:TikTok: Wi-Fi усилитель Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; финал Uzum и WB\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:87ade8fd8f5cb5dfb4ac1a9fc433a7af@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T150000Z
+DTEND:20261204T151500Z
+SUMMARY:▶️ YouTube · Wifi usilitel
+DESCRIPTION:YouTube: Wi-Fi усилитель Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; финал Uzum и WB\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a147f6f1dbde9f200358092401b9b6f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261204T151500Z
+DTEND:20261204T153000Z
 SUMMARY:✈️ Telegram · Wifi usilitel
-DESCRIPTION:Пост канала: Wi-Fi усилитель\nkanalchi-2\, «+» Ответчик-2\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+DESCRIPTION:Telegram: Wi-Fi усилитель Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; финал Uzum и WB\nHolat: reja
 END:VEVENT
 BEGIN:VEVENT
-UID:a82a7036d5378aeea8727ebac078946e@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T120000Z
-DTEND:20261128T121500Z
-SUMMARY:📱 Stories · Wifi usilitel
-DESCRIPTION:Сторис: Wi-Fi усилитель\nStoris\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+UID:7546a77bf4ebc0e9e83c32379e9003e3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T070000Z
+DTEND:20261205T071500Z
+SUMMARY:🎬 Reels · Kliker
+DESCRIPTION:Reels: кликер мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Kliker
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:89280fb00f44fb34752ab19f0d3b3cd2@ireezq
-DTSTAMP:20261123T132713Z
-DTSTART:20261128T111500Z
-DTEND:20261128T113000Z
+UID:b24a2bce0fa63ece88867cec6aba9264@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T070000Z
+DTEND:20261205T071500Z
+SUMMARY:🎵 TikTok · Kliker
+DESCRIPTION:TikTok: кликер мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Kliker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f641121745bea5147fb911e165bcdad1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T070000Z
+DTEND:20261205T071500Z
+SUMMARY:▶️ YouTube · Kliker
+DESCRIPTION:YouTube: кликер мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Kliker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f52bb65de277457e8689ba18e7ebabf5@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T071500Z
+DTEND:20261205T073000Z
+SUMMARY:✈️ Telegram · Kliker
+DESCRIPTION:Telegram: кликер мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:380b899ea3165f5dc107521e2c082280@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T080000Z
+DTEND:20261205T081500Z
+SUMMARY:📱 Stories · Pritcha7
+DESCRIPTION:Instagram Сторис: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:b47a1069a29fe68600ca3e4edf9878c3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T150000Z
+DTEND:20261205T151500Z
+SUMMARY:🎬 Reels · Pritcha7
+DESCRIPTION:Instagram Рилс: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Pritcha7
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3f4de0840944f5f8a63e4dea2db9fc0@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T150000Z
+DTEND:20261205T151500Z
+SUMMARY:🎵 TikTok · Pritcha7
+DESCRIPTION:TikTok: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Pritcha7
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19c8c61ce7f2f0cf392942c2b965dc0d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T150000Z
+DTEND:20261205T151500Z
+SUMMARY:▶️ YouTube · Pritcha7
+DESCRIPTION:YouTube: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Pritcha7
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7be70d4310858a18958bc4e99bd58aa@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261205T151500Z
+DTEND:20261205T153000Z
+SUMMARY:✈️ Telegram · Pritcha7
+DESCRIPTION:Telegram: Pritcha №7\nстиль 3 Притча\; товар назовёт Маркетолог к 26.11\; готовность ~01.12\; после разбора примеров пользователя (слова 21.11)\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:7be9c8d6dc8dca1c1ee38519ce2f1066@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T070000Z
+DTEND:20261206T071500Z
+SUMMARY:🎬 Reels · CarPlay
+DESCRIPTION:Reels: CarPlay мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cffd84383874e459d196f519009b62da@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T070000Z
+DTEND:20261206T071500Z
+SUMMARY:🎵 TikTok · CarPlay
+DESCRIPTION:TikTok: CarPlay мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:98de02d72ab2d8b3ae6ca1b85f72ee8b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T070000Z
+DTEND:20261206T071500Z
+SUMMARY:▶️ YouTube · CarPlay
+DESCRIPTION:YouTube: CarPlay мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · CarPlay
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8eca6533ae2f4132ad048867c9bfaf07@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T071500Z
+DTEND:20261206T073000Z
+SUMMARY:✈️ Telegram · CarPlay
+DESCRIPTION:Telegram: CarPlay мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:678caea9fea9ec62a21d97b4d49e53fa@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T080000Z
+DTEND:20261206T081500Z
+SUMMARY:📱 Stories · VR Box
+DESCRIPTION:Instagram Сторис: VR Box\nфото с карточки\; текст в зоне y=260..1660\; дубль в канал\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:ce9f072ac0205017efa388d477c39f88@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T150000Z
+DTEND:20261206T151500Z
+SUMMARY:🎬 Reels · VR Box
+DESCRIPTION:Instagram Рилс: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; без цены и названий площадок\; «+» только по строке Ответчика\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:270ceda3c1c20a264a9f1f77a72241f7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T150000Z
+DTEND:20261206T151500Z
+SUMMARY:🎵 TikTok · VR Box
+DESCRIPTION:TikTok: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; нужна версия: подпись и заголовок\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bcf6a914aa29eee3af749dc5d31e518b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T150000Z
+DTEND:20261206T151500Z
+SUMMARY:▶️ YouTube · VR Box
+DESCRIPTION:YouTube: VR Box\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; нужна версия: подпись и заголовок\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8fd535e946adfdd3ff60837f52cb8c71@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261206T151500Z
+DTEND:20261206T153000Z
+SUMMARY:✈️ Telegram · VR Box
+DESCRIPTION:Telegram: VR Box + кнопка\nединый слот\; Видео/vr_box_vhod_v4_2.mp4 (_yt\, _tg)\; одобрено пользователем 16.11 через Маркетолога\; кнопка\, не голая ссылка\; стиль 1 Джон | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:4ac04c875675a9edf028f82a24cc9570@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T070000Z
+DTEND:20261207T071500Z
+SUMMARY:🎬 Reels · Uggi
+DESCRIPTION:Мультик: домашние угги (Reels)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Uggi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5407ceb37bb00f67a92de5e81a3dc24d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T070000Z
+DTEND:20261207T071500Z
+SUMMARY:🎵 TikTok · Uggi
+DESCRIPTION:Мультик: домашние угги (TikTok)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Uggi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:740b2d66bd73003445715c8f5cf81233@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T070000Z
+DTEND:20261207T071500Z
+SUMMARY:▶️ YouTube · Uggi
+DESCRIPTION:Мультик: домашние угги (YouTube)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Uggi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7b86bc4d53b892d1a74c90ecef4f2f27@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T071500Z
+DTEND:20261207T073000Z
+SUMMARY:✈️ Telegram · Uggi
+DESCRIPTION:Мультик: домашние угги (Telegram)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:1a8934f1ebaed56af45aa5629703326e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T080000Z
+DTEND:20261207T081500Z
+SUMMARY:📱 Stories · Uggi
+DESCRIPTION:Мультик: домашние угги (Stories)\nстиль 2 мультик кодом (Мульт-1)\; Uzum Playtime\, только Uzum\; Маркетолог 20.11\; ждёт приёмки Режиссёра и Маркетолога\; без цены и названий площадок\; от Притчи 26.11 — 11 дней\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:e21d9174247315840ae17bda02168f9f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T070000Z
+DTEND:20261208T071500Z
+SUMMARY:🎬 Reels · Mikrofon K15
+DESCRIPTION:Reels: микрофон K15 мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Mikrofon K15
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2a8df867aae6a917fe08832c333f96@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T070000Z
+DTEND:20261208T071500Z
+SUMMARY:🎵 TikTok · Mikrofon K15
+DESCRIPTION:TikTok: микрофон K15 мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Mikrofon K15
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2547ffd7a4525cddd5323bff30e0eeab@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T070000Z
+DTEND:20261208T071500Z
+SUMMARY:▶️ YouTube · Mikrofon K15
+DESCRIPTION:YouTube: микрофон K15 мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Mikrofon K15
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:432b8c75177c236af139878fbd15a9b2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T071500Z
+DTEND:20261208T073000Z
+SUMMARY:✈️ Telegram · Mikrofon K15
+DESCRIPTION:Telegram: микрофон K15 мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:d87bb79dc73665e2adc4d5263f3a86a2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T080000Z
+DTEND:20261208T081500Z
+SUMMARY:📱 Stories · Namlagich
+DESCRIPTION:Instagram Сторис: увлажнитель v2\nтекст в зоне y=260..1660\; дубль в канал\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:9263a704d130a7c04a79793abc5b5504@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T150000Z
+DTEND:20261208T151500Z
+SUMMARY:🎬 Reels · Namlagich
+DESCRIPTION:Instagram Рилс: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Namlagich
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9092b94d3621e156668680090b38785f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T150000Z
+DTEND:20261208T151500Z
+SUMMARY:🎵 TikTok · Namlagich
+DESCRIPTION:TikTok: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Namlagich
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1b0ce06cd955ff06d0ee28dac581becd@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T150000Z
+DTEND:20261208T151500Z
+SUMMARY:▶️ YouTube · Namlagich
+DESCRIPTION:YouTube: увлажнитель v2\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Namlagich
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3f89ce48f75be309587eab357105dcf5@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261208T151500Z
+DTEND:20261208T153000Z
+SUMMARY:✈️ Telegram · Namlagich
+DESCRIPTION:Telegram: увлажнитель v2 + кнопка\nувлажнитель v2\; единый слот\; без цены и названий площадок\; «+» только по строке Ответчика\; один ролик в день\; стиль 2 мультик | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:4be9b9eecda86a5b001bc0ed5dee259d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T070000Z
+DTEND:20261209T071500Z
+SUMMARY:🎬 Reels · Cherepashka
+DESCRIPTION:Reels: черепашка мультик 2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Cherepashka
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3528688e9d89e6b56ce58a4ba3e0bde6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T070000Z
+DTEND:20261209T071500Z
+SUMMARY:🎵 TikTok · Cherepashka
+DESCRIPTION:TikTok: черепашка мультик 2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Cherepashka
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7f939a8f1b24c7f0286f1376ac5a5b5e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T070000Z
+DTEND:20261209T071500Z
+SUMMARY:▶️ YouTube · Cherepashka
+DESCRIPTION:YouTube: черепашка мультик 2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Cherepashka
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad0020a484deab031e267c0a3666471@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T071500Z
+DTEND:20261209T073000Z
+SUMMARY:✈️ Telegram · Cherepashka
+DESCRIPTION:Telegram: черепашка мультик 2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:f9dbd8b8197e2fea220d6a075e695ea3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T150000Z
+DTEND:20261209T151500Z
+SUMMARY:🎬 Reels · Mikrofon 2 sht
+DESCRIPTION:Reels: микрофон 2 шт Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b6ac54b7ac13abfbde55182b8aeb34a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T150000Z
+DTEND:20261209T151500Z
+SUMMARY:🎵 TikTok · Mikrofon 2 sht
+DESCRIPTION:TikTok: микрофон 2 шт Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:62a548e085774fccc0df00406828d5b8@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T150000Z
+DTEND:20261209T151500Z
+SUMMARY:▶️ YouTube · Mikrofon 2 sht
+DESCRIPTION:YouTube: микрофон 2 шт Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Mikrofon 2 sht
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:65d4f02da1ad7d934ccdcbb6c9db17a2@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261209T151500Z
+DTEND:20261209T153000Z
+SUMMARY:✈️ Telegram · Mikrofon 2 sht
+DESCRIPTION:Telegram: микрофон 2 шт Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:1806c497155345bf4294a8b48e4ed3e1@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T070000Z
+DTEND:20261210T071500Z
+SUMMARY:🎬 Reels · VR Box
+DESCRIPTION:Reels: VR Box мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b162a5f450b4a63fe3e8876ce9741c6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T070000Z
+DTEND:20261210T071500Z
+SUMMARY:🎵 TikTok · VR Box
+DESCRIPTION:TikTok: VR Box мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7f6119aa9111d5db27c27d553357e86b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T070000Z
+DTEND:20261210T071500Z
+SUMMARY:▶️ YouTube · VR Box
+DESCRIPTION:YouTube: VR Box мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · VR Box
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5597a1d4ff361ee74bf9b0c1fd117f7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T071500Z
+DTEND:20261210T073000Z
+SUMMARY:✈️ Telegram · VR Box
+DESCRIPTION:Telegram: VR Box мультик\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:71ff0c082ccb0a5af32ec50c8fc3969d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T150000Z
+DTEND:20261210T151500Z
+SUMMARY:🎬 Reels · Massajyor
+DESCRIPTION:Reels: массажёр шеи Джон 2\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b30935023f2f2a703fd8d6599148630@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T150000Z
+DTEND:20261210T151500Z
+SUMMARY:🎵 TikTok · Massajyor
+DESCRIPTION:TikTok: массажёр шеи Джон 2\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8005d5ee85395d76b507bb6070bea419@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T150000Z
+DTEND:20261210T151500Z
+SUMMARY:▶️ YouTube · Massajyor
+DESCRIPTION:YouTube: массажёр шеи Джон 2\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b14d2ae5297e08cca7b3629b964e0207@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261210T151500Z
+DTEND:20261210T153000Z
+SUMMARY:✈️ Telegram · Massajyor
+DESCRIPTION:Telegram: массажёр шеи Джон 2\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:1e34d6a718cb6200a77d09437541b856@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T070000Z
+DTEND:20261211T071500Z
+SUMMARY:🎬 Reels · Proektor
+DESCRIPTION:Reels: проектор мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1d83e921b49982d875d849ce506ee4a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T070000Z
+DTEND:20261211T071500Z
+SUMMARY:🎵 TikTok · Proektor
+DESCRIPTION:TikTok: проектор мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2da4ad9771304db89a0085348f6c2a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T070000Z
+DTEND:20261211T071500Z
+SUMMARY:▶️ YouTube · Proektor
+DESCRIPTION:YouTube: проектор мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Proektor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9798944f1b14a818bf69a7c44947b62@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T071500Z
+DTEND:20261211T073000Z
+SUMMARY:✈️ Telegram · Proektor
+DESCRIPTION:Telegram: проектор мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:402aa40557448ec0512f0e2c9b6ac3fe@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T150000Z
+DTEND:20261211T151500Z
+SUMMARY:🎬 Reels · Sapogi
+DESCRIPTION:Reels: сапожки-угги Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5e9ea7f16a41ba046531525caa7ecd3a@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T150000Z
+DTEND:20261211T151500Z
+SUMMARY:🎵 TikTok · Sapogi
+DESCRIPTION:TikTok: сапожки-угги Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3be8c591fa82cfb1e0404eff7fa45bb9@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T150000Z
+DTEND:20261211T151500Z
+SUMMARY:▶️ YouTube · Sapogi
+DESCRIPTION:YouTube: сапожки-угги Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:84c6d7fd86f7566497ace52c873dd03f@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261211T151500Z
+DTEND:20261211T153000Z
+SUMMARY:✈️ Telegram · Sapogi
+DESCRIPTION:Telegram: сапожки-угги Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:da6bf1196ddde9c47cbff4d1cb428365@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T070000Z
+DTEND:20261212T071500Z
+SUMMARY:🎬 Reels · Wifi usilitel
+DESCRIPTION:Reels: Wi-Fi усилитель мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:70ebb90963b3d64a3794cd593fe65170@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T070000Z
+DTEND:20261212T071500Z
+SUMMARY:🎵 TikTok · Wifi usilitel
+DESCRIPTION:TikTok: Wi-Fi усилитель мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:78f169efcd7ddad941a7a4037af68738@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T070000Z
+DTEND:20261212T071500Z
+SUMMARY:▶️ YouTube · Wifi usilitel
+DESCRIPTION:YouTube: Wi-Fi усилитель мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Wifi usilitel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:452cf2e57e0954f511bbf03c307f20bd@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T071500Z
+DTEND:20261212T073000Z
 SUMMARY:✈️ Telegram · Wifi usilitel
-DESCRIPTION:Пост канала: Wi-Fi усилитель\nkanalchi-2\, «+» Ответчик-2\; Финал: «Uzum Market va Wildberries'da bor» (WB 67 шт\, Uzum S 19)\; без цены и слов о гарантии\; слова Маркетолога 23.11\; дополнительно к ролику дня\nHolat: reja
+DESCRIPTION:Telegram: Wi-Fi усилитель мультик v2\nЗАКАЗ Маркетолога 23.11: мультик кодом (mult_1)\, выход только после «да» пользователя\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:e67e038b505cc8ae84a2de97e8603b02@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T080000Z
+DTEND:20261212T081500Z
+SUMMARY:📱 Stories · Rolikovyj massajyor
+DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:c74bd753aeb8d87eded778f6e7e55613@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T150000Z
+DTEND:20261212T151500Z
+SUMMARY:🎬 Reels · Rolikovyj massajyor
+DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Rolikovyj massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6a7f09800e1d9c9ed8f38126ee21fba0@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T150000Z
+DTEND:20261212T151500Z
+SUMMARY:🎵 TikTok · Rolikovyj massajyor
+DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Rolikovyj massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:48cc31071bc3871d7b9f8b5b43938bab@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T150000Z
+DTEND:20261212T151500Z
+SUMMARY:▶️ YouTube · Rolikovyj massajyor
+DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Rolikovyj massajyor
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ff06ca6a5996533fe8ae250ce293c3@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261212T151500Z
+DTEND:20261212T153000Z
+SUMMARY:✈️ Telegram · Rolikovyj massajyor
+DESCRIPTION:Pritcha\nDirektor-3\, srok 26.11 20:00\; zapas: gotovyj rolik iz ocheredi\, esli ne gotov k 27.11 20:00 | перестановка 23.11: медленные первыми\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:9730b9c9af28227c6dfaea27944cb4d7@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261214T080000Z
+DTEND:20261214T081500Z
+SUMMARY:📱 Stories · Sapogi
+DESCRIPTION:Instagram Сторис: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:edf84f5463424c60bcdd7c594fcd615d@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261214T150000Z
+DTEND:20261214T151500Z
+SUMMARY:🎬 Reels · Sapogi
+DESCRIPTION:Instagram Рилс: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:76cc0392dd091c5822b3e6392cc0d46b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261214T150000Z
+DTEND:20261214T151500Z
+SUMMARY:🎵 TikTok · Sapogi
+DESCRIPTION:TikTok: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e81c50b51953f39e87cb7098995b202e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261214T150000Z
+DTEND:20261214T151500Z
+SUMMARY:▶️ YouTube · Sapogi
+DESCRIPTION:YouTube: Сапожки-угги\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Sapogi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d69559713603a54bdeb9b46bd340695e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261214T151500Z
+DTEND:20261214T153000Z
+SUMMARY:✈️ Telegram · Sapogi
+DESCRIPTION:Telegram: Сапожки-угги + кнопка\nвход-ролик угги v4.3 (Видео/uggi_vhod_v4_3.mp4\, _yt\, _tg\, _tgq)\, одобрен пользователем 16.11\; Маркетолог 20.11: сдвиг с 29.11\, от Притчи 26.11 и мультика 07.12 не меньше недели\; без цены и названий площадок\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:13a607e7a6bc959ab25fdd07f88a50e4@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T150000Z
+DTEND:20261203T151500Z
+SUMMARY:🎬 Reels · Q9
+DESCRIPTION:Reels: Q9 Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Q9
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1ae9128eed892d7a73dafb038b1e3474@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T150000Z
+DTEND:20261203T151500Z
+SUMMARY:🎵 TikTok · Q9
+DESCRIPTION:TikTok: Q9 Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Q9
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53d350a643a60d7e92af9f752ff4107c@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T150000Z
+DTEND:20261203T151500Z
+SUMMARY:▶️ YouTube · Q9
+DESCRIPTION:YouTube: Q9 Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Q9
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:61f2f28698725bda9b593506bec20d2b@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261203T151500Z
+DTEND:20261203T153000Z
+SUMMARY:✈️ Telegram · Q9
+DESCRIPTION:Telegram: Q9 Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+END:VEVENT
+BEGIN:VEVENT
+UID:6aa4fd9337e6406c53a16da2bfadc73e@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T150000Z
+DTEND:20261207T151500Z
+SUMMARY:🎬 Reels · Kliker
+DESCRIPTION:Reels: кликер Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Reels · Kliker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:32252a52cc622fa7e20b934a83fe9983@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T150000Z
+DTEND:20261207T151500Z
+SUMMARY:🎵 TikTok · Kliker
+DESCRIPTION:TikTok: кликер Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎵 TikTok · Kliker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da7cc345c5126b49cdd1635aea5cac70@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T150000Z
+DTEND:20261207T151500Z
+SUMMARY:▶️ YouTube · Kliker
+DESCRIPTION:YouTube: кликер Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ YouTube · Kliker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2de0193ab3a6fb1b1774ea392b1c70e6@ireezq
+DTSTAMP:20261123T142212Z
+DTSTART:20261207T151500Z
+DTEND:20261207T153000Z
+SUMMARY:✈️ Telegram · Kliker
+DESCRIPTION:Telegram: кликер Джон\nЗАКАЗ Маркетолога 23.11 (слова пользователя TG 19:15): ролик в стиле Джон\, делает Директор-3\, выход после проверки Режиссёра\; только Uzum\nHolat: reja
 END:VEVENT
 END:VCALENDAR
