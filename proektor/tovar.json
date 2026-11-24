@@ -1,11 +1,11 @@
 {
-  "nomi": "Yulduzli osmon proyektori",
-  "qisqa": "Shiftga va devorga yulduz, oy va sayyoralar tushiradi. Xonaga qulay muhit beradi.",
+  "nomi": "Planetalar proyektori",
+  "qisqa": "Shiftga va devorga Yer, Mars, Oy, Venera, Quyosh va Yupiter tasvirini tushiradi. 6 ta slayd, USB bilan ishlaydi.",
   "rasmlar": ["1.jpg"],
   "afzalliklar": [
-    "6 ta almashtiriladigan nasadka",
-    "USB orqali ishlaydi, batareya shart emas",
-    "Bolalar xonasi va yotoqxona uchun"
+    "6 ta slayd: Yer, Mars, Oy, Venera, Quyosh, Yupiter",
+    "USB orqali ishlaydi, batareya shart emas, egiluvchan oyoqchasi bor",
+    "Bolalar xonasiga shinam muhit beradi"
   ],
   "tugmalar": [
     {"nomi": "Buyurtma berish", "url": "https://uzum.uz/ru/product/proektor-zvezdnogo-neba-2873365?skuId=10524897"}
