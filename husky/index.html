@@ -24,7 +24,7 @@
   </ul>
   <p class="label">Qayerdan buyurtma berish</p>
   <div class="buttons">
-    <a class="btn main" href="https://uzum.uz/ru/product/interaktivnaya-igrushkaperchatka-khaski-1982223?skuId=7013106" rel="nofollow">Buyurtma berish</a>
+    <a class="btn main" href="https://uzum.uz/ru/product/interaktivnaya-igrushkaperchatka-khaski-1982223?skuId=7013106" data-ig="https://go.uzum.uz/l/zbXRMeU4" rel="nofollow">Buyurtma berish</a>
   </div>
   <p class="label">Bizni kuzating</p>
   <div class="buttons soc">
@@ -39,6 +39,11 @@
 (function(){var g=document.getElementById('g'),d=document.querySelectorAll('.dots i');if(!d.length)return;
 g.addEventListener('scroll',function(){var n=Math.round(g.scrollLeft/g.clientWidth);
 for(var i=0;i<d.length;i++)d[i].className=i===n?'on':'';},{passive:true});})();
+</script>
+<script>
+(function(){if(!/[?&]s=ig(&|$)/.test(location.search))return;
+var a=document.querySelectorAll('a[data-ig]');
+for(var i=0;i<a.length;i++)a[i].href=a[i].getAttribute('data-ig');})();
 </script>
 </body>
 </html>

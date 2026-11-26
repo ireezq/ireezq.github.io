@@ -28,9 +28,9 @@
   </ul>
   <p class="label">Qayerdan buyurtma berish</p>
   <div class="buttons">
-    <a class="btn main" href="https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017618" rel="nofollow">Bej — Uzum Market</a>
+    <a class="btn main" href="https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017618" data-ig="https://go.uzum.uz/l/t25uLjg6" rel="nofollow">Bej — Uzum Market</a>
     <a class="btn" href="https://www.wildberries.ru/catalog/822776108/detail.aspx" rel="nofollow">Bej — Wildberries</a>
-    <a class="btn" href="https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017619" rel="nofollow">Kulrang — Uzum Market</a>
+    <a class="btn" href="https://uzum.uz/uz/product/besprovodnoj-massazher-dlya-1983410?skuId=7017619" data-ig="https://go.uzum.uz/l/t25uLjg6" rel="nofollow">Kulrang — Uzum Market</a>
     <a class="btn" href="https://www.wildberries.ru/catalog/822776107/detail.aspx" rel="nofollow">Kulrang — Wildberries</a>
   </div>
   <p class="label">Bizni kuzating</p>
@@ -46,6 +46,11 @@
 (function(){var g=document.getElementById('g'),d=document.querySelectorAll('.dots i');if(!d.length)return;
 g.addEventListener('scroll',function(){var n=Math.round(g.scrollLeft/g.clientWidth);
 for(var i=0;i<d.length;i++)d[i].className=i===n?'on':'';},{passive:true});})();
+</script>
+<script>
+(function(){if(!/[?&]s=ig(&|$)/.test(location.search))return;
+var a=document.querySelectorAll('a[data-ig]');
+for(var i=0;i<a.length;i++)a[i].href=a[i].getAttribute('data-ig');})();
 </script>
 </body>
 </html>
