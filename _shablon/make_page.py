@@ -13,6 +13,8 @@ tovar.json:
                   Первая кнопка — залитая (главная), остальные — контурные.
                   Две Uzum-кнопки различаются подписью. Товара нет -> убрать кнопку.
                   Список пустой -> «скоро снова в продаже».
+                  "ig" у Uzum-кнопки — рекламная ссылка Instagram: открывается вместо "url",
+                  когда страница открыта с ?s=ig (Агенты/data/uzum_reklama_ssylki.md).
 """
 import html, json, pathlib, sys
 
@@ -33,7 +35,9 @@ def build(folder: str) -> pathlib.Path:
     links = [b for b in t.get("tugmalar", []) if b.get("url")]
     if links:
         btns = "\n".join(
-            f'    <a class="btn{" main" if i == 0 else ""}" href="{e(b["url"])}" rel="nofollow">{e(b["nomi"])}</a>'
+            f'    <a class="btn{" main" if i == 0 else ""}" href="{e(b["url"])}"'
+            + (f' data-ig="{e(b["ig"])}"' if b.get("ig") else "")
+            + f' rel="nofollow">{e(b["nomi"])}</a>'
             for i, b in enumerate(links)
         )
         buttons = f'  <p class="label">Qayerdan buyurtma berish</p>\n  <div class="buttons">\n{btns}\n  </div>'
